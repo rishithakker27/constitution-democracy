@@ -1,38 +1,60 @@
 # Do Constitutions Shape Democracy?
-### QSS 45 Final Project — Rishith Hakker
+### A Machine Learning Analysis of Constitutional Design and Democratic Performance
+**QSS 45 Final Project — Rishith Hakker, Dartmouth College**
 
-An ML-driven empirical study of whether constitutional design predicts democratic outcomes — and whether a growing gap between constitutional promise and democratic reality forecasts backsliding.
+A large-*n* empirical test of the Madisonian claim that structural constitutional provisions protect democracy. Using a gradient-boosted model trained on 17,390 country-year observations spanning 1789–2023, we find that the provisions that best predict democracy are **not** the classical separation-of-powers safeguards — but political competition, institutional accountability, and civil liberties.
 
 ---
 
 ## Research Questions
 
-1. **Can constitutional text predict democracy levels?** Using 14 structural dimensions scored from the Comparative Constitutions Project, how well can a gradient-boosting model explain V-Dem's Polyarchy scores?
-2. **Does the constitutional gap predict decline?** If a constitution "promises" more democracy than a country delivers, does that gap widen before backsliding episodes?
-3. **What role does democratic culture play?** How much predictive power does adding the EIU Democratic Culture Index add over constitutional features alone?
-4. **Are there structural patterns?** Do older constitutions or more "ambitious" constitutions correlate with different democratic trajectories?
+1. **Do constitutions matter?** Can constitutional text alone predict democratic outcomes out-of-sample on entirely unseen countries?
+2. **Which institutions specifically matter?** Do the classical Madisonian provisions (executive constraints, judicial independence, legislative autonomy) carry the most predictive weight — or something else?
+3. **How have constitutions evolved?** Which of the 14 constitutional dimensions have grown or stagnated across two centuries of drafting?
 
 ---
 
-## Pipeline Overview
+## Key Findings
 
-| Notebook | Description |
+| Finding | Result |
 |---|---|
-| `00_typology_pipeline.ipynb` | LLM-assisted pipeline: reads 14 CCP mapping JSONs, merges them, and scores each constitutional variable across 14 democratic dimensions to produce `typology/ccpc_typology_v4.json` |
-| `02_score_dimensions.ipynb` | Applies the typology to all ~17,000 country-years in CCPCNC v5, producing a 0–1 score for each of the 14 dimensions (`ccpc_axis_scores_llm.csv`) |
-| `03_predict_democracy.ipynb` | Country-blocked 5-fold CV with CatBoost: predicts `v2x_polyarchy` from constitutional dimension scores; generates the "constitutional gap" series |
-| `04_lead_lag_analysis.ipynb` | Tests whether today's constitutional gap predicts future democratic decline at lags of 1–5 years; spotlights countries like Hungary and Venezuela |
-| `05_constitutional_ambition.ipynb` | Diminishing-returns analysis: do constitutions that "promise" more democracy actually deliver more? |
-| `06_constitutional_patterns.ipynb` | Two structural findings: constitutional age effect and constitutional inflation over time |
-| `07_culture_constitution.ipynb` | Adds EIU Democratic Culture Index to the model; typology plot mapping regime trajectories |
-| `08_culture_model.ipynb` | Full constitution + culture model; R² comparison; feature importance breakdown |
-| `09_anomaly_detection.ipynb` | Isolation Forest & DBSCAN on 14-dimensional constitutional profiles to find structurally unusual constitutions |
+| OOF R² (constitutional text → democracy) | **0.116** (fold-avg: 0.10 ± 0.09) |
+| Top predictor | **Political Competition** (10.7%) |
+| Classical Madisonian rank | Executive Constraints 9th, Judicial Independence 11th, Legislative Autonomy 14th |
+| Constitutional gap → culture lift | OOF R² rises from 0.07 → 0.40 when EIU culture added |
+| Age effect | 60+ yr constitutions avg gap = +0.36; 0–5 yr = −0.12 |
+| Worst underperformers (2016–23) | Nicaragua (+0.44), Cuba (+0.41), Eritrea, Morocco, Saudi Arabia |
+| Best overperformers | Denmark (−0.62), New Zealand, Canada, Belgium, France |
 
-> **Note:** There is no `01_` notebook. Step 1 (iterative typology generation) was consolidated into `00_typology_pipeline.ipynb`.
+> **The large in-sample R² (0.89) vs OOF R² (0.12) gap is not simply overfitting** — it reflects fundamental country heterogeneity. Constitutional provisions can be standardised and compared; the political experience of each state cannot.
 
-### `step_3_targets/`
-Robustness checks running the Step 3 model against four alternative V-Dem targets:
-`v2x_libdem`, `v2x_egaldem`, `v2x_partipdem`, `v2x_delibdem`.
+---
+
+## Pipeline
+
+| Notebook | What it does | Key output |
+|---|---|---|
+| `01_generate_typology.ipynb` | Calls GPT-class LLM (Dartmouth API) to assign weights and value maps to 839 CCPCNC variables across 14 dimensions | `typology/ccpc_typology_v4.json` |
+| `02_score_constitutional_dimensions.ipynb` | Applies typology to all 17,390 country-years; computes weighted-mean dimension scores | `outputs/ccpc_axis_scores_llm.csv` |
+| `03_predict_democracy_kfold.ipynb` | CatBoost (depth=3, 5-fold country-blocked CV) predicts V-Dem Polyarchy; generates constitutional gap | `outputs/backsliding_gap_kfold.csv`, `outputs/feature_importances_kfold.csv` |
+| `04_lead_lag_gap_analysis.ipynb` | Tests whether today's gap predicts Δdemocracy at t+1…t+5; episode validation; gap decomposition | `outputs/lead_lag_catboost.csv` |
+| `05_diminishing_returns.ipynb` | OLS: actual = 0.31 + 0.49 × predicted — more ambitious constitutions underdeliver more | `outputs/05_diminishing_returns/` |
+| `06_age_and_inflation.ipynb` | Age vs gap (r=+0.49, p<10⁻⁷⁵); constitutional inflation by era | `outputs/06_age_and_inflation/` |
+| `07_culture_and_constitution.ipynb` | 2×2 typology, interaction model, OLS R² decomposition, transition probabilities | `outputs/07_culture_and_constitution/` |
+| `08_culture_constitution_model.ipynb` | CatBoost + EIU culture: Model A (R²=0.07) vs Model B (R²=0.40); lift = +0.33 | `outputs/08_culture_constitution_model/` |
+| `09_anomaly_detection.ipynb` | Isolation Forest + LOF on 14-dim constitutional space | — |
+| `10_dimension_trends.ipynb` | Tracks all 14 dimension averages from 1900s → 2020s | `outputs/10_dimension_trends/` |
+
+### `03_alternatetargets/`
+Runs the identical CatBoost pipeline against all five V-Dem democracy concepts:
+
+| Target | Fold-avg R² |
+|---|---|
+| Electoral Democracy (`v2x_polyarchy`) | 0.101 |
+| Egalitarian Democracy (`v2x_egaldem`) | 0.096 |
+| Deliberative Democracy (`v2x_delibdem`) | 0.083 |
+| Participatory Democracy (`v2x_partipdem`) | 0.063 |
+| Liberal Democracy (`v2x_libdem`) | 0.052 |
 
 ---
 
@@ -40,113 +62,96 @@ Robustness checks running the Step 3 model against four alternative V-Dem target
 
 ```
 .
-├── 00_typology_pipeline.ipynb
-├── 02_score_dimensions.ipynb
-├── 03_predict_democracy.ipynb
-├── 04_lead_lag_analysis.ipynb
-├── 05_constitutional_ambition.ipynb
-├── 06_constitutional_patterns.ipynb
-├── 07_culture_constitution.ipynb
-├── 08_culture_model.ipynb
+├── 01_generate_typology.ipynb
+├── 02_score_constitutional_dimensions.ipynb
+├── 03_predict_democracy_kfold.ipynb
+├── 03_alternatetargets/             # Same pipeline, 5 alternate V-Dem targets
+├── 04_lead_lag_gap_analysis.ipynb
+├── 05_diminishing_returns.ipynb
+├── 06_age_and_inflation.ipynb
+├── 07_culture_and_constitution.ipynb
+├── 08_culture_constitution_model.ipynb
 ├── 09_anomaly_detection.ipynb
+├── 10_dimension_trends.ipynb
 │
-├── step_3_targets/          # Robustness checks across 4 alternative democracy targets
-│
-├── data/
-│   ├── ccpcnc/              # Comparative Constitutions Project (CCPCNC v5) — see below
-│   ├── vdem/                # V-Dem dataset — see below
-│   └── eiu/                 # EIU Democratic Culture Index
-│
-├── ccp_mappings/            # 14 hand-curated JSON mappings of CCP variables → dimensions
-│   ├── ccp_mapping_INDEX.json
-│   ├── ccp_mapping_combined.json
-│   ├── ccp_mapping_by_dimension.json
-│   └── ccp_mapping_part01_*.json … ccp_mapping_part14_*.json
+├── pnas_template.tex                # PNAS-format paper
+├── references.bib                   # BibTeX references
 │
 ├── typology/
-│   ├── ccpc_typology_v4.json   # Final LLM-generated typology used by pipeline
-│   └── dimensions/             # Per-dimension variable definitions (14 JSON files)
+│   └── ccpc_typology_v4.json        # LLM-generated weights & value maps (839 variables)
 │
-├── figures/                 # All output plots (PNG)
-│   └── shap/                # SHAP beeswarm and dependence plots
+├── data/
+│   ├── ccpcnc/                      # ⚠️ Not included — download separately (1.1 GB)
+│   ├── vdem/                        # ⚠️ Not included — download separately (206 MB)
+│   ├── eiu/                         # EIU Democratic Culture Index (included)
+│   └── ccp_mappings/                # 14 hand-curated JSON mappings (included)
 │
-├── presentations/           # Final slide deck
+├── outputs/
+│   ├── ccpc_axis_scores_llm.csv     # Notebook 02: 14 dimension scores × country-year
+│   ├── backsliding_gap_kfold.csv    # Notebook 03: OOF gap (1,293 rows, 164 countries)
+│   ├── feature_importances_kfold.csv
+│   ├── backsliding_gap_culture.csv  # Notebook 08: gap with culture model
+│   ├── feature_importances_culture.csv
+│   ├── lead_lag_catboost.csv
+│   ├── gap_decomposition.csv
+│   ├── episode_validation.csv
+│   ├── robustness/                  # Per-target feature importances & gap CSVs
+│   ├── shap/                        # SHAP beeswarm plots
+│   ├── 05_diminishing_returns/
+│   ├── 06_age_and_inflation/
+│   ├── 07_culture_and_constitution/
+│   ├── 08_culture_constitution_model/
+│   └── 10_dimension_trends/
 │
-├── ccpc_axis_scores_llm.csv         # Step 2 output: 14 dimension scores × country-year
-├── backsliding_gap_kfold.csv        # Step 3 output: OOF predicted democracy + gap
-├── backsliding_gap_culture.csv      # Step 8 output: gap with culture model
-├── backsliding_gap_v2x_rule.csv     # Gap for rule-of-law target
-├── feature_importances_kfold.csv    # Step 3 feature importances
-├── feature_importances_culture.csv  # Step 8 feature importances
-├── gap_decomposition.csv            # Step 4: gap decomposed by dimension
-├── lead_lag_catboost.csv            # Step 4: lead-lag regression results
-├── multitarget_results.csv          # Step 3 robustness: results across 5 targets
-├── multitarget_importances.csv      # Step 3 robustness: importances across targets
-├── episode_validation.csv           # Step 4: backsliding episode annotations
-├── ccpc_axis_scores_typfinal.csv    # Alternative scores using final typology
-└── ccpc_typology.json               # Convenience copy of the active typology
+└── portfolio/                       # React/Vite interactive web portfolio
+    └── src/
 ```
-
----
-
-## Data Sources
-
-### ⚠️ Large files — not included in this repo
-
-Two source datasets exceed GitHub's 100 MB file-size limit and must be downloaded separately:
-
-| File | Size | Source |
-|---|---|---|
-| `data/vdem/vdem_data.csv` | ~202 MB | [V-Dem Dataset v14](https://v-dem.net/data/the-v-dem-dataset/) |
-| `data/ccpcnc/ccpcnc_v5.csv` | ~203 MB | [Comparative Constitutions Project](https://comparativeconstitutionsproject.org/download-data/) |
-
-After downloading, place them at the paths shown above. All other data files are included.
-
-### Included datasets
-- **EIU Democratic Culture Index** (`data/eiu/`) — country-level survey of democratic attitudes
-- **CCP Mapping JSONs** (`ccp_mappings/`) — hand-curated mappings linking CCPCNC variables to 14 democratic dimensions
-- **CCPCNC v5 small subset** (`data/ccpcnc/ccpcnc_v5_small.csv`) — trimmed version for quick exploration
 
 ---
 
 ## 14 Constitutional Dimensions
 
-The model scores each country-year constitution on:
+Ranked by CatBoost feature importance (Polyarchy target):
 
-| # | Dimension |
-|---|---|
-| 1 | Civil Liberties |
-| 2 | Socioeconomic Rights |
-| 3 | Political Competition |
-| 4 | Executive Constraints |
-| 5 | Legislative Autonomy |
-| 6 | Judicial Independence |
-| 7 | Rule of Law & Due Process |
-| 8 | Amendment Rigidity |
-| 9 | Federalism & Decentralization |
-| 10 | Emergency Powers Constraints |
-| 11 | Transparency & Information Access |
-| 12 | Institutional Accountability |
-| 13 | Civilian Control of Security |
-| 14 | Equality (Gender / Minority / Indigenous) |
+| Rank | Dimension | Importance |
+|---|---|---|
+| 1 | Political Competition | 10.7% |
+| 2 | Institutional Accountability | 9.2% |
+| 3 | Civil Liberties | 8.7% |
+| 4 | Emergency Powers Constraints | 8.7% |
+| 5 | Civilian Control of Security | 8.6% |
+| 6 | Transparency / Information Access | 8.3% |
+| 7 | Rule of Law / Due Process | 7.7% |
+| 8 | Federalism / Decentralization | 7.4% |
+| 9 | Executive Constraints | 6.8% |
+| 10 | Amendment Rigidity | 5.3% |
+| 11 | Judicial Independence | 5.1% |
+| 12 | Socioeconomic Rights | 5.0% |
+| 13 | Legislative Autonomy | 4.5% |
+| 14 | Equality (Gender / Minority / Indigenous) | 3.8% |
+
+---
+
+## Data Sources
+
+### ⚠️ Not included — download separately
+
+| Dataset | Size | Source |
+|---|---|---|
+| CCPCNC v5 (`data/ccpcnc/ccpcnc_v5.csv`) | ~1.1 GB | [Comparative Constitutions Project](https://comparativeconstitutionsproject.org/download-data/) |
+| V-Dem v14 (`data/vdem/vdem_data.csv`) | ~206 MB | [V-Dem Dataset v14](https://v-dem.net/data/the-v-dem-dataset/) |
+
+After downloading, place files at the paths above. All other data (EIU, CCP mappings, typology, scored CSVs) is included.
 
 ---
 
 ## Setup
 
 ```bash
-pip install pandas numpy scikit-learn catboost shap matplotlib scipy plotly langchain
+pip install pandas numpy scikit-learn catboost shap matplotlib scipy plotly seaborn
 ```
 
-The typology pipeline (`00_typology_pipeline.ipynb`) calls the Dartmouth LLM API via `langchain_dartmouth`. All other notebooks use only standard open-source libraries.
+Notebook `01` calls the Dartmouth LLM API via `langchain_dartmouth` — a Dartmouth account is required only for that step. All downstream notebooks (02–10) use only standard open-source libraries and the pre-computed `ccpc_axis_scores_llm.csv`.
 
-Run notebooks in order (00 → 02 → 03 → …). Steps 05–09 only need the intermediate CSVs produced by earlier steps.
-
----
-
-## Key Findings
-
-- **Constitutional text explains ~40–50% of democracy variance** (R² ≈ 0.45–0.52 on held-out countries) using only constitutional features.
-- **The constitutional gap is predictive**: a widening gap at t predicts democratic decline at t+2 to t+4, consistent with backsliding in Hungary, Venezuela, and Turkey.
-- **Democratic culture adds ~10–15 percentage points** of explained variance when combined with constitutional features.
-- **Older constitutions** are associated with smaller gaps (better implementation), while newer constitutions show more "inflation" of democratic promises.
+**Run order:** `01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10`
+Notebooks 05–10 only require the CSVs produced by 02 and 03, so you can skip 01 if you use the included scored output.
