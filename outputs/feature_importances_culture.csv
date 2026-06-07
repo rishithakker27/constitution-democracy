@@ -1,0 +1,16 @@
+label,feature,importance
+Democratic culture (EIU),dem_culture,38.07810018462984
+Political competition,ccpc_political_competition,11.982886679007851
+Institutional accountability,ccpc_institutional_accountability,7.015427180926526
+Executive constraints,ccpc_executive_constraints,5.949048151011532
+Socioeconomic rights,ccpc_socioeconomic_rights,5.416475495735839
+Transparency / info access,ccpc_transparency_information_access,5.272693789306357
+Equality (gender/minority/indigenous),ccpc_equality_gender_minority_indigenous,4.414102179139621
+Civil liberties,ccpc_civil_liberties,3.7368144017502236
+Emergency powers constraints,ccpc_emergency_powers_constraints,3.4931053501923417
+Civilian control of security,ccpc_civilian_control_of_security,3.2738517268548857
+Rule of law / due process,ccpc_rule_of_law_due_process,2.797536198188182
+Judicial independence,ccpc_judicial_independence,2.42947362718645
+Amendment rigidity,ccpc_amendment_rigidity,2.3965521183210794
+Federalism / decentralization,ccpc_federalism_decentralization,2.0578562525311863
+Legislative autonomy,ccpc_legislative_autonomy,1.6860766652180945

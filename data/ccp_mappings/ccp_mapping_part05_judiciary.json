@@ -1,0 +1,240 @@
+{
+  "part": 5,
+  "section_label": "Judiciary — Structure, Courts, Judicial Review, Removal, Independence",
+  "variables": [
+    {
+      "variable_name": "JUDIND",
+      "question_number": "v310",
+      "description": "Whether the constitution contains an explicit declaration regarding the independence of the central judicial organ(s)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "JUDCRTS",
+      "question_number": "v309",
+      "description": "For which specialized courts the constitution contains provisions. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): JUDCRTS_1=Administrative courts; JUDCRTS_2=Constitutional court; JUDCRTS_3=Courts of amparo; JUDCRTS_4=Military courts; JUDCRTS_5=Courts hearing cases against public office holders; JUDCRTS_6=Tax courts; JUDCRTS_7=Labor courts; JUDCRTS_8=Religious courts; JUDCRTS_9=Special court; JUDCRTS_96=Other; JUDCRTS_97=Unable to Determine; JUDCRTS_98=Not Specified",
+      "dimensions": ["judicial_independence", "rule_of_law_due_process", "civilian_control_of_security"],
+      "notes": "JUDCRTS_4 (military courts) is relevant to civilian control; JUDCRTS_8 (religious courts) relevant to separation of church and state"
+    },
+    {
+      "variable_name": "JUDPREC",
+      "question_number": "v311",
+      "description": "Whether the constitution stipulates that courts must take into account decisions of higher courts (stare decisis / hierarchy of precedent)",
+      "coding_scheme": "1=Yes; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["rule_of_law_due_process", "judicial_independence"]
+    },
+    {
+      "variable_name": "JUDFIN",
+      "question_number": "v312",
+      "description": "Whether judicial decisions by the highest ordinary court are final",
+      "coding_scheme": "1=Yes; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["judicial_independence", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "CHIEFNOM",
+      "question_number": "v318",
+      "description": "Who is involved in the nomination of the Chief Justice of the Highest Ordinary Court. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CHIEFNOM_1=Head of State; CHIEFNOM_2=Head of Government; CHIEFNOM_3=Government/Cabinet; CHIEFNOM_4=First/only Chamber of Legislature; CHIEFNOM_5=Second Chamber; CHIEFNOM_6=Judicial Council/Commission; CHIEFNOM_7=Judiciary (other than judicial council); CHIEFNOM_90=Left to non-constitutional law; CHIEFNOM_96=Other; CHIEFNOM_97=Unable to Determine; CHIEFNOM_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CHIEFAP",
+      "question_number": "v319",
+      "description": "Who is involved in the approval of nominations for the Chief Justice of the Highest Ordinary Court. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CHIEFAP_1=Head of State; CHIEFAP_2=Head of Government; CHIEFAP_3=Government/Cabinet; CHIEFAP_4=First/only Chamber; CHIEFAP_5=Second Chamber; CHIEFAP_6=Judicial Council/Commission; CHIEFAP_7=Judiciary; CHIEFAP_90=Left to non-constitutional law; CHIEFAP_96=Other; CHIEFAP_97=Unable to Determine; CHIEFAP_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CHFTERM",
+      "question_number": "v321",
+      "description": "Maximum term length for the Chief Justice of the Highest Ordinary Court (0=not specified; 100=life tenure or no limit)",
+      "coding_scheme": "Open-ended numeric (years); 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CHFTRMNM",
+      "question_number": "v322",
+      "description": "Restrictions on the number of terms the Chief Justice may serve",
+      "coding_scheme": "1=Only one term total; 2=Only two terms total; 3=No successive terms but non-successive permitted; 4=Only two successive terms but non-successive permitted; 5=No term limits; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "SUPNOM",
+      "question_number": "v326",
+      "description": "Who is involved in the nomination of judges to the highest ordinary court. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): SUPNOM_1=Head of State; SUPNOM_2=Head of Government; SUPNOM_3=Government/Cabinet; SUPNOM_4=First/only Chamber; SUPNOM_5=Second Chamber; SUPNOM_6=Judicial Council/Commission; SUPNOM_7=Judiciary; SUPNOM_90=Left to non-constitutional law; SUPNOM_96=Other; SUPNOM_97=Unable to Determine; SUPNOM_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "SUPAP",
+      "question_number": "v327",
+      "description": "Who is involved in the approval of nominations to the highest ordinary court. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): SUPAP_1=Head of State; SUPAP_2=Head of Government; SUPAP_3=Government/Cabinet; SUPAP_4=First/only Chamber; SUPAP_5=Second Chamber; SUPAP_6=Judicial Council/Commission; SUPAP_7=Judiciary; SUPAP_90=Left to non-constitutional law; SUPAP_96=Other; SUPAP_97=Unable to Determine; SUPAP_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "SUPTERM",
+      "question_number": "v329",
+      "description": "Maximum term length for judges on the highest ordinary court",
+      "coding_scheme": "Numeric 1–15 years; 88=Life term with mandatory retirement age; 89=Life term; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable. Note: 'during good behavior' coded as life term.",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "SUPTERMN",
+      "question_number": "v330",
+      "description": "Restrictions on the number of terms judges on the highest ordinary court may serve",
+      "coding_scheme": "1=Only one term total; 2=Only two terms total; 3=No successive terms but non-successive permitted; 4=Only two successive terms but non-successive permitted; 5=No term limits; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "ORDNOM",
+      "question_number": "v334",
+      "description": "Who is involved in the nomination of judges to ordinary (non-supreme, non-specialized) courts. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ORDNOM_1=Head of State; ORDNOM_2=Head of Government; ORDNOM_3=Government/Cabinet; ORDNOM_4=First/only Chamber; ORDNOM_5=Second Chamber; ORDNOM_6=Judicial Council/Commission; ORDNOM_7=Judiciary; ORDNOM_90=Left to non-constitutional law; ORDNOM_96=Other; ORDNOM_97=Unable to Determine; ORDNOM_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "ORDTERM",
+      "question_number": "v337",
+      "description": "Maximum term length for judges on ordinary courts (0=not specified; 100=life tenure)",
+      "coding_scheme": "Open-ended numeric (years); 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "ORDTERML",
+      "question_number": "v338",
+      "description": "Restrictions on the number of terms members of ordinary courts may serve",
+      "coding_scheme": "1=Only one term total; 2=Only two terms total; 3=No successive terms but non-successive permitted; 4=Only two successive terms but non-successive permitted; 5=No term limits; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "ILLADMIN",
+      "question_number": "v349",
+      "description": "Whether the constitution contains provisions protecting the individual against illegal or ultra-vires administrative actions",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "CONNOM",
+      "question_number": "v350",
+      "description": "Who is involved in the nomination of judges to the constitutional court. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CONNOM_1=Head of State; CONNOM_2=Head of Government; CONNOM_3=Government/Cabinet; CONNOM_4=First/only Chamber; CONNOM_5=Second Chamber; CONNOM_6=Judicial Council/Commission; CONNOM_7=Judiciary; CONNOM_90=Left to non-constitutional law; CONNOM_96=Other; CONNOM_97=Unable to Determine; CONNOM_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CONAP",
+      "question_number": "v351",
+      "description": "Who is involved in the approval of judges to the constitutional court. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CONAP_1=Head of State; CONAP_2=Head of Government; CONAP_3=Government/Cabinet; CONAP_4=First/only Chamber; CONAP_5=Second Chamber; CONAP_6=Judicial Council/Commission; CONAP_7=Judiciary; CONAP_90=Left to non-constitutional law; CONAP_96=Other; CONAP_97=Unable to Determine; CONAP_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CONREM",
+      "question_number": "v353",
+      "description": "Whether the constitution mentions any special procedures for removing members of the constitutional court",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CONTERM",
+      "question_number": "v355",
+      "description": "Maximum term length for judges on the constitutional court (0=not specified; 100=life tenure)",
+      "coding_scheme": "Open-ended numeric (years); 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CONLIM",
+      "question_number": "v356",
+      "description": "Restrictions on the number of terms judges on the constitutional court may serve",
+      "coding_scheme": "1=Only one term total; 2=Only two terms total; 3=No successive terms but non-successive permitted; 4=Only two successive terms but non-successive permitted; 5=No term limits; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CONPOW",
+      "question_number": "v359",
+      "description": "Additional powers of the constitutional court beyond reviewing legislation. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CONPOW_1=Supervise elections; CONPOW_2=Impeachment of executive; CONPOW_3=Counter corruption; CONPOW_4=Constitutionality of political parties; CONPOW_5=Review states of emergency; CONPOW_6=Review treaties; CONPOW_90=Left to non-constitutional law; CONPOW_96=Other; CONPOW_97=Unable to Determine; CONPOW_98=Not Specified",
+      "dimensions": ["judicial_independence", "institutional_accountability", "emergency_powers_constraints", "political_competition"]
+    },
+    {
+      "variable_name": "INTERP",
+      "question_number": "v362",
+      "description": "To whom the constitution assigns the responsibility for interpreting the constitution. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): INTERP_1=Any Ordinary Court; INTERP_2=Constitutional Court/Council; INTERP_3=Supreme Court Only; INTERP_4=Special chamber of Supreme Court; INTERP_5=First/only Chamber of Legislature; INTERP_6=Second Chamber; INTERP_7=Both Chambers required; INTERP_90=Left to non-constitutional law; INTERP_96=Other; INTERP_97=Unable to Determine; INTERP_98=Not Specified",
+      "dimensions": ["judicial_independence", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "CHALLEG",
+      "question_number": "v364",
+      "description": "Who has standing to initiate a challenge to the constitutionality of legislation. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CHALLEG_1=Head of State; CHALLEG_2=Head of Government; CHALLEG_3=Government/Cabinet; CHALLEG_4=First/only Chamber; CHALLEG_5=Second Chamber; CHALLEG_6=Both Chambers required; CHALLEG_7=Lawyers; CHALLEG_8=Public (by complaint); CHALLEG_9=The Courts; CHALLEG_90=Left to non-constitutional law; CHALLEG_96=Other; CHALLEG_97=Unable to Determine; CHALLEG_98=Not Specified",
+      "dimensions": ["judicial_independence", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "CHALSTAG",
+      "question_number": "v368",
+      "description": "At what stage of the legislative process bills can be reviewed for constitutionality",
+      "coding_scheme": "1=Pre-promulgation; 2=Post-promulgation; 3=Either; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["judicial_independence", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "AMPARO",
+      "question_number": "v370",
+      "description": "Whether the constitution provides for a right to petition for 'amparo' (an individual remedy against violations of constitutional rights by public authorities)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process", "civil_liberties"]
+    },
+    {
+      "variable_name": "JREM",
+      "question_number": "v371",
+      "description": "Whether there are provisions for dismissing judges",
+      "coding_scheme": "1=Yes; 2=No; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "JREMCON",
+      "question_number": "v372",
+      "description": "Conditions under which judges can be dismissed (asked only if JREM=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): JREMCON_1=General dissatisfaction (unrestricted); JREMCON_2=Crimes and conduct issues; JREMCON_3=Treason; JREMCON_4=Violations of the constitution; JREMCON_5=Incapacitation; JREMCON_90=Left to non-constitutional law; JREMCON_96=Other; JREMCON_97=Unable to Determine; JREMCON_98=Not Specified",
+      "dimensions": ["judicial_independence"],
+      "notes": "JREMCON_1 (general dissatisfaction) indicates weak tenure protection; JREMCON_2-4 indicate removal for cause only, which is stronger protection"
+    },
+    {
+      "variable_name": "JREMPRO",
+      "question_number": "v373",
+      "description": "Who can propose the dismissal of judges (asked only if JREM=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): JREMPRO_1=Head of State; JREMPRO_2=Head of Government; JREMPRO_3=Government/Cabinet; JREMPRO_4=First/only Chamber; JREMPRO_5=Second Chamber; JREMPRO_6=Both Chambers required; JREMPRO_7=Public Prosecutor; JREMPRO_8=Judicial Council; JREMPRO_9=Public; JREMPRO_90=Left to non-constitutional law; JREMPRO_96=Other; JREMPRO_97=Unable to Determine; JREMPRO_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "JREMAP",
+      "question_number": "v377",
+      "description": "Who can approve the dismissal of judges (asked only if JREM=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): JREMAP_1=Head of State; JREMAP_2=Head of Government; JREMAP_3=Government/Cabinet; JREMAP_4=First/only Chamber; JREMAP_5=Second Chamber; JREMAP_6=Both Chambers required; JREMAP_7=Public Prosecutor; JREMAP_90=Left to non-constitutional law; JREMAP_96=Other; JREMAP_97=Unable to Determine; JREMAP_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "JUDSAL",
+      "question_number": "v382",
+      "description": "Whether the constitution explicitly states that judicial salaries are protected from governmental intervention",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "JUDRETIR",
+      "question_number": "v383",
+      "description": "Whether there is a mandatory retirement age for judges",
+      "coding_scheme": "1=Yes, for supreme court judges; 2=Yes, for ordinary court judges; 3=Both; 4=Neither; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["judicial_independence"],
+      "notes": "Mandatory retirement can cut both ways: it limits tenure but also prevents indefinite appointments that could entrench political allies"
+    },
+    {
+      "variable_name": "JC",
+      "question_number": "v469",
+      "description": "Whether the constitution contains provisions for a Judicial Council or Commission (an independent body of legal experts involved in judicial selection)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["judicial_independence", "institutional_accountability"]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "part": 14,
+  "section_label": "Final Addendum — Remaining Relevant Variables",
+  "note": "Variables identified after second and third passes through codebook. Includes some borderline variables flagged explicitly.",
+  "variables": [
+    {
+      "variable_name": "ATTEND",
+      "question_number": "v295",
+      "description": "What provisions the constitution makes regarding attendance by legislators (asked only if LEGISL=1)",
+      "coding_scheme": "1=No provisions; 2=Attendance is mandatory; 3=Absenteeism is penalized after a certain point; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy"],
+      "notes": "Mandatory attendance or absenteeism penalties indicate constitutionally enforced legislative functioning"
+    },
+    {
+      "variable_name": "QUORUM",
+      "question_number": "v304",
+      "description": "Whether a quorum is required for a session of the legislature to be official (asked only if LEGISL=1)",
+      "coding_scheme": "1=Yes; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "QUORUMW",
+      "question_number": "v305",
+      "description": "What percentage of membership constitutes a quorum (asked only if QUORUM=1). Open-ended numeric; 0 if not specified.",
+      "coding_scheme": "Open-ended numeric (% of membership); 0=Not specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "ARMS",
+      "question_number": "v624",
+      "description": "Whether the constitution provides for the right to bear arms. Coded No if parliament will regulate arms possession; coded Other if possession requires official permission.",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "PROFLEG",
+      "question_number": "v298",
+      "description": "Whether the constitution requires that legislators give up any other profession — i.e. work exclusively as legislators (asked only if LEGISL=1)",
+      "coding_scheme": "1=No other work at all; 2=All other public offices; 3=Certain other public offices only; 4=Private/professional positions; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy", "institutional_accountability"],
+      "notes": "Incompatibility and conflict-of-interest rules for legislators reduce capture by private interests"
+    },
+    {
+      "variable_name": "ADRES",
+      "question_number": "v348",
+      "description": "Additional eligibility restrictions on serving as a member of administrative courts (asked only if JUDCRTS_1=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ADRES_1=Must be from particular party; ADRES_2=Must be particular gender; ADRES_3=Must be member of particular religious denomination; ADRES_4=Must have particular linguistic/national/racial identity; ADRES_5=Must be citizen; ADRES_6=Must be native citizen; ADRES_7=Must have certain education; ADRES_8=Must be non-felon; ADRES_9=Must be a lawyer; ADRES_10=Must be a national; ADRES_90=Left to non-constitutional law; ADRES_96=Other; ADRES_97=Unable to Determine; ADRES_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "AGRES",
+      "question_number": "v181",
+      "description": "Additional eligibility restrictions on becoming the attorney general (asked only if ATGEN is not 6). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): AGRES_1=Must be from particular party; AGRES_2=Must be particular gender; AGRES_3=Must be member of particular religious denomination; AGRES_4=Must have particular linguistic/national/racial identity; AGRES_5=Must be citizen; AGRES_6=Must be native citizen; AGRES_7=Must have certain education; AGRES_8=Must be non-felon; AGRES_9=Must be a national; AGRES_90=Left to non-constitutional law; AGRES_96=Other; AGRES_97=Unable to Determine; AGRES_98=Not Specified",
+      "dimensions": ["institutional_accountability", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "ECRES",
+      "question_number": "v438",
+      "description": "Additional eligibility restrictions on serving as a member of the electoral court (asked only if OVERSGHT=2 or 3). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ECRES_1=Must be from particular party; ECRES_2=Must be particular gender; ECRES_3=Must be member of particular religious denomination; ECRES_4=Must have particular linguistic/national/racial identity; ECRES_5=Must be citizen; ECRES_6=Must be native citizen; ECRES_7=Must have certain education; ECRES_8=Must be non-felon; ECRES_9=Must be a national; ECRES_90=Left to non-constitutional law; ECRES_96=Other; ECRES_97=Unable to Determine; ECRES_98=Not Specified",
+      "dimensions": ["judicial_independence", "political_competition"]
+    },
+    {
+      "variable_name": "OFFRELW",
+      "question_number": "v563",
+      "description": "Which religion the constitution names as national or official, or grants special treatment to (asked only if OFFREL=1 or 2)",
+      "coding_scheme": "1=Islam; 2=Catholic; 3=Protestant (includes Evangelical Lutheran, Lutheran, Methodist); 4=Orthodox; 5=Buddhism; 6=Hindu; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["equality_gender_minority_indigenous", "civil_liberties"],
+      "notes": "Identifies which specific religion holds official or privileged status — relevant to religious minority rights"
+    },
+    {
+      "variable_name": "INTPROP",
+      "question_number": "v582",
+      "description": "Whether the constitution mentions any intellectual property rights. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): INTPROP_1=Patents; INTPROP_2=Copyrights; INTPROP_3=Trademark; INTPROP_4=General reference to intellectual property; INTPROP_90=Left to non-constitutional law; INTPROP_96=Other; INTPROP_97=Unable to Determine; INTPROP_98=Not Specified",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "CIVMAR",
+      "question_number": "v600",
+      "description": "Whether there is a constitutional provision for civil marriage — the administrative procedure conducted by state organs (distinct from religious or de facto/common-law unions)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "equality_gender_minority_indigenous"],
+      "notes": "Guarantees secular marriage access regardless of religious affiliation"
+    },
+    {
+      "variable_name": "HEADFORN",
+      "question_number": "v487",
+      "description": "Who is the constitutional representative of the state for foreign affairs",
+      "coding_scheme": "1=Head of State; 2=Head of Government; 3=Government/Cabinet; 4=Minister of foreign affairs; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["executive_constraints"],
+      "notes": "Borderline; relevant to executive_constraints when foreign affairs power is concentrated in one office versus shared"
+    },
+    {
+      "variable_name": "NAT",
+      "question_number": "v538",
+      "description": "Whether the constitution refers to nationals, subjects, or citizens — the terminology used to define the rights-bearing political community. Nationals have right of abode but may lack political participation rights.",
+      "coding_scheme": "1=Nationals; 2=Citizens; 3=Subjects; 4=Both Citizens and Nationals; 5=None of the above; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "equality_gender_minority_indigenous"],
+      "notes": "Borderline; the distinction between 'nationals' and 'citizens' matters for whether colonial or overseas populations are granted full political rights"
+    },
+    {
+      "variable_name": "WORK",
+      "question_number": "v506",
+      "description": "Whether the constitution refers to a duty of citizens to work",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"],
+      "notes": "Borderline; a constitutional duty to work reflects a particular model of socioeconomic rights (socialist) rather than rights held against the state"
+    },
+    {
+      "variable_name": "ECONPLAN",
+      "question_number": "v647",
+      "description": "Whether the constitution mentions the adoption of national economic plans",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"],
+      "notes": "Borderline; indicates state-directed economic model relevant to socioeconomic rights framework"
+    },
+    {
+      "variable_name": "FORINVES",
+      "question_number": "v56",
+      "description": "Whether the constitution mentions foreign investment or foreign capital, and whether it protects or promotes it",
+      "coding_scheme": "1=Yes, protection of foreign investment; 2=Yes, promotion of foreign investment; 3=Yes, both; 4=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"],
+      "notes": "Borderline; relevant to property rights and market economy provisions in the socioeconomic rights dimension"
+    },
+    {
+      "variable_name": "SCIENCE",
+      "question_number": "v633",
+      "description": "Whether the constitution refers to science or the sciences",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "socioeconomic_rights"],
+      "notes": "Borderline; related to academic freedom (ACFREE) and right to enjoy scientific progress (SCIFREE)"
+    },
+    {
+      "variable_name": "ARTISTS",
+      "question_number": "v631",
+      "description": "Whether the constitution refers to artists or the arts",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "socioeconomic_rights"]
+    },
+    {
+      "variable_name": "ARTSPEC",
+      "question_number": "v632",
+      "description": "How the constitution refers to artists (asked only if ARTISTS=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ARTSPEC_1=Rights of artists; ARTSPEC_2=Work of artists (protection of creative work); ARTSPEC_3=State duty to promote art; ARTSPEC_90=Left to non-constitutional law; ARTSPEC_96=Other; ARTSPEC_97=Unable to Determine; ARTSPEC_98=Not Specified",
+      "dimensions": ["civil_liberties", "socioeconomic_rights"],
+      "notes": "ARTSPEC_1 (rights of artists) is most directly relevant to civil liberties; ARTSPEC_3 (state duty) is more relevant to socioeconomic rights"
+    },
+    {
+      "variable_name": "ENVPART",
+      "question_number": "v628",
+      "description": "Which specific parts of the environment the constitution refers to (asked only if ENV=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ENVPART_1=Natural resources; ENVPART_2=Nature; ENVPART_3=Air; ENVPART_4=Mountains; ENVPART_5=Forests; ENVPART_6=Waters; ENVPART_7=Soil; ENVPART_8=Fauna; ENVPART_9=Flora; ENVPART_10=Land; ENVPART_11=Biodiversity or ecosystem; ENVPART_12=Minerals or mines; ENVPART_13=Energy resources; ENVPART_90=Left to non-constitutional law; ENVPART_96=Other; ENVPART_97=Unable to Determine; ENVPART_98=Not Specified",
+      "dimensions": ["socioeconomic_rights"],
+      "notes": "Provides detail on the scope of environmental constitutional protection; complements ENV and ENVREF"
+    },
+    {
+      "variable_name": "RELTAX",
+      "question_number": "v568",
+      "description": "Whether religious organizations are granted tax-free status",
+      "coding_scheme": "1=Yes; 2=No, specifically denied such status; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["civil_liberties"],
+      "notes": "Borderline; state-granted tax privilege to religious organizations can reflect establishment of religion or differential treatment"
+    },
+    {
+      "variable_name": "CABINET",
+      "question_number": "v163",
+      "description": "Whether the constitution mentions the executive cabinet or ministers — the government's ministers responsible for substantive policy areas",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["executive_constraints"],
+      "notes": "Gate question for all cabinet sub-variables (CABAPPT, CABAPPR, CABCOLL, CABDISS, CABRESTL, CABRESTM). Presence of cabinet provisions indicates degree of executive institutionalization."
+    }
+  ]
+}

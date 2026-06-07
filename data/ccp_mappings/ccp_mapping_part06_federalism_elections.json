@@ -1,0 +1,175 @@
+{
+  "part": 6,
+  "section_label": "Federalism, Indigenous Rights & Elections",
+  "variables": [
+    {
+      "variable_name": "FEDUNIT",
+      "question_number": "v384",
+      "description": "Whether the state is described as federal, confederal, or unitary",
+      "coding_scheme": "1=Federal; 2=Confederal; 3=Unitary; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["federalism_decentralization"]
+    },
+    {
+      "variable_name": "FEDERAL",
+      "question_number": "v385",
+      "description": "Whether the constitution recognizes any subnational governments. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): FEDERAL_1=Local/Municipal Government; FEDERAL_2=Subsidiary units (regions, states, provinces, districts, departments); FEDERAL_3=Autonomous Indigenous Groups; FEDERAL_96=Other; FEDERAL_97=Unable to Determine; FEDERAL_98=Not Specified",
+      "dimensions": ["federalism_decentralization", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "FEDSEP",
+      "question_number": "v387",
+      "description": "Which level of government has superior legal status in case of conflict between national and subnational law",
+      "coding_scheme": "1=Laws of the federal/national government are superior; 2=Laws of subnational government are superior; 3=Depends on topic; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["federalism_decentralization"]
+    },
+    {
+      "variable_name": "FEDREV",
+      "question_number": "v388",
+      "description": "Whether the constitution allows review of subnational legislation by federal judicial or other central government organs",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["federalism_decentralization", "judicial_independence"]
+    },
+    {
+      "variable_name": "SECCESS",
+      "question_number": "v389",
+      "description": "Whether there are provisions for the secession or withdrawal of parts of the state",
+      "coding_scheme": "1=Yes, subsidiary units only; 2=Yes, but unspecified about who may do so; 3=No, secession not allowed; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["federalism_decentralization"]
+    },
+    {
+      "variable_name": "INDPOLGR",
+      "question_number": "v411",
+      "description": "Political rights or benefits specifically granted to indigenous groups (asked only if FEDERAL_3=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): INDPOLGR_1=Right to vote; INDPOLGR_2=Right to representation in the central government; INDPOLGR_3=Right to establish political parties; INDPOLGR_4=Right to not pay taxes (for certain activities); INDPOLGR_5=Right to participate in activities illegal for non-indigenous groups; INDPOLGR_6=Right to internal governance; INDPOLGR_7=Cultural rights; INDPOLGR_90=Left to non-constitutional law; INDPOLGR_96=Other; INDPOLGR_97=Unable to Determine; INDPOLGR_98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous", "federalism_decentralization", "political_competition"]
+    },
+    {
+      "variable_name": "INDCIT",
+      "question_number": "v412",
+      "description": "Whether indigenous groups are explicitly granted full citizenship (asked only if FEDERAL_3=1)",
+      "coding_scheme": "1=Yes; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "PART",
+      "question_number": "v413",
+      "description": "Whether the constitution refers to political parties (including reference to specific parties, banning parties, or regulation of parties)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "PARTRGHT",
+      "question_number": "v414",
+      "description": "Whether the constitution provides for a right to form political parties (must be explicit, not implied by freedom of association)",
+      "coding_scheme": "1=Yes; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["political_competition", "civil_liberties"]
+    },
+    {
+      "variable_name": "PARTPRF",
+      "question_number": "v415",
+      "description": "Whether the constitution expresses a preference for one or more political parties",
+      "coding_scheme": "1=Yes, all parties preferred; 2=Yes, certain parties preferred; 3=Yes, certain types of parties preferred; 4=No preference; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "PARTPRH",
+      "question_number": "v417",
+      "description": "Whether the constitution prohibits one or more political parties",
+      "coding_scheme": "1=Yes, ALL parties prohibited; 2=Yes, certain parties prohibited; 3=Yes, certain types of parties prohibited; 4=No prohibition; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["political_competition", "civil_liberties"]
+    },
+    {
+      "variable_name": "PARTUNCO",
+      "question_number": "v419",
+      "description": "Who is given the power to make determinations of unconstitutional political parties (asked only if PARTPRH=2 or 3). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): PARTUNCO_1=Executive; PARTUNCO_2=Legislature; PARTUNCO_3=Judicial; PARTUNCO_4=Constitutional Court; PARTUNCO_5=Central Election Commission; PARTUNCO_6=Electoral Court; PARTUNCO_90=Left to non-constitutional law; PARTUNCO_96=Other; PARTUNCO_97=Unable to Determine; PARTUNCO_98=Not Specified",
+      "dimensions": ["political_competition", "judicial_independence"]
+    },
+    {
+      "variable_name": "INITIAT",
+      "question_number": "v421",
+      "description": "Whether the constitution provides for the ability of individuals to propose legislative initiatives (referenda from below)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "REFEREN",
+      "question_number": "v423",
+      "description": "Whether the constitution provides for the ability to propose a referendum or plebiscite",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "REFERENP",
+      "question_number": "v424",
+      "description": "Who can propose a referendum (asked only if REFEREN=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): REFERENP_1=Head of State; REFERENP_2=Head of Government; REFERENP_3=First/only Chamber; REFERENP_4=Second Chamber; REFERENP_5=Both Chambers required; REFERENP_6=Government/Cabinet; REFERENP_7=Judiciary; REFERENP_8=Ombudsman; REFERENP_9=Triggered automatically by veto of legislation; REFERENP_90=Left to non-constitutional law; REFERENP_96=Other; REFERENP_97=Unable to Determine; REFERENP_98=Not Specified",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "VOTERES",
+      "question_number": "v426",
+      "description": "Whether the constitution places any restrictions on the right to vote",
+      "coding_scheme": "1=Yes; 2=No; 97=Unable to Determine. Note: coded Yes if voting conditions are left to non-constitutional law.",
+      "dimensions": ["political_competition", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "VOTEMIN",
+      "question_number": "v427",
+      "description": "Minimum age limit for voting (asked only if VOTERES=1)",
+      "coding_scheme": "1=18; 2=20; 3=21; 4=Adult/majority; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "VOTELIM",
+      "question_number": "v429",
+      "description": "Additional restrictions on voting beyond age (asked only if VOTERES=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): VOTELIM_1=Must not be incapacitated; VOTELIM_2=Must not have been convicted of a crime; VOTELIM_3=Must be a man; VOTELIM_4=Must have particular ethnic/national/racial/religious identity; VOTELIM_5=Must be a citizen; VOTELIM_6=Must be literate; VOTELIM_7=Property or monetary restriction; VOTELIM_8=Must speak official language; VOTELIM_9=Must reside in district for certain period; VOTELIM_10=Must not be absent on election day; VOTELIM_11=Must be registered; VOTELIM_12=Must be a national; VOTELIM_13=Must be married; VOTELIM_14=Cannot be in military; VOTELIM_15=Cannot be clergy; VOTELIM_90=Left to non-constitutional law; VOTELIM_96=Other; VOTELIM_97=Unable to Determine; VOTELIM_98=Not Specified",
+      "dimensions": ["political_competition", "equality_gender_minority_indigenous"],
+      "notes": "VOTELIM_3 (must be male), VOTELIM_4 (ethnic/racial/religious identity) are directly relevant to equality dimension"
+    },
+    {
+      "variable_name": "VOTEUN",
+      "question_number": "v430",
+      "description": "Whether the constitution makes an explicit claim to universal adult suffrage",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine. Must be explicitly stated. Language like 'voting is universal', 'all citizens can vote', 'adult suffrage' qualifies.",
+      "dimensions": ["political_competition", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "OVERSGHT",
+      "question_number": "v431",
+      "description": "Whether the constitution provides for an electoral commission or electoral court to oversee the election process",
+      "coding_scheme": "1=Electoral Commission; 2=Electoral Court; 3=Both; 4=Neither; 96=Other; 97=Unable to Determine",
+      "dimensions": ["political_competition", "institutional_accountability"]
+    },
+    {
+      "variable_name": "COMPVOTE",
+      "question_number": "v444",
+      "description": "Whether the constitution makes voting mandatory, at least for some elections (includes explicit compulsion or penalties for non-voting)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "FREEELEC",
+      "question_number": "v445",
+      "description": "Whether the constitution prescribes that electoral ballots be secret",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["political_competition", "civil_liberties"]
+    },
+    {
+      "variable_name": "CAMPPUBF",
+      "question_number": "v447",
+      "description": "Whether there are provisions for the public financing of election campaigns",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "ELECTFIN",
+      "question_number": "v448",
+      "description": "Whether there are provisions for limits on money used for election campaigns",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["political_competition"]
+    }
+  ]
+}

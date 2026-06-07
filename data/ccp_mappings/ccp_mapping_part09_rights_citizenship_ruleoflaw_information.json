@@ -1,0 +1,120 @@
+{
+  "part": 9,
+  "section_label": "Rights — Citizenship, Rule of Law Principles, Information & Religion",
+  "variables": [
+    {
+      "variable_name": "NATCIT",
+      "question_number": "v543",
+      "description": "Whether the constitution provides for naturalized citizens or naturalization",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "CITREV",
+      "question_number": "v546",
+      "description": "Conditions under which citizenship can be revoked. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CITREV_1=Upon acquisition of citizenship in another country; CITREV_2=Upon conviction of a crime; CITREV_3=Upon entering employment or commission of another government; CITREV_4=Citizenship is expressly guaranteed and irrevocable; CITREV_90=Left to non-constitutional law; CITREV_96=Other; CITREV_97=Unable to Determine; CITREV_98=Not Specified",
+      "dimensions": ["civil_liberties", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "CITDEP",
+      "question_number": "v548",
+      "description": "Whether the constitution grants the government the right to deport citizens or residents",
+      "coding_scheme": "1=Yes; 2=No, explicitly denied; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "RESENEX",
+      "question_number": "v549",
+      "description": "Whether the constitution restricts entry or exit of the state's borders",
+      "coding_scheme": "1=Yes, entry restricted; 2=Yes, exit restricted; 3=Both restricted; 4=Neither; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "RULELAW",
+      "question_number": "v551",
+      "description": "Whether the constitution contains a general statement regarding rule of law, legality, or Rechtsstaat (must be specifically mentioned, not implied; includes 'socialist legality')",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "EQUAL",
+      "question_number": "v552",
+      "description": "Whether the constitution refers to equality before the law, equal rights, or non-discrimination",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "EQUALGR",
+      "question_number": "v553",
+      "description": "Which groups the constitution protects from discrimination or provides equality for. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): EQUALGR_1=Gender; EQUALGR_2=Nationality; EQUALGR_3=Country of Origin; EQUALGR_4=Race; EQUALGR_5=Language; EQUALGR_6=Religion; EQUALGR_7=Sexual Orientation; EQUALGR_8=Age; EQUALGR_9=Mentally or Physically Disabled; EQUALGR_10=Color; EQUALGR_11=Creed/Beliefs; EQUALGR_12=Social Status; EQUALGR_13=Financial/Property Ownership; EQUALGR_14=Tribe/Clan; EQUALGR_15=Political Party; EQUALGR_16=Parentage; EQUALGR_90=Left to non-constitutional law; EQUALGR_96=Other; EQUALGR_97=Unable to Determine; EQUALGR_98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "RIGHTRES",
+      "question_number": "v556",
+      "description": "Whether the constitution specifically restricts the rights of any particular groups. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): RIGHTRES_1=Property Owners; RIGHTRES_2=Racial/Ethnic/Religious/Linguistic/National Minorities; RIGHTRES_3=Women; RIGHTRES_4=Non-Property Owners; RIGHTRES_5=Peasants; RIGHTRES_6=Immigrants; RIGHTRES_7=Elderly Individuals; RIGHTRES_8=Disabled Persons; RIGHTRES_90=Left to non-constitutional law; RIGHTRES_96=Other; RIGHTRES_97=Unable to Determine; RIGHTRES_98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous"],
+      "notes": "Coded as group-specific restrictions on rights, not protections. Presence indicates discriminatory constitutional provisions."
+    },
+    {
+      "variable_name": "BINDING",
+      "question_number": "v558",
+      "description": "Whether rights provisions are binding on private parties as well as the state (must be explicitly stated, not just implied)",
+      "coding_scheme": "1=Yes; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["rule_of_law_due_process", "civil_liberties"]
+    },
+    {
+      "variable_name": "INFOACC",
+      "question_number": "v559",
+      "description": "Whether the constitution provides for an individual right to view government files or documents under at least some conditions (right to information)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["transparency_information_access"]
+    },
+    {
+      "variable_name": "INFOACCW",
+      "question_number": "v560",
+      "description": "To which kinds of documents the constitution directs individuals should have access (asked only if INFOACC=1)",
+      "coding_scheme": "1=Documents about oneself or family; 2=General public information; 3=Both; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["transparency_information_access"]
+    },
+    {
+      "variable_name": "OFFREL",
+      "question_number": "v562",
+      "description": "Whether the constitution contains provisions concerning a national or official religion or church",
+      "coding_scheme": "1=Yes, national religion specified; 2=Certain religion(s) enjoys special treatment; 3=National religion specifically forbidden (includes secular state or separation of church and state); 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["civil_liberties", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "FREEREL",
+      "question_number": "v564",
+      "description": "Whether the constitution provides for freedom of religion",
+      "coding_scheme": "1=Yes; 2=No; 96=Other (includes constitutions granting freedom only to certain religions); 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "RELLAW",
+      "question_number": "v565",
+      "description": "The status of religious law in the constitutional order. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): RELLAW_1=Default law if no other law applies; RELLAW_2=A source of law; RELLAW_3=Basis, main, major, or supreme source of law; RELLAW_90=Left to non-constitutional law; RELLAW_96=Other; RELLAW_97=Unable to Determine; RELLAW_98=Not Specified",
+      "dimensions": ["civil_liberties", "rule_of_law_due_process"],
+      "notes": "RELLAW_3 (religious law as supreme source) is relevant to rule of law when religious doctrine supersedes secular legal principles"
+    },
+    {
+      "variable_name": "RELLAWV",
+      "question_number": "v566",
+      "description": "Whether law contrary to religion is void (repugnancy clause)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "SEPREL",
+      "question_number": "v567",
+      "description": "Whether the constitution contains an explicit decree of separation of church and state (reference to a secular state is sufficient)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    }
+  ]
+}

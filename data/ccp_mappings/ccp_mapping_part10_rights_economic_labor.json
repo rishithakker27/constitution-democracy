@@ -1,0 +1,133 @@
+{
+  "part": 10,
+  "section_label": "Rights — Economic, Property, Labor & Social Security",
+  "variables": [
+    {
+      "variable_name": "EXPROP",
+      "question_number": "v569",
+      "description": "Whether the government can expropriate private property under at least some conditions",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "EXPRCOMP",
+      "question_number": "v570",
+      "description": "The specified level of compensation for expropriation of private property (asked only if EXPROP=1)",
+      "coding_scheme": "1=Fair/just; 2=Full (actual/market/current value); 3=Appropriate (reasonable); 4=Adequate; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["civil_liberties", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "PROPRGHT",
+      "question_number": "v587",
+      "description": "Whether the constitution provides for a right to own property",
+      "coding_scheme": "1=Yes; 2=No; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "SOCECON",
+      "question_number": "v573",
+      "description": "Whether the constitution uses the words 'socio-economic rights' or similar",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "REMUNER",
+      "question_number": "v574",
+      "description": "Whether the constitution provides the right to just remuneration, fair or equal payment for work",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "JOINTRDE",
+      "question_number": "v575",
+      "description": "Whether the constitution provides for the right to form or to join trade unions (must be explicit, not implied by freedom of association; includes occupational and professional associations)",
+      "coding_scheme": "1=Yes; 2=No; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights", "civil_liberties"]
+    },
+    {
+      "variable_name": "STRIKE",
+      "question_number": "v576",
+      "description": "Whether the constitution provides for a right to strike",
+      "coding_scheme": "1=Yes; 2=Yes, but with limitations; 3=No; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights", "civil_liberties"]
+    },
+    {
+      "variable_name": "LEISURE",
+      "question_number": "v577",
+      "description": "Whether the constitution provides for a right of rest and leisure (includes right to vacations, weekly holidays, and leaves with pay)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "STANDLIV",
+      "question_number": "v578",
+      "description": "Whether the constitution provides for a right to an adequate or reasonable standard of living (synonyms: 'adequate well-being', 'suitable existence', 'life worthy of a human being')",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "SOCSEC",
+      "question_number": "v585",
+      "description": "Whether the constitution refers to the social security of the society or nation (general societal security/well-being, not a specific pension scheme)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "FINSUP",
+      "question_number": "v586",
+      "description": "Whether the constitution provides for general or financial support by the government for any of the following groups. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): FINSUP_1=Elderly; FINSUP_2=Unemployed; FINSUP_3=Disabled; FINSUP_4=Children and orphans; FINSUP_90=Left to non-constitutional law; FINSUP_96=Other; FINSUP_97=Unable to Determine; FINSUP_98=Not Specified",
+      "dimensions": ["socioeconomic_rights", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "OCCUPATE",
+      "question_number": "v590",
+      "description": "Whether the constitution provides for the right to choose one's occupation",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights", "civil_liberties"]
+    },
+    {
+      "variable_name": "SAFEWORK",
+      "question_number": "v591",
+      "description": "Whether the constitution mentions the right to safe or healthy working conditions",
+      "coding_scheme": "1=Yes (right of citizens); 2=No; 3=State duty to provide safe working conditions (only if explicitly a duty, not a right); 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "CHILDWRK",
+      "question_number": "v592",
+      "description": "Whether the constitution places limits on child employment (includes protections against exploitation or protections for 'minor workers')",
+      "coding_scheme": "1=Yes; 2=No; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "SHELTER",
+      "question_number": "v593",
+      "description": "Whether the constitution provides for the right to shelter or housing",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "PROVWORK",
+      "question_number": "v500",
+      "description": "Whether the constitution mentions a state duty to provide work or employment (distinct from right to work or right to choose occupation)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "PROVHLTH",
+      "question_number": "v501",
+      "description": "Whether the constitution mentions a state duty to provide health care",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "FREECOMP",
+      "question_number": "v588",
+      "description": "Whether the constitution provides the right to a free and/or competitive market",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"],
+      "notes": "Borderline; indicates constitutional commitment to market economy"
+    }
+  ]
+}

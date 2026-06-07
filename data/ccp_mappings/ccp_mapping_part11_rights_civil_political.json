@@ -1,0 +1,168 @@
+{
+  "part": 11,
+  "section_label": "Rights — Civil and Political",
+  "variables": [
+    {
+      "variable_name": "LIFE",
+      "question_number": "v604",
+      "description": "Whether the constitution provides for a right to life",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "SLAVE",
+      "question_number": "v605",
+      "description": "Whether the constitution prohibits slavery, servitude, or forced labor",
+      "coding_scheme": "1=Universally Prohibited; 2=Prohibited Except in the Case of War; 3=Prohibited with Other Exception(s) Noted (e.g. court-ordered labor, cases provided by law); 4=Explicitly Allowed; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "TORTURE",
+      "question_number": "v606",
+      "description": "Whether the constitution prohibits torture",
+      "coding_scheme": "1=Universally Prohibited; 2=Prohibited Except in the Case of War; 3=Prohibited for the Purpose of Extracting Confessions; 4=Explicitly Allowed; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "CRUELTY",
+      "question_number": "v607",
+      "description": "Whether the constitution prohibits cruel, inhuman, or degrading treatment",
+      "coding_scheme": "1=Universally Prohibited; 2=Prohibited Except in the Case of War; 3=Explicitly Allowed; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "PRIVACY",
+      "question_number": "v608",
+      "description": "Whether the constitution provides for a right of privacy (includes domicile/home privacy, correspondence, communications; 'domicile is inviolable' qualifies)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "FREEMOVE",
+      "question_number": "v609",
+      "description": "Whether the constitution provides for freedom of movement",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "OPINION",
+      "question_number": "v610",
+      "description": "Whether the constitution provides for freedom of opinion, thought, and/or conscience (distinct from freedom of religion; specifically the internal freedom of thought, not expression)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "EXPRESS",
+      "question_number": "v611",
+      "description": "Whether the constitution provides for freedom of expression or speech (freedom of the press alone is not sufficient; expression or speech must be explicitly mentioned)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "PETITION",
+      "question_number": "v612",
+      "description": "Whether the constitution provides for a right of petition (right to submit individual or group grievances to government; includes complaints to state organs about official transgressions)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "political_competition"]
+    },
+    {
+      "variable_name": "CENSOR",
+      "question_number": "v614",
+      "description": "Whether the constitution prohibits censorship",
+      "coding_scheme": "1=Yes, universally prohibited; 2=Censorship allowed in exceptional cases (war, state of emergency, public safety); 3=No prohibition; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "transparency_information_access"]
+    },
+    {
+      "variable_name": "PRESS",
+      "question_number": "v615",
+      "description": "Whether the constitution provides for freedom of the press",
+      "coding_scheme": "1=Yes; 2=No; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "transparency_information_access"]
+    },
+    {
+      "variable_name": "INTRGHT",
+      "question_number": "v616",
+      "description": "Whether the constitution refers to any international human rights treaties or instruments. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): INTRGHT_1=UN Universal Declaration of Human Rights (1948); INTRGHT_2=1789 French Declaration of Rights; INTRGHT_3=Article 45, UN Charter (1945); INTRGHT_4=European Convention for the Protection of Human Rights and Fundamental Freedoms (1950); INTRGHT_5=International Covenant on Civil and Political Rights (1966); INTRGHT_6=International Covenant on Economic and Social Rights (1966); INTRGHT_7=American Convention on Human Rights (1969); INTRGHT_8=Helsinki Accords (1966); INTRGHT_9=African Charter on Human People's Rights (1981); INTRGHT_96=Other; INTRGHT_97=Unable to Determine; INTRGHT_98=Not Specified",
+      "dimensions": ["civil_liberties", "rule_of_law_due_process", "socioeconomic_rights"]
+    },
+    {
+      "variable_name": "ASSEM",
+      "question_number": "v618",
+      "description": "Whether the constitution provides for freedom of assembly",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "ASSOC",
+      "question_number": "v619",
+      "description": "Whether the constitution provides for freedom of association",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "INALRGHT",
+      "question_number": "v620",
+      "description": "Whether the constitution stipulates that certain rights are inalienable or inviolable",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "rule_of_law_due_process", "emergency_powers_constraints"],
+      "notes": "Relevant to emergency_powers_constraints because inalienable rights cannot be suspended even during states of emergency"
+    },
+    {
+      "variable_name": "DEVLPERS",
+      "question_number": "v621",
+      "description": "Whether the constitution provides for an individual's right to self-determination or free development of personality",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "NOMIL",
+      "question_number": "v622",
+      "description": "Whether there is a right to exemption from military service for conscientious objectors or other groups",
+      "coding_scheme": "1=Yes; 2=No; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "civilian_control_of_security"]
+    },
+    {
+      "variable_name": "ASYLUM",
+      "question_number": "v623",
+      "description": "Whether the constitution contains provisions for the protection of stateless individuals, refugees, or the right to asylum (includes prohibitions on extradition of political refugees)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "HEALTHR",
+      "question_number": "v602",
+      "description": "Whether the constitution mentions the right to health care",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "HEALTHF",
+      "question_number": "v603",
+      "description": "Whether the constitution specifies that healthcare should be provided free of charge by government (asked only if HEALTHR=1)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "MATEQUAL",
+      "question_number": "v598",
+      "description": "Whether the constitution provides for matrimonial equality (equality within marriage; distinct from gender equality generally)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "SAMESEXM",
+      "question_number": "v595",
+      "description": "Whether the constitution provides the right for same-sex marriages",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["equality_gender_minority_indigenous", "civil_liberties"]
+    },
+    {
+      "variable_name": "CHILDPRO",
+      "question_number": "v599",
+      "description": "Whether the constitution guarantees the rights of children",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["equality_gender_minority_indigenous", "civil_liberties"]
+    }
+  ]
+}

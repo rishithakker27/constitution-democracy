@@ -1,0 +1,3078 @@
+Entity,Code,Year,Democratic Culture Index,World region according to OWID
+Afghanistan,AFG,2006,2.5,Asia
+Afghanistan,AFG,2008,2.5,Asia
+Afghanistan,AFG,2010,2.5,Asia
+Afghanistan,AFG,2011,2.5,Asia
+Afghanistan,AFG,2012,2.5,Asia
+Afghanistan,AFG,2013,2.5,Asia
+Afghanistan,AFG,2014,2.5,Asia
+Afghanistan,AFG,2015,2.5,Asia
+Afghanistan,AFG,2016,2.5,Asia
+Afghanistan,AFG,2017,2.5,Asia
+Afghanistan,AFG,2018,2.5,Asia
+Afghanistan,AFG,2019,2.5,Asia
+Afghanistan,AFG,2020,2.5,Asia
+Afghanistan,AFG,2021,1.25,Asia
+Afghanistan,AFG,2022,1.25,Asia
+Afghanistan,AFG,2023,1.25,Asia
+Afghanistan,AFG,2024,1.25,Asia
+Africa,OWID_AFR,2006,5.4782,
+Africa,OWID_AFR,2008,5.1654,
+Africa,OWID_AFR,2010,4.9902,
+Africa,OWID_AFR,2011,5.1028,
+Africa,OWID_AFR,2012,5.1024,
+Africa,OWID_AFR,2013,5.1648,
+Africa,OWID_AFR,2014,5.1776,
+Africa,OWID_AFR,2015,5.3152,
+Africa,OWID_AFR,2016,5.3028,
+Africa,OWID_AFR,2017,5.2652,
+Africa,OWID_AFR,2018,5.2278,
+Africa,OWID_AFR,2019,5.1904,
+Africa,OWID_AFR,2020,5.2152,
+Africa,OWID_AFR,2021,5.1774,
+Africa,OWID_AFR,2022,5.2402,
+Africa,OWID_AFR,2023,5.1404,
+Africa,OWID_AFR,2024,5.1526003,
+Africa (population-weighted),,2006,5.511904,
+Africa (population-weighted),,2008,5.1626215,
+Africa (population-weighted),,2010,4.8098693,
+Africa (population-weighted),,2011,4.877203,
+Africa (population-weighted),,2012,4.8638797,
+Africa (population-weighted),,2013,4.7835045,
+Africa (population-weighted),,2014,4.7343426,
+Africa (population-weighted),,2015,5.193928,
+Africa (population-weighted),,2016,5.0771008,
+Africa (population-weighted),,2017,4.9184213,
+Africa (population-weighted),,2018,4.809412,
+Africa (population-weighted),,2019,4.7907014,
+Africa (population-weighted),,2020,4.9168644,
+Africa (population-weighted),,2021,4.8974876,
+Africa (population-weighted),,2022,4.930962,
+Africa (population-weighted),,2023,4.9467983,
+Africa (population-weighted),,2024,4.966182,
+Albania,ALB,2006,5.63,Europe
+Albania,ALB,2008,5.63,Europe
+Albania,ALB,2010,5,Europe
+Albania,ALB,2011,5,Europe
+Albania,ALB,2012,5,Europe
+Albania,ALB,2013,5,Europe
+Albania,ALB,2014,5,Europe
+Albania,ALB,2015,5,Europe
+Albania,ALB,2016,5,Europe
+Albania,ALB,2017,5,Europe
+Albania,ALB,2018,5,Europe
+Albania,ALB,2019,5,Europe
+Albania,ALB,2020,6.25,Europe
+Albania,ALB,2021,5.63,Europe
+Albania,ALB,2022,6.25,Europe
+Albania,ALB,2023,6.25,Europe
+Albania,ALB,2024,6.25,Europe
+Algeria,DZA,2006,5.63,Africa
+Algeria,DZA,2008,5.63,Africa
+Algeria,DZA,2010,5.63,Africa
+Algeria,DZA,2011,5.63,Africa
+Algeria,DZA,2012,5.63,Africa
+Algeria,DZA,2013,5.63,Africa
+Algeria,DZA,2014,5.63,Africa
+Algeria,DZA,2015,6.25,Africa
+Algeria,DZA,2016,5,Africa
+Algeria,DZA,2017,5,Africa
+Algeria,DZA,2018,5,Africa
+Algeria,DZA,2019,5,Africa
+Algeria,DZA,2020,5,Africa
+Algeria,DZA,2021,5,Africa
+Algeria,DZA,2022,5,Africa
+Algeria,DZA,2023,5,Africa
+Algeria,DZA,2024,5,Africa
+Angola,AGO,2006,5.63,Africa
+Angola,AGO,2008,4.38,Africa
+Angola,AGO,2010,4.38,Africa
+Angola,AGO,2011,4.38,Africa
+Angola,AGO,2012,4.38,Africa
+Angola,AGO,2013,4.38,Africa
+Angola,AGO,2014,4.38,Africa
+Angola,AGO,2015,4.38,Africa
+Angola,AGO,2016,4.38,Africa
+Angola,AGO,2017,5,Africa
+Angola,AGO,2018,5,Africa
+Angola,AGO,2019,5,Africa
+Angola,AGO,2020,5,Africa
+Angola,AGO,2021,5,Africa
+Angola,AGO,2022,5,Africa
+Angola,AGO,2023,5,Africa
+Angola,AGO,2024,5,Africa
+Argentina,ARG,2006,5.63,South America
+Argentina,ARG,2008,5.63,South America
+Argentina,ARG,2010,6.25,South America
+Argentina,ARG,2011,6.25,South America
+Argentina,ARG,2012,6.25,South America
+Argentina,ARG,2013,6.25,South America
+Argentina,ARG,2014,6.25,South America
+Argentina,ARG,2015,6.88,South America
+Argentina,ARG,2016,6.88,South America
+Argentina,ARG,2017,6.88,South America
+Argentina,ARG,2018,6.25,South America
+Argentina,ARG,2019,6.25,South America
+Argentina,ARG,2020,5.63,South America
+Argentina,ARG,2021,5,South America
+Argentina,ARG,2022,4.38,South America
+Argentina,ARG,2023,3.75,South America
+Argentina,ARG,2024,3.75,South America
+Armenia,ARM,2006,3.13,Asia
+Armenia,ARM,2008,3.13,Asia
+Armenia,ARM,2010,3.13,Asia
+Armenia,ARM,2011,3.13,Asia
+Armenia,ARM,2012,3.13,Asia
+Armenia,ARM,2013,3.13,Asia
+Armenia,ARM,2014,3.13,Asia
+Armenia,ARM,2015,2.5,Asia
+Armenia,ARM,2016,1.88,Asia
+Armenia,ARM,2017,1.88,Asia
+Armenia,ARM,2018,2.5,Asia
+Armenia,ARM,2019,3.13,Asia
+Armenia,ARM,2020,3.13,Asia
+Armenia,ARM,2021,3.13,Asia
+Armenia,ARM,2022,3.13,Asia
+Armenia,ARM,2023,3.13,Asia
+Armenia,ARM,2024,3.13,Asia
+Asia,OWID_ASI,2006,5.387447,
+Asia,OWID_ASI,2008,5.254468,
+Asia,OWID_ASI,2010,5.0289364,
+Asia,OWID_ASI,2011,5.0157447,
+Asia,OWID_ASI,2012,4.962553,
+Asia,OWID_ASI,2013,5.0025535,
+Asia,OWID_ASI,2014,5.0689363,
+Asia,OWID_ASI,2015,5.0689363,
+Asia,OWID_ASI,2016,5.029149,
+Asia,OWID_ASI,2017,5.0159574,
+Asia,OWID_ASI,2018,5.0025535,
+Asia,OWID_ASI,2019,4.9359574,
+Asia,OWID_ASI,2020,4.9095745,
+Asia,OWID_ASI,2021,4.7765956,
+Asia,OWID_ASI,2022,4.657234,
+Asia,OWID_ASI,2023,4.5768085,
+Asia,OWID_ASI,2024,4.5768085,
+Asia (population-weighted),,2006,5.81015,
+Asia (population-weighted),,2008,5.8941464,
+Asia (population-weighted),,2010,5.0581837,
+Asia (population-weighted),,2011,5.2233257,
+Asia (population-weighted),,2012,5.007255,
+Asia (population-weighted),,2013,5.200771,
+Asia (population-weighted),,2014,5.4359274,
+Asia (population-weighted),,2015,5.5946856,
+Asia (population-weighted),,2016,5.589706,
+Asia (population-weighted),,2017,5.517548,
+Asia (population-weighted),,2018,5.502788,
+Asia (population-weighted),,2019,4.368692,
+Asia (population-weighted),,2020,4.3626237,
+Asia (population-weighted),,2021,4.29623,
+Asia (population-weighted),,2022,4.4148617,
+Asia (population-weighted),,2023,4.5655165,
+Asia (population-weighted),,2024,4.773525,
+Australia,AUS,2006,8.75,Oceania
+Australia,AUS,2008,8.75,Oceania
+Australia,AUS,2010,9.38,Oceania
+Australia,AUS,2011,9.38,Oceania
+Australia,AUS,2012,9.38,Oceania
+Australia,AUS,2013,9.38,Oceania
+Australia,AUS,2014,8.75,Oceania
+Australia,AUS,2015,8.75,Oceania
+Australia,AUS,2016,8.75,Oceania
+Australia,AUS,2017,8.75,Oceania
+Australia,AUS,2018,8.75,Oceania
+Australia,AUS,2019,8.75,Oceania
+Australia,AUS,2020,8.75,Oceania
+Australia,AUS,2021,8.75,Oceania
+Australia,AUS,2022,7.5,Oceania
+Australia,AUS,2023,7.5,Oceania
+Australia,AUS,2024,8.75,Oceania
+Austria,AUT,2006,8.75,Europe
+Austria,AUT,2008,8.13,Europe
+Austria,AUT,2010,8.13,Europe
+Austria,AUT,2011,8.13,Europe
+Austria,AUT,2012,8.13,Europe
+Austria,AUT,2013,8.13,Europe
+Austria,AUT,2014,7.5,Europe
+Austria,AUT,2015,7.5,Europe
+Austria,AUT,2016,6.88,Europe
+Austria,AUT,2017,6.88,Europe
+Austria,AUT,2018,6.88,Europe
+Austria,AUT,2019,6.88,Europe
+Austria,AUT,2020,6.88,Europe
+Austria,AUT,2021,6.88,Europe
+Austria,AUT,2022,6.88,Europe
+Austria,AUT,2023,6.88,Europe
+Austria,AUT,2024,6.88,Europe
+Azerbaijan,AZE,2006,3.75,Asia
+Azerbaijan,AZE,2008,3.75,Asia
+Azerbaijan,AZE,2010,3.75,Asia
+Azerbaijan,AZE,2011,3.75,Asia
+Azerbaijan,AZE,2012,3.75,Asia
+Azerbaijan,AZE,2013,3.75,Asia
+Azerbaijan,AZE,2014,3.75,Asia
+Azerbaijan,AZE,2015,3.75,Asia
+Azerbaijan,AZE,2016,3.75,Asia
+Azerbaijan,AZE,2017,3.75,Asia
+Azerbaijan,AZE,2018,3.75,Asia
+Azerbaijan,AZE,2019,3.75,Asia
+Azerbaijan,AZE,2020,3.75,Asia
+Azerbaijan,AZE,2021,5,Asia
+Azerbaijan,AZE,2022,5,Asia
+Azerbaijan,AZE,2023,5,Asia
+Azerbaijan,AZE,2024,5,Asia
+Bahrain,BHR,2006,5,Asia
+Bahrain,BHR,2008,5,Asia
+Bahrain,BHR,2010,5,Asia
+Bahrain,BHR,2011,4.38,Asia
+Bahrain,BHR,2012,4.38,Asia
+Bahrain,BHR,2013,4.38,Asia
+Bahrain,BHR,2014,4.38,Asia
+Bahrain,BHR,2015,4.38,Asia
+Bahrain,BHR,2016,4.38,Asia
+Bahrain,BHR,2017,4.38,Asia
+Bahrain,BHR,2018,4.38,Asia
+Bahrain,BHR,2019,4.38,Asia
+Bahrain,BHR,2020,4.38,Asia
+Bahrain,BHR,2021,4.38,Asia
+Bahrain,BHR,2022,4.38,Asia
+Bahrain,BHR,2023,4.38,Asia
+Bahrain,BHR,2024,4.38,Asia
+Bangladesh,BGD,2006,6.25,Asia
+Bangladesh,BGD,2008,3.75,Asia
+Bangladesh,BGD,2010,5,Asia
+Bangladesh,BGD,2011,4.38,Asia
+Bangladesh,BGD,2012,4.38,Asia
+Bangladesh,BGD,2013,4.38,Asia
+Bangladesh,BGD,2014,4.38,Asia
+Bangladesh,BGD,2015,4.38,Asia
+Bangladesh,BGD,2016,4.38,Asia
+Bangladesh,BGD,2017,4.38,Asia
+Bangladesh,BGD,2018,4.38,Asia
+Bangladesh,BGD,2019,4.38,Asia
+Bangladesh,BGD,2020,5.63,Asia
+Bangladesh,BGD,2021,5.63,Asia
+Bangladesh,BGD,2022,5.63,Asia
+Bangladesh,BGD,2023,5.63,Asia
+Bangladesh,BGD,2024,5,Asia
+Belarus,BLR,2006,4.38,Europe
+Belarus,BLR,2008,4.38,Europe
+Belarus,BLR,2010,4.38,Europe
+Belarus,BLR,2011,4.38,Europe
+Belarus,BLR,2012,4.38,Europe
+Belarus,BLR,2013,4.38,Europe
+Belarus,BLR,2014,6.25,Europe
+Belarus,BLR,2015,6.25,Europe
+Belarus,BLR,2016,6.25,Europe
+Belarus,BLR,2017,5.63,Europe
+Belarus,BLR,2018,5.63,Europe
+Belarus,BLR,2019,4.38,Europe
+Belarus,BLR,2020,5,Europe
+Belarus,BLR,2021,4.38,Europe
+Belarus,BLR,2022,4.38,Europe
+Belarus,BLR,2023,4.38,Europe
+Belarus,BLR,2024,4.38,Europe
+Belgium,BEL,2006,6.88,Europe
+Belgium,BEL,2008,7.5,Europe
+Belgium,BEL,2010,7.5,Europe
+Belgium,BEL,2011,7.5,Europe
+Belgium,BEL,2012,7.5,Europe
+Belgium,BEL,2013,7.5,Europe
+Belgium,BEL,2014,6.88,Europe
+Belgium,BEL,2015,6.88,Europe
+Belgium,BEL,2016,6.88,Europe
+Belgium,BEL,2017,6.88,Europe
+Belgium,BEL,2018,6.88,Europe
+Belgium,BEL,2019,6.88,Europe
+Belgium,BEL,2020,6.88,Europe
+Belgium,BEL,2021,6.88,Europe
+Belgium,BEL,2022,6.88,Europe
+Belgium,BEL,2023,6.88,Europe
+Belgium,BEL,2024,6.88,Europe
+Benin,BEN,2006,6.88,Africa
+Benin,BEN,2008,5.63,Africa
+Benin,BEN,2010,5.63,Africa
+Benin,BEN,2011,5.63,Africa
+Benin,BEN,2012,5.63,Africa
+Benin,BEN,2013,5.63,Africa
+Benin,BEN,2014,5.63,Africa
+Benin,BEN,2015,5.63,Africa
+Benin,BEN,2016,5.63,Africa
+Benin,BEN,2017,5.63,Africa
+Benin,BEN,2018,5.63,Africa
+Benin,BEN,2019,5.63,Africa
+Benin,BEN,2020,5.63,Africa
+Benin,BEN,2021,5.63,Africa
+Benin,BEN,2022,6.25,Africa
+Benin,BEN,2023,6.25,Africa
+Benin,BEN,2024,6.25,Africa
+Bhutan,BTN,2006,3.75,Asia
+Bhutan,BTN,2008,4.38,Asia
+Bhutan,BTN,2010,4.38,Asia
+Bhutan,BTN,2011,4.38,Asia
+Bhutan,BTN,2012,4.38,Asia
+Bhutan,BTN,2013,4.38,Asia
+Bhutan,BTN,2014,4.38,Asia
+Bhutan,BTN,2015,4.38,Asia
+Bhutan,BTN,2016,4.38,Asia
+Bhutan,BTN,2017,4.38,Asia
+Bhutan,BTN,2018,4.38,Asia
+Bhutan,BTN,2019,4.38,Asia
+Bhutan,BTN,2020,5,Asia
+Bhutan,BTN,2021,5,Asia
+Bhutan,BTN,2022,5,Asia
+Bhutan,BTN,2023,5,Asia
+Bhutan,BTN,2024,5,Asia
+Bolivia,BOL,2006,3.75,South America
+Bolivia,BOL,2008,3.75,South America
+Bolivia,BOL,2010,3.75,South America
+Bolivia,BOL,2011,3.75,South America
+Bolivia,BOL,2012,3.75,South America
+Bolivia,BOL,2013,3.75,South America
+Bolivia,BOL,2014,3.75,South America
+Bolivia,BOL,2015,3.75,South America
+Bolivia,BOL,2016,3.75,South America
+Bolivia,BOL,2017,3.75,South America
+Bolivia,BOL,2018,3.75,South America
+Bolivia,BOL,2019,3.75,South America
+Bolivia,BOL,2020,3.75,South America
+Bolivia,BOL,2021,2.5,South America
+Bolivia,BOL,2022,1.25,South America
+Bolivia,BOL,2023,1.25,South America
+Bolivia,BOL,2024,1.88,South America
+Bosnia and Herzegovina,BIH,2006,5,Europe
+Bosnia and Herzegovina,BIH,2008,5,Europe
+Bosnia and Herzegovina,BIH,2010,5,Europe
+Bosnia and Herzegovina,BIH,2011,5,Europe
+Bosnia and Herzegovina,BIH,2012,5,Europe
+Bosnia and Herzegovina,BIH,2013,5,Europe
+Bosnia and Herzegovina,BIH,2014,4.38,Europe
+Bosnia and Herzegovina,BIH,2015,4.38,Europe
+Bosnia and Herzegovina,BIH,2016,3.75,Europe
+Bosnia and Herzegovina,BIH,2017,3.75,Europe
+Bosnia and Herzegovina,BIH,2018,3.75,Europe
+Bosnia and Herzegovina,BIH,2019,3.75,Europe
+Bosnia and Herzegovina,BIH,2020,3.13,Europe
+Bosnia and Herzegovina,BIH,2021,3.75,Europe
+Bosnia and Herzegovina,BIH,2022,3.13,Europe
+Bosnia and Herzegovina,BIH,2023,3.13,Europe
+Bosnia and Herzegovina,BIH,2024,3.75,Europe
+Botswana,BWA,2006,6.88,Africa
+Botswana,BWA,2008,6.25,Africa
+Botswana,BWA,2010,6.88,Africa
+Botswana,BWA,2011,6.88,Africa
+Botswana,BWA,2012,6.88,Africa
+Botswana,BWA,2013,7.5,Africa
+Botswana,BWA,2014,7.5,Africa
+Botswana,BWA,2015,7.5,Africa
+Botswana,BWA,2016,7.5,Africa
+Botswana,BWA,2017,7.5,Africa
+Botswana,BWA,2018,7.5,Africa
+Botswana,BWA,2019,7.5,Africa
+Botswana,BWA,2020,7.5,Africa
+Botswana,BWA,2021,7.5,Africa
+Botswana,BWA,2022,7.5,Africa
+Botswana,BWA,2023,7.5,Africa
+Botswana,BWA,2024,7.5,Africa
+Brazil,BRA,2006,5.63,South America
+Brazil,BRA,2008,5.63,South America
+Brazil,BRA,2010,4.38,South America
+Brazil,BRA,2011,4.38,South America
+Brazil,BRA,2012,4.38,South America
+Brazil,BRA,2013,4.38,South America
+Brazil,BRA,2014,6.25,South America
+Brazil,BRA,2015,3.75,South America
+Brazil,BRA,2016,3.75,South America
+Brazil,BRA,2017,5,South America
+Brazil,BRA,2018,5,South America
+Brazil,BRA,2019,5,South America
+Brazil,BRA,2020,5.63,South America
+Brazil,BRA,2021,5.63,South America
+Brazil,BRA,2022,5,South America
+Brazil,BRA,2023,5,South America
+Brazil,BRA,2024,5,South America
+Bulgaria,BGR,2006,5,Europe
+Bulgaria,BGR,2008,5.63,Europe
+Bulgaria,BGR,2010,4.38,Europe
+Bulgaria,BGR,2011,4.38,Europe
+Bulgaria,BGR,2012,4.38,Europe
+Bulgaria,BGR,2013,4.38,Europe
+Bulgaria,BGR,2014,5,Europe
+Bulgaria,BGR,2015,5,Europe
+Bulgaria,BGR,2016,4.38,Europe
+Bulgaria,BGR,2017,4.38,Europe
+Bulgaria,BGR,2018,4.38,Europe
+Bulgaria,BGR,2019,4.38,Europe
+Bulgaria,BGR,2020,4.38,Europe
+Bulgaria,BGR,2021,4.38,Europe
+Bulgaria,BGR,2022,4.38,Europe
+Bulgaria,BGR,2023,4.38,Europe
+Bulgaria,BGR,2024,4.38,Europe
+Burkina Faso,BFA,2006,5.63,Africa
+Burkina Faso,BFA,2008,5,Africa
+Burkina Faso,BFA,2010,3.75,Africa
+Burkina Faso,BFA,2011,3.75,Africa
+Burkina Faso,BFA,2012,3.75,Africa
+Burkina Faso,BFA,2013,5,Africa
+Burkina Faso,BFA,2014,5,Africa
+Burkina Faso,BFA,2015,5.63,Africa
+Burkina Faso,BFA,2016,5.63,Africa
+Burkina Faso,BFA,2017,5.63,Africa
+Burkina Faso,BFA,2018,5.63,Africa
+Burkina Faso,BFA,2019,5,Africa
+Burkina Faso,BFA,2020,5,Africa
+Burkina Faso,BFA,2021,5,Africa
+Burkina Faso,BFA,2022,4.38,Africa
+Burkina Faso,BFA,2023,3.75,Africa
+Burkina Faso,BFA,2024,3.75,Africa
+Burundi,BDI,2006,6.25,Africa
+Burundi,BDI,2008,6.25,Africa
+Burundi,BDI,2010,5.63,Africa
+Burundi,BDI,2011,5.63,Africa
+Burundi,BDI,2012,5,Africa
+Burundi,BDI,2013,5,Africa
+Burundi,BDI,2014,5,Africa
+Burundi,BDI,2015,5,Africa
+Burundi,BDI,2016,5,Africa
+Burundi,BDI,2017,5,Africa
+Burundi,BDI,2018,5,Africa
+Burundi,BDI,2019,5,Africa
+Burundi,BDI,2020,5,Africa
+Burundi,BDI,2021,5,Africa
+Burundi,BDI,2022,5,Africa
+Burundi,BDI,2023,5,Africa
+Burundi,BDI,2024,5,Africa
+Cambodia,KHM,2006,5,Asia
+Cambodia,KHM,2008,5,Asia
+Cambodia,KHM,2010,5,Asia
+Cambodia,KHM,2011,5,Asia
+Cambodia,KHM,2012,5.63,Asia
+Cambodia,KHM,2013,5.63,Asia
+Cambodia,KHM,2014,5.63,Asia
+Cambodia,KHM,2015,5,Asia
+Cambodia,KHM,2016,5,Asia
+Cambodia,KHM,2017,5.63,Asia
+Cambodia,KHM,2018,5.63,Asia
+Cambodia,KHM,2019,5.63,Asia
+Cambodia,KHM,2020,5.63,Asia
+Cambodia,KHM,2021,5.63,Asia
+Cambodia,KHM,2022,5.63,Asia
+Cambodia,KHM,2023,5,Asia
+Cambodia,KHM,2024,5,Asia
+Cameroon,CMR,2006,5.63,Africa
+Cameroon,CMR,2008,5,Africa
+Cameroon,CMR,2010,5,Africa
+Cameroon,CMR,2011,5,Africa
+Cameroon,CMR,2012,5,Africa
+Cameroon,CMR,2013,5,Africa
+Cameroon,CMR,2014,5,Africa
+Cameroon,CMR,2015,5,Africa
+Cameroon,CMR,2016,4.38,Africa
+Cameroon,CMR,2017,4.38,Africa
+Cameroon,CMR,2018,4.38,Africa
+Cameroon,CMR,2019,4.38,Africa
+Cameroon,CMR,2020,4.38,Africa
+Cameroon,CMR,2021,4.38,Africa
+Cameroon,CMR,2022,4.38,Africa
+Cameroon,CMR,2023,4.38,Africa
+Cameroon,CMR,2024,4.38,Africa
+Canada,CAN,2006,8.75,North America
+Canada,CAN,2008,8.75,North America
+Canada,CAN,2010,8.75,North America
+Canada,CAN,2011,8.75,North America
+Canada,CAN,2012,8.75,North America
+Canada,CAN,2013,8.75,North America
+Canada,CAN,2014,8.75,North America
+Canada,CAN,2015,8.75,North America
+Canada,CAN,2016,8.75,North America
+Canada,CAN,2017,8.75,North America
+Canada,CAN,2018,8.75,North America
+Canada,CAN,2019,9.38,North America
+Canada,CAN,2020,9.38,North America
+Canada,CAN,2021,8.13,North America
+Canada,CAN,2022,8.13,North America
+Canada,CAN,2023,7.5,North America
+Canada,CAN,2024,7.5,North America
+Cape Verde,CPV,2006,6.88,Africa
+Cape Verde,CPV,2008,6.25,Africa
+Cape Verde,CPV,2010,6.88,Africa
+Cape Verde,CPV,2011,6.25,Africa
+Cape Verde,CPV,2012,6.25,Africa
+Cape Verde,CPV,2013,6.25,Africa
+Cape Verde,CPV,2014,6.25,Africa
+Cape Verde,CPV,2015,6.25,Africa
+Cape Verde,CPV,2016,6.88,Africa
+Cape Verde,CPV,2017,6.88,Africa
+Cape Verde,CPV,2018,6.88,Africa
+Cape Verde,CPV,2019,6.88,Africa
+Cape Verde,CPV,2020,6.88,Africa
+Cape Verde,CPV,2021,6.88,Africa
+Cape Verde,CPV,2022,6.88,Africa
+Cape Verde,CPV,2023,6.88,Africa
+Cape Verde,CPV,2024,6.88,Africa
+Central African Republic,CAF,2006,1.88,Africa
+Central African Republic,CAF,2008,1.88,Africa
+Central African Republic,CAF,2010,2.5,Africa
+Central African Republic,CAF,2011,2.5,Africa
+Central African Republic,CAF,2012,2.5,Africa
+Central African Republic,CAF,2013,2.5,Africa
+Central African Republic,CAF,2014,2.5,Africa
+Central African Republic,CAF,2015,2.5,Africa
+Central African Republic,CAF,2016,2.5,Africa
+Central African Republic,CAF,2017,1.88,Africa
+Central African Republic,CAF,2018,1.88,Africa
+Central African Republic,CAF,2019,1.88,Africa
+Central African Republic,CAF,2020,1.88,Africa
+Central African Republic,CAF,2021,1.88,Africa
+Central African Republic,CAF,2022,1.88,Africa
+Central African Republic,CAF,2023,1.88,Africa
+Central African Republic,CAF,2024,1.88,Africa
+Chad,TCD,2006,5,Africa
+Chad,TCD,2008,4.38,Africa
+Chad,TCD,2010,4.38,Africa
+Chad,TCD,2011,3.75,Africa
+Chad,TCD,2012,3.75,Africa
+Chad,TCD,2013,3.75,Africa
+Chad,TCD,2014,3.75,Africa
+Chad,TCD,2015,3.75,Africa
+Chad,TCD,2016,3.75,Africa
+Chad,TCD,2017,3.75,Africa
+Chad,TCD,2018,3.75,Africa
+Chad,TCD,2019,3.75,Africa
+Chad,TCD,2020,3.75,Africa
+Chad,TCD,2021,3.75,Africa
+Chad,TCD,2022,3.75,Africa
+Chad,TCD,2023,3.75,Africa
+Chad,TCD,2024,3.75,Africa
+Chile,CHL,2006,6.25,South America
+Chile,CHL,2008,6.25,South America
+Chile,CHL,2010,6.88,South America
+Chile,CHL,2011,6.25,South America
+Chile,CHL,2012,6.25,South America
+Chile,CHL,2013,6.88,South America
+Chile,CHL,2014,6.88,South America
+Chile,CHL,2015,6.88,South America
+Chile,CHL,2016,6.88,South America
+Chile,CHL,2017,7.5,South America
+Chile,CHL,2018,8.13,South America
+Chile,CHL,2019,8.13,South America
+Chile,CHL,2020,8.13,South America
+Chile,CHL,2021,7.5,South America
+Chile,CHL,2022,7.5,South America
+Chile,CHL,2023,6.88,South America
+Chile,CHL,2024,5.63,South America
+China,CHN,2006,6.25,Asia
+China,CHN,2008,6.25,Asia
+China,CHN,2010,5.63,Asia
+China,CHN,2011,5.63,Asia
+China,CHN,2012,5,Asia
+China,CHN,2013,5,Asia
+China,CHN,2014,5,Asia
+China,CHN,2015,6.25,Asia
+China,CHN,2016,6.25,Asia
+China,CHN,2017,6.25,Asia
+China,CHN,2018,6.25,Asia
+China,CHN,2019,2.5,Asia
+China,CHN,2020,3.13,Asia
+China,CHN,2021,3.13,Asia
+China,CHN,2022,3.13,Asia
+China,CHN,2023,3.13,Asia
+China,CHN,2024,3.13,Asia
+Colombia,COL,2006,4.38,South America
+Colombia,COL,2008,4.38,South America
+Colombia,COL,2010,3.75,South America
+Colombia,COL,2011,3.75,South America
+Colombia,COL,2012,3.75,South America
+Colombia,COL,2013,3.75,South America
+Colombia,COL,2014,3.75,South America
+Colombia,COL,2015,4.38,South America
+Colombia,COL,2016,4.38,South America
+Colombia,COL,2017,5,South America
+Colombia,COL,2018,5.63,South America
+Colombia,COL,2019,5.63,South America
+Colombia,COL,2020,5,South America
+Colombia,COL,2021,3.75,South America
+Colombia,COL,2022,3.75,South America
+Colombia,COL,2023,3.75,South America
+Colombia,COL,2024,3.13,South America
+Comoros,COM,2006,5.63,Africa
+Comoros,COM,2008,5,Africa
+Comoros,COM,2010,3.75,Africa
+Comoros,COM,2011,3.75,Africa
+Comoros,COM,2012,3.75,Africa
+Comoros,COM,2013,3.75,Africa
+Comoros,COM,2014,3.75,Africa
+Comoros,COM,2015,3.75,Africa
+Comoros,COM,2016,3.75,Africa
+Comoros,COM,2017,3.75,Africa
+Comoros,COM,2018,3.75,Africa
+Comoros,COM,2019,3.75,Africa
+Comoros,COM,2020,3.75,Africa
+Comoros,COM,2021,3.75,Africa
+Comoros,COM,2022,3.75,Africa
+Comoros,COM,2023,3.75,Africa
+Comoros,COM,2024,3.75,Africa
+Congo,COG,2006,5.63,Africa
+Congo,COG,2008,3.75,Africa
+Congo,COG,2010,3.75,Africa
+Congo,COG,2011,3.75,Africa
+Congo,COG,2012,3.75,Africa
+Congo,COG,2013,3.75,Africa
+Congo,COG,2014,3.75,Africa
+Congo,COG,2015,3.75,Africa
+Congo,COG,2016,3.75,Africa
+Congo,COG,2017,3.75,Africa
+Congo,COG,2018,3.75,Africa
+Congo,COG,2019,3.75,Africa
+Congo,COG,2020,3.75,Africa
+Congo,COG,2021,3.75,Africa
+Congo,COG,2022,3.75,Africa
+Congo,COG,2023,3.75,Africa
+Congo,COG,2024,3.75,Africa
+Costa Rica,CRI,2006,6.88,North America
+Costa Rica,CRI,2008,6.88,North America
+Costa Rica,CRI,2010,6.88,North America
+Costa Rica,CRI,2011,6.88,North America
+Costa Rica,CRI,2012,6.88,North America
+Costa Rica,CRI,2013,6.88,North America
+Costa Rica,CRI,2014,6.88,North America
+Costa Rica,CRI,2015,6.88,North America
+Costa Rica,CRI,2016,6.88,North America
+Costa Rica,CRI,2017,6.88,North America
+Costa Rica,CRI,2018,7.5,North America
+Costa Rica,CRI,2019,7.5,North America
+Costa Rica,CRI,2020,7.5,North America
+Costa Rica,CRI,2021,6.88,North America
+Costa Rica,CRI,2022,6.88,North America
+Costa Rica,CRI,2023,6.88,North America
+Costa Rica,CRI,2024,6.88,North America
+Cote d'Ivoire,CIV,2006,5.63,Africa
+Cote d'Ivoire,CIV,2008,5.63,Africa
+Cote d'Ivoire,CIV,2010,5.63,Africa
+Cote d'Ivoire,CIV,2011,5.63,Africa
+Cote d'Ivoire,CIV,2012,5.63,Africa
+Cote d'Ivoire,CIV,2013,5.63,Africa
+Cote d'Ivoire,CIV,2014,5.63,Africa
+Cote d'Ivoire,CIV,2015,5.63,Africa
+Cote d'Ivoire,CIV,2016,5.63,Africa
+Cote d'Ivoire,CIV,2017,5.63,Africa
+Cote d'Ivoire,CIV,2018,5.63,Africa
+Cote d'Ivoire,CIV,2019,5.63,Africa
+Cote d'Ivoire,CIV,2020,5.63,Africa
+Cote d'Ivoire,CIV,2021,5.63,Africa
+Cote d'Ivoire,CIV,2022,5.63,Africa
+Cote d'Ivoire,CIV,2023,5.63,Africa
+Cote d'Ivoire,CIV,2024,5.63,Africa
+Croatia,HRV,2006,5.63,Europe
+Croatia,HRV,2008,5.63,Europe
+Croatia,HRV,2010,5,Europe
+Croatia,HRV,2011,5,Europe
+Croatia,HRV,2012,5.63,Europe
+Croatia,HRV,2013,5.63,Europe
+Croatia,HRV,2014,5.63,Europe
+Croatia,HRV,2015,5.63,Europe
+Croatia,HRV,2016,5,Europe
+Croatia,HRV,2017,5,Europe
+Croatia,HRV,2018,5,Europe
+Croatia,HRV,2019,5,Europe
+Croatia,HRV,2020,4.38,Europe
+Croatia,HRV,2021,4.38,Europe
+Croatia,HRV,2022,4.38,Europe
+Croatia,HRV,2023,4.38,Europe
+Croatia,HRV,2024,4.38,Europe
+Cuba,CUB,2006,4.38,North America
+Cuba,CUB,2008,4.38,North America
+Cuba,CUB,2010,4.38,North America
+Cuba,CUB,2011,4.38,North America
+Cuba,CUB,2012,4.38,North America
+Cuba,CUB,2013,4.38,North America
+Cuba,CUB,2014,4.38,North America
+Cuba,CUB,2015,4.38,North America
+Cuba,CUB,2016,4.38,North America
+Cuba,CUB,2017,4.38,North America
+Cuba,CUB,2018,4.38,North America
+Cuba,CUB,2019,4.38,North America
+Cuba,CUB,2020,4.38,North America
+Cuba,CUB,2021,3.75,North America
+Cuba,CUB,2022,3.75,North America
+Cuba,CUB,2023,3.75,North America
+Cuba,CUB,2024,3.75,North America
+Cyprus,CYP,2006,6.25,Europe
+Cyprus,CYP,2008,7.5,Europe
+Cyprus,CYP,2010,5.63,Europe
+Cyprus,CYP,2011,5.63,Europe
+Cyprus,CYP,2012,5.63,Europe
+Cyprus,CYP,2013,5.63,Europe
+Cyprus,CYP,2014,5.63,Europe
+Cyprus,CYP,2015,6.25,Europe
+Cyprus,CYP,2016,6.88,Europe
+Cyprus,CYP,2017,6.88,Europe
+Cyprus,CYP,2018,6.88,Europe
+Cyprus,CYP,2019,6.88,Europe
+Cyprus,CYP,2020,7.5,Europe
+Cyprus,CYP,2021,6.88,Europe
+Cyprus,CYP,2022,6.88,Europe
+Cyprus,CYP,2023,6.88,Europe
+Cyprus,CYP,2024,6.88,Europe
+Czechia,CZE,2006,8.13,Europe
+Czechia,CZE,2008,8.13,Europe
+Czechia,CZE,2010,8.13,Europe
+Czechia,CZE,2011,8.13,Europe
+Czechia,CZE,2012,8.13,Europe
+Czechia,CZE,2013,7.5,Europe
+Czechia,CZE,2014,6.88,Europe
+Czechia,CZE,2015,6.88,Europe
+Czechia,CZE,2016,6.88,Europe
+Czechia,CZE,2017,6.88,Europe
+Czechia,CZE,2018,6.88,Europe
+Czechia,CZE,2019,6.88,Europe
+Czechia,CZE,2020,7.5,Europe
+Czechia,CZE,2021,7.5,Europe
+Czechia,CZE,2022,7.5,Europe
+Czechia,CZE,2023,7.5,Europe
+Czechia,CZE,2024,7.5,Europe
+Democratic Republic of Congo,COD,2006,3.75,Africa
+Democratic Republic of Congo,COD,2008,3.13,Africa
+Democratic Republic of Congo,COD,2010,3.13,Africa
+Democratic Republic of Congo,COD,2011,3.13,Africa
+Democratic Republic of Congo,COD,2012,3.13,Africa
+Democratic Republic of Congo,COD,2013,3.13,Africa
+Democratic Republic of Congo,COD,2014,3.13,Africa
+Democratic Republic of Congo,COD,2015,4.38,Africa
+Democratic Republic of Congo,COD,2016,4.38,Africa
+Democratic Republic of Congo,COD,2017,3.75,Africa
+Democratic Republic of Congo,COD,2018,3.13,Africa
+Democratic Republic of Congo,COD,2019,3.13,Africa
+Democratic Republic of Congo,COD,2020,3.13,Africa
+Democratic Republic of Congo,COD,2021,3.13,Africa
+Democratic Republic of Congo,COD,2022,3.13,Africa
+Democratic Republic of Congo,COD,2023,3.13,Africa
+Democratic Republic of Congo,COD,2024,3.13,Africa
+Denmark,DNK,2006,9.38,Europe
+Denmark,DNK,2008,9.38,Europe
+Denmark,DNK,2010,9.38,Europe
+Denmark,DNK,2011,9.38,Europe
+Denmark,DNK,2012,9.38,Europe
+Denmark,DNK,2013,9.38,Europe
+Denmark,DNK,2014,9.38,Europe
+Denmark,DNK,2015,9.38,Europe
+Denmark,DNK,2016,9.38,Europe
+Denmark,DNK,2017,9.38,Europe
+Denmark,DNK,2018,9.38,Europe
+Denmark,DNK,2019,9.38,Europe
+Denmark,DNK,2020,9.38,Europe
+Denmark,DNK,2021,9.38,Europe
+Denmark,DNK,2022,9.38,Europe
+Denmark,DNK,2023,9.38,Europe
+Denmark,DNK,2024,9.38,Europe
+Djibouti,DJI,2006,5,Africa
+Djibouti,DJI,2008,5,Africa
+Djibouti,DJI,2010,5,Africa
+Djibouti,DJI,2011,5.63,Africa
+Djibouti,DJI,2012,5.63,Africa
+Djibouti,DJI,2013,5.63,Africa
+Djibouti,DJI,2014,5.63,Africa
+Djibouti,DJI,2015,5.63,Africa
+Djibouti,DJI,2016,5.63,Africa
+Djibouti,DJI,2017,5.63,Africa
+Djibouti,DJI,2018,5.63,Africa
+Djibouti,DJI,2019,5.63,Africa
+Djibouti,DJI,2020,5.63,Africa
+Djibouti,DJI,2021,5.63,Africa
+Djibouti,DJI,2022,5.63,Africa
+Djibouti,DJI,2023,5.63,Africa
+Djibouti,DJI,2024,5.63,Africa
+Dominican Republic,DOM,2006,5.63,North America
+Dominican Republic,DOM,2008,5.63,North America
+Dominican Republic,DOM,2010,6.25,North America
+Dominican Republic,DOM,2011,6.25,North America
+Dominican Republic,DOM,2012,6.25,North America
+Dominican Republic,DOM,2013,6.25,North America
+Dominican Republic,DOM,2014,6.25,North America
+Dominican Republic,DOM,2015,6.25,North America
+Dominican Republic,DOM,2016,6.25,North America
+Dominican Republic,DOM,2017,5.63,North America
+Dominican Republic,DOM,2018,5,North America
+Dominican Republic,DOM,2019,5,North America
+Dominican Republic,DOM,2020,5,North America
+Dominican Republic,DOM,2021,4.38,North America
+Dominican Republic,DOM,2022,3.13,North America
+Dominican Republic,DOM,2023,3.13,North America
+Dominican Republic,DOM,2024,4.38,North America
+East Timor,TLS,2006,6.25,Asia
+East Timor,TLS,2008,6.88,Asia
+East Timor,TLS,2010,6.88,Asia
+East Timor,TLS,2011,6.88,Asia
+East Timor,TLS,2012,6.88,Asia
+East Timor,TLS,2013,6.88,Asia
+East Timor,TLS,2014,6.88,Asia
+East Timor,TLS,2015,6.88,Asia
+East Timor,TLS,2016,6.88,Asia
+East Timor,TLS,2017,6.88,Asia
+East Timor,TLS,2018,6.88,Asia
+East Timor,TLS,2019,6.88,Asia
+East Timor,TLS,2020,6.88,Asia
+East Timor,TLS,2021,6.88,Asia
+East Timor,TLS,2022,6.88,Asia
+East Timor,TLS,2023,6.88,Asia
+East Timor,TLS,2024,6.88,Asia
+Ecuador,ECU,2006,3.13,South America
+Ecuador,ECU,2008,3.13,South America
+Ecuador,ECU,2010,3.75,South America
+Ecuador,ECU,2011,3.75,South America
+Ecuador,ECU,2012,4.38,South America
+Ecuador,ECU,2013,4.38,South America
+Ecuador,ECU,2014,4.38,South America
+Ecuador,ECU,2015,4.38,South America
+Ecuador,ECU,2016,4.38,South America
+Ecuador,ECU,2017,4.38,South America
+Ecuador,ECU,2018,4.38,South America
+Ecuador,ECU,2019,4.38,South America
+Ecuador,ECU,2020,3.75,South America
+Ecuador,ECU,2021,2.5,South America
+Ecuador,ECU,2022,1.88,South America
+Ecuador,ECU,2023,1.88,South America
+Ecuador,ECU,2024,1.88,South America
+Egypt,EGY,2006,6.88,Africa
+Egypt,EGY,2008,5,Africa
+Egypt,EGY,2010,5,Africa
+Egypt,EGY,2011,5.63,Africa
+Egypt,EGY,2012,5.63,Africa
+Egypt,EGY,2013,3.75,Africa
+Egypt,EGY,2014,3.13,Africa
+Egypt,EGY,2015,3.75,Africa
+Egypt,EGY,2016,3.75,Africa
+Egypt,EGY,2017,3.75,Africa
+Egypt,EGY,2018,3.75,Africa
+Egypt,EGY,2019,3.75,Africa
+Egypt,EGY,2020,5,Africa
+Egypt,EGY,2021,5,Africa
+Egypt,EGY,2022,5,Africa
+Egypt,EGY,2023,5,Africa
+Egypt,EGY,2024,5,Africa
+El Salvador,SLV,2006,4.38,North America
+El Salvador,SLV,2008,5,North America
+El Salvador,SLV,2010,5,North America
+El Salvador,SLV,2011,5,North America
+El Salvador,SLV,2012,5,North America
+El Salvador,SLV,2013,5,North America
+El Salvador,SLV,2014,5,North America
+El Salvador,SLV,2015,5,North America
+El Salvador,SLV,2016,5,North America
+El Salvador,SLV,2017,5,North America
+El Salvador,SLV,2018,3.75,North America
+El Salvador,SLV,2019,3.75,North America
+El Salvador,SLV,2020,3.75,North America
+El Salvador,SLV,2021,3.75,North America
+El Salvador,SLV,2022,3.13,North America
+El Salvador,SLV,2023,3.13,North America
+El Salvador,SLV,2024,3.13,North America
+Equatorial Guinea,GNQ,2006,5,Africa
+Equatorial Guinea,GNQ,2008,4.38,Africa
+Equatorial Guinea,GNQ,2010,5,Africa
+Equatorial Guinea,GNQ,2011,4.38,Africa
+Equatorial Guinea,GNQ,2012,4.38,Africa
+Equatorial Guinea,GNQ,2013,4.38,Africa
+Equatorial Guinea,GNQ,2014,4.38,Africa
+Equatorial Guinea,GNQ,2015,4.38,Africa
+Equatorial Guinea,GNQ,2016,4.38,Africa
+Equatorial Guinea,GNQ,2017,4.38,Africa
+Equatorial Guinea,GNQ,2018,4.38,Africa
+Equatorial Guinea,GNQ,2019,4.38,Africa
+Equatorial Guinea,GNQ,2020,4.38,Africa
+Equatorial Guinea,GNQ,2021,4.38,Africa
+Equatorial Guinea,GNQ,2022,4.38,Africa
+Equatorial Guinea,GNQ,2023,4.38,Africa
+Equatorial Guinea,GNQ,2024,4.38,Africa
+Eritrea,ERI,2006,6.25,Africa
+Eritrea,ERI,2008,6.25,Africa
+Eritrea,ERI,2010,6.25,Africa
+Eritrea,ERI,2011,6.25,Africa
+Eritrea,ERI,2012,6.88,Africa
+Eritrea,ERI,2013,6.88,Africa
+Eritrea,ERI,2014,6.88,Africa
+Eritrea,ERI,2015,6.88,Africa
+Eritrea,ERI,2016,6.88,Africa
+Eritrea,ERI,2017,6.88,Africa
+Eritrea,ERI,2018,6.88,Africa
+Eritrea,ERI,2019,6.88,Africa
+Eritrea,ERI,2020,6.88,Africa
+Eritrea,ERI,2021,6.88,Africa
+Eritrea,ERI,2022,6.88,Africa
+Eritrea,ERI,2023,6.88,Africa
+Eritrea,ERI,2024,6.88,Africa
+Estonia,EST,2006,7.5,Europe
+Estonia,EST,2008,7.5,Europe
+Estonia,EST,2010,7.5,Europe
+Estonia,EST,2011,7.5,Europe
+Estonia,EST,2012,7.5,Europe
+Estonia,EST,2013,7.5,Europe
+Estonia,EST,2014,6.88,Europe
+Estonia,EST,2015,6.88,Europe
+Estonia,EST,2016,6.88,Europe
+Estonia,EST,2017,6.88,Europe
+Estonia,EST,2018,6.88,Europe
+Estonia,EST,2019,6.88,Europe
+Estonia,EST,2020,6.88,Europe
+Estonia,EST,2021,6.88,Europe
+Estonia,EST,2022,6.88,Europe
+Estonia,EST,2023,6.88,Europe
+Estonia,EST,2024,6.88,Europe
+Eswatini,SWZ,2006,3.13,Africa
+Eswatini,SWZ,2008,4.38,Africa
+Eswatini,SWZ,2010,4.38,Africa
+Eswatini,SWZ,2011,5.63,Africa
+Eswatini,SWZ,2012,5.63,Africa
+Eswatini,SWZ,2013,5.63,Africa
+Eswatini,SWZ,2014,5.63,Africa
+Eswatini,SWZ,2015,5.63,Africa
+Eswatini,SWZ,2016,5.63,Africa
+Eswatini,SWZ,2017,5.63,Africa
+Eswatini,SWZ,2018,5.63,Africa
+Eswatini,SWZ,2019,5.63,Africa
+Eswatini,SWZ,2020,5.63,Africa
+Eswatini,SWZ,2021,5.63,Africa
+Eswatini,SWZ,2022,5.63,Africa
+Eswatini,SWZ,2023,5.63,Africa
+Eswatini,SWZ,2024,5.63,Africa
+Ethiopia,ETH,2006,6.25,Africa
+Ethiopia,ETH,2008,6.25,Africa
+Ethiopia,ETH,2010,5.63,Africa
+Ethiopia,ETH,2011,5.63,Africa
+Ethiopia,ETH,2012,5.63,Africa
+Ethiopia,ETH,2013,5.63,Africa
+Ethiopia,ETH,2014,5.63,Africa
+Ethiopia,ETH,2015,5.63,Africa
+Ethiopia,ETH,2016,5.63,Africa
+Ethiopia,ETH,2017,5.63,Africa
+Ethiopia,ETH,2018,5,Africa
+Ethiopia,ETH,2019,5,Africa
+Ethiopia,ETH,2020,5,Africa
+Ethiopia,ETH,2021,5,Africa
+Ethiopia,ETH,2022,5,Africa
+Ethiopia,ETH,2023,5.63,Africa
+Ethiopia,ETH,2024,5.63,Africa
+Europe,OWID_EUR,2006,7.00225,
+Europe,OWID_EUR,2008,7.127,
+Europe,OWID_EUR,2010,6.7215,
+Europe,OWID_EUR,2011,6.6905003,
+Europe,OWID_EUR,2012,6.737,
+Europe,OWID_EUR,2013,6.73675,
+Europe,OWID_EUR,2014,6.768,
+Europe,OWID_EUR,2015,6.78375,
+Europe,OWID_EUR,2016,6.73675,
+Europe,OWID_EUR,2017,6.7215,
+Europe,OWID_EUR,2018,6.6745,
+Europe,OWID_EUR,2019,6.68975,
+Europe,OWID_EUR,2020,6.64325,
+Europe,OWID_EUR,2021,6.56525,
+Europe,OWID_EUR,2022,6.6745,
+Europe,OWID_EUR,2023,6.659,
+Europe,OWID_EUR,2024,6.72125,
+Europe (population-weighted),,2006,6.7445107,
+Europe (population-weighted),,2008,6.874045,
+Europe (population-weighted),,2010,6.2676272,
+Europe (population-weighted),,2011,6.2264113,
+Europe (population-weighted),,2012,6.176648,
+Europe (population-weighted),,2013,6.1722846,
+Europe (population-weighted),,2014,6.2277727,
+Europe (population-weighted),,2015,6.215943,
+Europe (population-weighted),,2016,6.1384134,
+Europe (population-weighted),,2017,6.0558276,
+Europe (population-weighted),,2018,5.950071,
+Europe (population-weighted),,2019,6.012662,
+Europe (population-weighted),,2020,6.2767406,
+Europe (population-weighted),,2021,6.2351475,
+Europe (population-weighted),,2022,6.4163895,
+Europe (population-weighted),,2023,6.3631277,
+Europe (population-weighted),,2024,6.3544335,
+Fiji,FJI,2006,5,Oceania
+Fiji,FJI,2008,5,Oceania
+Fiji,FJI,2010,5,Oceania
+Fiji,FJI,2011,5,Oceania
+Fiji,FJI,2012,5,Oceania
+Fiji,FJI,2013,5,Oceania
+Fiji,FJI,2014,5.63,Oceania
+Fiji,FJI,2015,5.63,Oceania
+Fiji,FJI,2016,5.63,Oceania
+Fiji,FJI,2017,5.63,Oceania
+Fiji,FJI,2018,5.63,Oceania
+Fiji,FJI,2019,5.63,Oceania
+Fiji,FJI,2020,5.63,Oceania
+Fiji,FJI,2021,5.63,Oceania
+Fiji,FJI,2022,5.63,Oceania
+Fiji,FJI,2023,5.63,Oceania
+Fiji,FJI,2024,5.63,Oceania
+Finland,FIN,2006,8.75,Europe
+Finland,FIN,2008,8.75,Europe
+Finland,FIN,2010,9.38,Europe
+Finland,FIN,2011,8.75,Europe
+Finland,FIN,2012,8.75,Europe
+Finland,FIN,2013,8.75,Europe
+Finland,FIN,2014,8.75,Europe
+Finland,FIN,2015,8.75,Europe
+Finland,FIN,2016,8.75,Europe
+Finland,FIN,2017,8.75,Europe
+Finland,FIN,2018,8.75,Europe
+Finland,FIN,2019,8.75,Europe
+Finland,FIN,2020,8.75,Europe
+Finland,FIN,2021,8.75,Europe
+Finland,FIN,2022,8.75,Europe
+Finland,FIN,2023,9.38,Europe
+Finland,FIN,2024,9.38,Europe
+France,FRA,2006,7.5,Europe
+France,FRA,2008,7.5,Europe
+France,FRA,2010,7.5,Europe
+France,FRA,2011,7.5,Europe
+France,FRA,2012,7.5,Europe
+France,FRA,2013,7.5,Europe
+France,FRA,2014,6.88,Europe
+France,FRA,2015,6.25,Europe
+France,FRA,2016,6.25,Europe
+France,FRA,2017,5.63,Europe
+France,FRA,2018,5.63,Europe
+France,FRA,2019,6.88,Europe
+France,FRA,2020,6.88,Europe
+France,FRA,2021,6.88,Europe
+France,FRA,2022,6.88,Europe
+France,FRA,2023,6.88,Europe
+France,FRA,2024,6.88,Europe
+Gabon,GAB,2006,5.63,Africa
+Gabon,GAB,2008,4.38,Africa
+Gabon,GAB,2010,4.38,Africa
+Gabon,GAB,2011,5,Africa
+Gabon,GAB,2012,5,Africa
+Gabon,GAB,2013,5,Africa
+Gabon,GAB,2014,5,Africa
+Gabon,GAB,2015,5,Africa
+Gabon,GAB,2016,5.63,Africa
+Gabon,GAB,2017,5,Africa
+Gabon,GAB,2018,5,Africa
+Gabon,GAB,2019,5,Africa
+Gabon,GAB,2020,5,Africa
+Gabon,GAB,2021,5,Africa
+Gabon,GAB,2022,5,Africa
+Gabon,GAB,2023,3.75,Africa
+Gabon,GAB,2024,3.75,Africa
+Gambia,GMB,2006,5.63,Africa
+Gambia,GMB,2008,5.63,Africa
+Gambia,GMB,2010,5,Africa
+Gambia,GMB,2011,5,Africa
+Gambia,GMB,2012,5,Africa
+Gambia,GMB,2013,5,Africa
+Gambia,GMB,2014,5,Africa
+Gambia,GMB,2015,5,Africa
+Gambia,GMB,2016,5,Africa
+Gambia,GMB,2017,5.63,Africa
+Gambia,GMB,2018,5.63,Africa
+Gambia,GMB,2019,5.63,Africa
+Gambia,GMB,2020,5.63,Africa
+Gambia,GMB,2021,5.63,Africa
+Gambia,GMB,2022,5.63,Africa
+Gambia,GMB,2023,5.63,Africa
+Gambia,GMB,2024,5.63,Africa
+Georgia,GEO,2006,5,Asia
+Georgia,GEO,2008,4.38,Asia
+Georgia,GEO,2010,3.75,Asia
+Georgia,GEO,2011,4.38,Asia
+Georgia,GEO,2012,5,Asia
+Georgia,GEO,2013,5,Asia
+Georgia,GEO,2014,4.38,Asia
+Georgia,GEO,2015,5,Asia
+Georgia,GEO,2016,5,Asia
+Georgia,GEO,2017,5,Asia
+Georgia,GEO,2018,4.38,Asia
+Georgia,GEO,2019,4.38,Asia
+Georgia,GEO,2020,3.75,Asia
+Georgia,GEO,2021,3.75,Asia
+Georgia,GEO,2022,3.75,Asia
+Georgia,GEO,2023,3.75,Asia
+Georgia,GEO,2024,3.75,Asia
+Germany,DEU,2006,8.75,Europe
+Germany,DEU,2008,8.75,Europe
+Germany,DEU,2010,8.13,Europe
+Germany,DEU,2011,8.13,Europe
+Germany,DEU,2012,8.13,Europe
+Germany,DEU,2013,8.13,Europe
+Germany,DEU,2014,8.13,Europe
+Germany,DEU,2015,8.13,Europe
+Germany,DEU,2016,7.5,Europe
+Germany,DEU,2017,7.5,Europe
+Germany,DEU,2018,7.5,Europe
+Germany,DEU,2019,7.5,Europe
+Germany,DEU,2020,8.13,Europe
+Germany,DEU,2021,8.13,Europe
+Germany,DEU,2022,8.13,Europe
+Germany,DEU,2023,8.13,Europe
+Germany,DEU,2024,8.13,Europe
+Ghana,GHA,2006,4.38,Africa
+Ghana,GHA,2008,4.38,Africa
+Ghana,GHA,2010,5,Africa
+Ghana,GHA,2011,5,Africa
+Ghana,GHA,2012,5,Africa
+Ghana,GHA,2013,5.63,Africa
+Ghana,GHA,2014,5.63,Africa
+Ghana,GHA,2015,6.25,Africa
+Ghana,GHA,2016,6.25,Africa
+Ghana,GHA,2017,6.25,Africa
+Ghana,GHA,2018,6.25,Africa
+Ghana,GHA,2019,6.25,Africa
+Ghana,GHA,2020,6.25,Africa
+Ghana,GHA,2021,6.25,Africa
+Ghana,GHA,2022,6.25,Africa
+Ghana,GHA,2023,5.63,Africa
+Ghana,GHA,2024,6.25,Africa
+Greece,GRC,2006,7.5,Europe
+Greece,GRC,2008,7.5,Europe
+Greece,GRC,2010,7.5,Europe
+Greece,GRC,2011,6.88,Europe
+Greece,GRC,2012,6.88,Europe
+Greece,GRC,2013,6.88,Europe
+Greece,GRC,2014,6.25,Europe
+Greece,GRC,2015,6.25,Europe
+Greece,GRC,2016,6.25,Europe
+Greece,GRC,2017,6.88,Europe
+Greece,GRC,2018,6.88,Europe
+Greece,GRC,2019,7.5,Europe
+Greece,GRC,2020,7.5,Europe
+Greece,GRC,2021,7.5,Europe
+Greece,GRC,2022,7.5,Europe
+Greece,GRC,2023,7.5,Europe
+Greece,GRC,2024,7.5,Europe
+Guatemala,GTM,2006,4.38,North America
+Guatemala,GTM,2008,4.38,North America
+Guatemala,GTM,2010,4.38,North America
+Guatemala,GTM,2011,4.38,North America
+Guatemala,GTM,2012,4.38,North America
+Guatemala,GTM,2013,4.38,North America
+Guatemala,GTM,2014,4.38,North America
+Guatemala,GTM,2015,4.38,North America
+Guatemala,GTM,2016,4.38,North America
+Guatemala,GTM,2017,5,North America
+Guatemala,GTM,2018,4.38,North America
+Guatemala,GTM,2019,4.38,North America
+Guatemala,GTM,2020,3.13,North America
+Guatemala,GTM,2021,2.5,North America
+Guatemala,GTM,2022,2.5,North America
+Guatemala,GTM,2023,1.88,North America
+Guatemala,GTM,2024,1.88,North America
+Guinea,GIN,2006,3.75,Africa
+Guinea,GIN,2008,3.75,Africa
+Guinea,GIN,2010,3.75,Africa
+Guinea,GIN,2011,3.75,Africa
+Guinea,GIN,2012,3.75,Africa
+Guinea,GIN,2013,3.75,Africa
+Guinea,GIN,2014,3.75,Africa
+Guinea,GIN,2015,4.38,Africa
+Guinea,GIN,2016,4.38,Africa
+Guinea,GIN,2017,4.38,Africa
+Guinea,GIN,2018,4.38,Africa
+Guinea,GIN,2019,4.38,Africa
+Guinea,GIN,2020,4.38,Africa
+Guinea,GIN,2021,3.75,Africa
+Guinea,GIN,2022,4.38,Africa
+Guinea,GIN,2023,4.38,Africa
+Guinea,GIN,2024,4.38,Africa
+Guinea-Bissau,GNB,2006,1.88,Africa
+Guinea-Bissau,GNB,2008,1.88,Africa
+Guinea-Bissau,GNB,2010,1.88,Africa
+Guinea-Bissau,GNB,2011,1.88,Africa
+Guinea-Bissau,GNB,2012,1.88,Africa
+Guinea-Bissau,GNB,2013,1.88,Africa
+Guinea-Bissau,GNB,2014,3.13,Africa
+Guinea-Bissau,GNB,2015,3.13,Africa
+Guinea-Bissau,GNB,2016,3.13,Africa
+Guinea-Bissau,GNB,2017,3.13,Africa
+Guinea-Bissau,GNB,2018,3.13,Africa
+Guinea-Bissau,GNB,2019,3.13,Africa
+Guinea-Bissau,GNB,2020,3.13,Africa
+Guinea-Bissau,GNB,2021,3.13,Africa
+Guinea-Bissau,GNB,2022,3.13,Africa
+Guinea-Bissau,GNB,2023,3.13,Africa
+Guinea-Bissau,GNB,2024,3.13,Africa
+Guyana,GUY,2006,4.38,South America
+Guyana,GUY,2008,4.38,South America
+Guyana,GUY,2010,4.38,South America
+Guyana,GUY,2011,4.38,South America
+Guyana,GUY,2012,4.38,South America
+Guyana,GUY,2013,4.38,South America
+Guyana,GUY,2014,4.38,South America
+Guyana,GUY,2015,4.38,South America
+Guyana,GUY,2016,4.38,South America
+Guyana,GUY,2017,4.38,South America
+Guyana,GUY,2018,5,South America
+Guyana,GUY,2019,5,South America
+Guyana,GUY,2020,5,South America
+Guyana,GUY,2021,5.63,South America
+Guyana,GUY,2022,5,South America
+Guyana,GUY,2023,5,South America
+Guyana,GUY,2024,5,South America
+Haiti,HTI,2006,2.5,North America
+Haiti,HTI,2008,2.5,North America
+Haiti,HTI,2010,3.75,North America
+Haiti,HTI,2011,3.75,North America
+Haiti,HTI,2012,3.75,North America
+Haiti,HTI,2013,3.75,North America
+Haiti,HTI,2014,3.13,North America
+Haiti,HTI,2015,3.75,North America
+Haiti,HTI,2016,3.75,North America
+Haiti,HTI,2017,4.38,North America
+Haiti,HTI,2018,6.25,North America
+Haiti,HTI,2019,6.25,North America
+Haiti,HTI,2020,6.25,North America
+Haiti,HTI,2021,6.25,North America
+Haiti,HTI,2022,6.25,North America
+Haiti,HTI,2023,6.25,North America
+Haiti,HTI,2024,5.63,North America
+Honduras,HND,2006,5,North America
+Honduras,HND,2008,5,North America
+Honduras,HND,2010,4.38,North America
+Honduras,HND,2011,4.38,North America
+Honduras,HND,2012,4.38,North America
+Honduras,HND,2013,4.38,North America
+Honduras,HND,2014,4.38,North America
+Honduras,HND,2015,4.38,North America
+Honduras,HND,2016,4.38,North America
+Honduras,HND,2017,4.38,North America
+Honduras,HND,2018,4.38,North America
+Honduras,HND,2019,4.38,North America
+Honduras,HND,2020,4.38,North America
+Honduras,HND,2021,2.5,North America
+Honduras,HND,2022,2.5,North America
+Honduras,HND,2023,2.5,North America
+Honduras,HND,2024,2.5,North America
+Hong Kong,HKG,2006,6.25,Asia
+Hong Kong,HKG,2008,5.63,Asia
+Hong Kong,HKG,2010,6.88,Asia
+Hong Kong,HKG,2011,6.88,Asia
+Hong Kong,HKG,2012,6.88,Asia
+Hong Kong,HKG,2013,6.88,Asia
+Hong Kong,HKG,2014,6.88,Asia
+Hong Kong,HKG,2015,7.5,Asia
+Hong Kong,HKG,2016,7.5,Asia
+Hong Kong,HKG,2017,7.5,Asia
+Hong Kong,HKG,2018,7.5,Asia
+Hong Kong,HKG,2019,7.5,Asia
+Hong Kong,HKG,2020,7.5,Asia
+Hong Kong,HKG,2021,7.5,Asia
+Hong Kong,HKG,2022,6.88,Asia
+Hong Kong,HKG,2023,6.88,Asia
+Hong Kong,HKG,2024,6.88,Asia
+Hungary,HUN,2006,6.88,Europe
+Hungary,HUN,2008,6.88,Europe
+Hungary,HUN,2010,6.88,Europe
+Hungary,HUN,2011,6.88,Europe
+Hungary,HUN,2012,6.88,Europe
+Hungary,HUN,2013,6.88,Europe
+Hungary,HUN,2014,6.88,Europe
+Hungary,HUN,2015,6.88,Europe
+Hungary,HUN,2016,6.88,Europe
+Hungary,HUN,2017,6.88,Europe
+Hungary,HUN,2018,6.25,Europe
+Hungary,HUN,2019,6.25,Europe
+Hungary,HUN,2020,6.25,Europe
+Hungary,HUN,2021,6.25,Europe
+Hungary,HUN,2022,6.88,Europe
+Hungary,HUN,2023,6.88,Europe
+Hungary,HUN,2024,6.88,Europe
+Iceland,ISL,2006,10,Europe
+Iceland,ISL,2008,10,Europe
+Iceland,ISL,2010,10,Europe
+Iceland,ISL,2011,10,Europe
+Iceland,ISL,2012,10,Europe
+Iceland,ISL,2013,10,Europe
+Iceland,ISL,2014,10,Europe
+Iceland,ISL,2015,10,Europe
+Iceland,ISL,2016,10,Europe
+Iceland,ISL,2017,10,Europe
+Iceland,ISL,2018,10,Europe
+Iceland,ISL,2019,10,Europe
+Iceland,ISL,2020,10,Europe
+Iceland,ISL,2021,9.38,Europe
+Iceland,ISL,2022,9.38,Europe
+Iceland,ISL,2023,9.38,Europe
+Iceland,ISL,2024,9.38,Europe
+India,IND,2006,5.63,Asia
+India,IND,2008,6.25,Asia
+India,IND,2010,4.38,Asia
+India,IND,2011,5,Asia
+India,IND,2012,5,Asia
+India,IND,2013,5.63,Asia
+India,IND,2014,6.25,Asia
+India,IND,2015,5.63,Asia
+India,IND,2016,5.63,Asia
+India,IND,2017,5.63,Asia
+India,IND,2018,5.63,Asia
+India,IND,2019,5.63,Asia
+India,IND,2020,5,Asia
+India,IND,2021,5,Asia
+India,IND,2022,5.63,Asia
+India,IND,2023,6.25,Asia
+India,IND,2024,6.88,Asia
+Indonesia,IDN,2006,6.25,Asia
+Indonesia,IDN,2008,6.25,Asia
+Indonesia,IDN,2010,5.63,Asia
+Indonesia,IDN,2011,5.63,Asia
+Indonesia,IDN,2012,5.63,Asia
+Indonesia,IDN,2013,6.25,Asia
+Indonesia,IDN,2014,6.25,Asia
+Indonesia,IDN,2015,6.25,Asia
+Indonesia,IDN,2016,6.25,Asia
+Indonesia,IDN,2017,5.63,Asia
+Indonesia,IDN,2018,5.63,Asia
+Indonesia,IDN,2019,5.63,Asia
+Indonesia,IDN,2020,4.38,Asia
+Indonesia,IDN,2021,4.38,Asia
+Indonesia,IDN,2022,4.38,Asia
+Indonesia,IDN,2023,4.38,Asia
+Indonesia,IDN,2024,5,Asia
+Iran,IRN,2006,5.63,Asia
+Iran,IRN,2008,5,Asia
+Iran,IRN,2010,2.5,Asia
+Iran,IRN,2011,2.5,Asia
+Iran,IRN,2012,2.5,Asia
+Iran,IRN,2013,2.5,Asia
+Iran,IRN,2014,2.5,Asia
+Iran,IRN,2015,3.13,Asia
+Iran,IRN,2016,3.13,Asia
+Iran,IRN,2017,3.13,Asia
+Iran,IRN,2018,3.13,Asia
+Iran,IRN,2019,3.13,Asia
+Iran,IRN,2020,3.13,Asia
+Iran,IRN,2021,1.88,Asia
+Iran,IRN,2022,2.5,Asia
+Iran,IRN,2023,2.5,Asia
+Iran,IRN,2024,2.5,Asia
+Iraq,IRQ,2006,5.63,Asia
+Iraq,IRQ,2008,4.38,Asia
+Iraq,IRQ,2010,3.75,Asia
+Iraq,IRQ,2011,3.75,Asia
+Iraq,IRQ,2012,3.75,Asia
+Iraq,IRQ,2013,3.75,Asia
+Iraq,IRQ,2014,4.38,Asia
+Iraq,IRQ,2015,4.38,Asia
+Iraq,IRQ,2016,4.38,Asia
+Iraq,IRQ,2017,5,Asia
+Iraq,IRQ,2018,5,Asia
+Iraq,IRQ,2019,5,Asia
+Iraq,IRQ,2020,5,Asia
+Iraq,IRQ,2021,5,Asia
+Iraq,IRQ,2022,3.13,Asia
+Iraq,IRQ,2023,1.88,Asia
+Iraq,IRQ,2024,1.88,Asia
+Ireland,IRL,2006,8.75,Europe
+Ireland,IRL,2008,8.75,Europe
+Ireland,IRL,2010,8.75,Europe
+Ireland,IRL,2011,8.13,Europe
+Ireland,IRL,2012,8.13,Europe
+Ireland,IRL,2013,8.75,Europe
+Ireland,IRL,2014,8.75,Europe
+Ireland,IRL,2015,9.38,Europe
+Ireland,IRL,2016,10,Europe
+Ireland,IRL,2017,10,Europe
+Ireland,IRL,2018,10,Europe
+Ireland,IRL,2019,10,Europe
+Ireland,IRL,2020,9.38,Europe
+Ireland,IRL,2021,9.38,Europe
+Ireland,IRL,2022,10,Europe
+Ireland,IRL,2023,10,Europe
+Ireland,IRL,2024,10,Europe
+Israel,ISR,2006,7.5,Asia
+Israel,ISR,2008,7.5,Asia
+Israel,ISR,2010,7.5,Asia
+Israel,ISR,2011,7.5,Asia
+Israel,ISR,2012,7.5,Asia
+Israel,ISR,2013,7.5,Asia
+Israel,ISR,2014,7.5,Asia
+Israel,ISR,2015,7.5,Asia
+Israel,ISR,2016,7.5,Asia
+Israel,ISR,2017,7.5,Asia
+Israel,ISR,2018,7.5,Asia
+Israel,ISR,2019,7.5,Asia
+Israel,ISR,2020,7.5,Asia
+Israel,ISR,2021,6.88,Asia
+Israel,ISR,2022,6.88,Asia
+Israel,ISR,2023,6.88,Asia
+Israel,ISR,2024,6.88,Asia
+Italy,ITA,2006,8.13,Europe
+Italy,ITA,2008,8.13,Europe
+Italy,ITA,2010,8.13,Europe
+Italy,ITA,2011,7.5,Europe
+Italy,ITA,2012,7.5,Europe
+Italy,ITA,2013,7.5,Europe
+Italy,ITA,2014,7.5,Europe
+Italy,ITA,2015,8.13,Europe
+Italy,ITA,2016,8.13,Europe
+Italy,ITA,2017,8.13,Europe
+Italy,ITA,2018,6.88,Europe
+Italy,ITA,2019,6.25,Europe
+Italy,ITA,2020,7.5,Europe
+Italy,ITA,2021,7.5,Europe
+Italy,ITA,2022,7.5,Europe
+Italy,ITA,2023,7.5,Europe
+Italy,ITA,2024,6.88,Europe
+Jamaica,JAM,2006,6.25,North America
+Jamaica,JAM,2008,6.25,North America
+Jamaica,JAM,2010,6.25,North America
+Jamaica,JAM,2011,6.25,North America
+Jamaica,JAM,2012,6.88,North America
+Jamaica,JAM,2013,6.88,North America
+Jamaica,JAM,2014,6.88,North America
+Jamaica,JAM,2015,6.88,North America
+Jamaica,JAM,2016,6.88,North America
+Jamaica,JAM,2017,6.88,North America
+Jamaica,JAM,2018,6.25,North America
+Jamaica,JAM,2019,6.25,North America
+Jamaica,JAM,2020,6.25,North America
+Jamaica,JAM,2021,6.25,North America
+Jamaica,JAM,2022,6.25,North America
+Jamaica,JAM,2023,6.25,North America
+Jamaica,JAM,2024,5,North America
+Japan,JPN,2006,8.75,Asia
+Japan,JPN,2008,8.75,Asia
+Japan,JPN,2010,7.5,Asia
+Japan,JPN,2011,7.5,Asia
+Japan,JPN,2012,7.5,Asia
+Japan,JPN,2013,7.5,Asia
+Japan,JPN,2014,7.5,Asia
+Japan,JPN,2015,7.5,Asia
+Japan,JPN,2016,7.5,Asia
+Japan,JPN,2017,7.5,Asia
+Japan,JPN,2018,7.5,Asia
+Japan,JPN,2019,7.5,Asia
+Japan,JPN,2020,8.13,Asia
+Japan,JPN,2021,8.13,Asia
+Japan,JPN,2022,8.13,Asia
+Japan,JPN,2023,8.13,Asia
+Japan,JPN,2024,8.13,Asia
+Jordan,JOR,2006,5,Asia
+Jordan,JOR,2008,5,Asia
+Jordan,JOR,2010,3.75,Asia
+Jordan,JOR,2011,3.75,Asia
+Jordan,JOR,2012,3.75,Asia
+Jordan,JOR,2013,3.75,Asia
+Jordan,JOR,2014,3.75,Asia
+Jordan,JOR,2015,4.38,Asia
+Jordan,JOR,2016,4.38,Asia
+Jordan,JOR,2017,4.38,Asia
+Jordan,JOR,2018,4.38,Asia
+Jordan,JOR,2019,4.38,Asia
+Jordan,JOR,2020,4.38,Asia
+Jordan,JOR,2021,3.75,Asia
+Jordan,JOR,2022,3.13,Asia
+Jordan,JOR,2023,2.5,Asia
+Jordan,JOR,2024,2.5,Asia
+Kazakhstan,KAZ,2006,4.38,Asia
+Kazakhstan,KAZ,2008,4.38,Asia
+Kazakhstan,KAZ,2010,4.38,Asia
+Kazakhstan,KAZ,2011,4.38,Asia
+Kazakhstan,KAZ,2012,4.38,Asia
+Kazakhstan,KAZ,2013,4.38,Asia
+Kazakhstan,KAZ,2014,4.38,Asia
+Kazakhstan,KAZ,2015,4.38,Asia
+Kazakhstan,KAZ,2016,4.38,Asia
+Kazakhstan,KAZ,2017,4.38,Asia
+Kazakhstan,KAZ,2018,4.38,Asia
+Kazakhstan,KAZ,2019,4.38,Asia
+Kazakhstan,KAZ,2020,3.75,Asia
+Kazakhstan,KAZ,2021,3.75,Asia
+Kazakhstan,KAZ,2022,3.75,Asia
+Kazakhstan,KAZ,2023,3.75,Asia
+Kazakhstan,KAZ,2024,3.75,Asia
+Kenya,KEN,2006,6.25,Africa
+Kenya,KEN,2008,5.63,Africa
+Kenya,KEN,2010,5.63,Africa
+Kenya,KEN,2011,5.63,Africa
+Kenya,KEN,2012,5.63,Africa
+Kenya,KEN,2013,5.63,Africa
+Kenya,KEN,2014,5.63,Africa
+Kenya,KEN,2015,5.63,Africa
+Kenya,KEN,2016,5.63,Africa
+Kenya,KEN,2017,5.63,Africa
+Kenya,KEN,2018,5.63,Africa
+Kenya,KEN,2019,5.63,Africa
+Kenya,KEN,2020,5.63,Africa
+Kenya,KEN,2021,5.63,Africa
+Kenya,KEN,2022,5.63,Africa
+Kenya,KEN,2023,5.63,Africa
+Kenya,KEN,2024,5.63,Africa
+Kuwait,KWT,2006,5.63,Asia
+Kuwait,KWT,2008,5,Asia
+Kuwait,KWT,2010,4.38,Asia
+Kuwait,KWT,2011,4.38,Asia
+Kuwait,KWT,2012,4.38,Asia
+Kuwait,KWT,2013,4.38,Asia
+Kuwait,KWT,2014,4.38,Asia
+Kuwait,KWT,2015,4.38,Asia
+Kuwait,KWT,2016,4.38,Asia
+Kuwait,KWT,2017,4.38,Asia
+Kuwait,KWT,2018,4.38,Asia
+Kuwait,KWT,2019,4.38,Asia
+Kuwait,KWT,2020,4.38,Asia
+Kuwait,KWT,2021,4.38,Asia
+Kuwait,KWT,2022,4.38,Asia
+Kuwait,KWT,2023,4.38,Asia
+Kuwait,KWT,2024,3.75,Asia
+Kyrgyzstan,KGZ,2006,5,Asia
+Kyrgyzstan,KGZ,2008,4.38,Asia
+Kyrgyzstan,KGZ,2010,4.38,Asia
+Kyrgyzstan,KGZ,2011,4.38,Asia
+Kyrgyzstan,KGZ,2012,4.38,Asia
+Kyrgyzstan,KGZ,2013,4.38,Asia
+Kyrgyzstan,KGZ,2014,4.38,Asia
+Kyrgyzstan,KGZ,2015,5,Asia
+Kyrgyzstan,KGZ,2016,3.75,Asia
+Kyrgyzstan,KGZ,2017,4.38,Asia
+Kyrgyzstan,KGZ,2018,4.38,Asia
+Kyrgyzstan,KGZ,2019,3.75,Asia
+Kyrgyzstan,KGZ,2020,3.13,Asia
+Kyrgyzstan,KGZ,2021,3.13,Asia
+Kyrgyzstan,KGZ,2022,3.13,Asia
+Kyrgyzstan,KGZ,2023,3.13,Asia
+Kyrgyzstan,KGZ,2024,3.13,Asia
+Laos,LAO,2006,5,Asia
+Laos,LAO,2008,5,Asia
+Laos,LAO,2010,5,Asia
+Laos,LAO,2011,5,Asia
+Laos,LAO,2012,5,Asia
+Laos,LAO,2013,5,Asia
+Laos,LAO,2014,5,Asia
+Laos,LAO,2015,5,Asia
+Laos,LAO,2016,5,Asia
+Laos,LAO,2017,5,Asia
+Laos,LAO,2018,5,Asia
+Laos,LAO,2019,5,Asia
+Laos,LAO,2020,3.75,Asia
+Laos,LAO,2021,3.75,Asia
+Laos,LAO,2022,3.75,Asia
+Laos,LAO,2023,3.75,Asia
+Laos,LAO,2024,3.75,Asia
+Latvia,LVA,2006,5.63,Europe
+Latvia,LVA,2008,5.63,Europe
+Latvia,LVA,2010,5.63,Europe
+Latvia,LVA,2011,5.63,Europe
+Latvia,LVA,2012,5.63,Europe
+Latvia,LVA,2013,5.63,Europe
+Latvia,LVA,2014,6.88,Europe
+Latvia,LVA,2015,6.88,Europe
+Latvia,LVA,2016,6.88,Europe
+Latvia,LVA,2017,6.88,Europe
+Latvia,LVA,2018,6.88,Europe
+Latvia,LVA,2019,6.88,Europe
+Latvia,LVA,2020,5.63,Europe
+Latvia,LVA,2021,6.25,Europe
+Latvia,LVA,2022,6.25,Europe
+Latvia,LVA,2023,6.25,Europe
+Latvia,LVA,2024,6.25,Europe
+Lebanon,LBN,2006,6.25,Asia
+Lebanon,LBN,2008,5,Asia
+Lebanon,LBN,2010,5,Asia
+Lebanon,LBN,2011,5,Asia
+Lebanon,LBN,2012,5,Asia
+Lebanon,LBN,2013,5,Asia
+Lebanon,LBN,2014,5,Asia
+Lebanon,LBN,2015,4.38,Asia
+Lebanon,LBN,2016,4.38,Asia
+Lebanon,LBN,2017,5.63,Asia
+Lebanon,LBN,2018,5.63,Asia
+Lebanon,LBN,2019,5,Asia
+Lebanon,LBN,2020,5,Asia
+Lebanon,LBN,2021,3.75,Asia
+Lebanon,LBN,2022,3.13,Asia
+Lebanon,LBN,2023,3.13,Asia
+Lebanon,LBN,2024,3.13,Asia
+Lesotho,LSO,2006,6.25,Africa
+Lesotho,LSO,2008,5.63,Africa
+Lesotho,LSO,2010,3.75,Africa
+Lesotho,LSO,2011,5.63,Africa
+Lesotho,LSO,2012,5.63,Africa
+Lesotho,LSO,2013,5.63,Africa
+Lesotho,LSO,2014,5.63,Africa
+Lesotho,LSO,2015,5.63,Africa
+Lesotho,LSO,2016,5.63,Africa
+Lesotho,LSO,2017,5.63,Africa
+Lesotho,LSO,2018,5.63,Africa
+Lesotho,LSO,2019,5.63,Africa
+Lesotho,LSO,2020,5.63,Africa
+Lesotho,LSO,2021,5.63,Africa
+Lesotho,LSO,2022,5.63,Africa
+Lesotho,LSO,2023,5.63,Africa
+Lesotho,LSO,2024,5.63,Africa
+Liberia,LBR,2006,5.63,Africa
+Liberia,LBR,2008,5.63,Africa
+Liberia,LBR,2010,5,Africa
+Liberia,LBR,2011,5,Africa
+Liberia,LBR,2012,5,Africa
+Liberia,LBR,2013,5,Africa
+Liberia,LBR,2014,5,Africa
+Liberia,LBR,2015,5,Africa
+Liberia,LBR,2016,5,Africa
+Liberia,LBR,2017,5,Africa
+Liberia,LBR,2018,5.63,Africa
+Liberia,LBR,2019,5.63,Africa
+Liberia,LBR,2020,5.63,Africa
+Liberia,LBR,2021,5.63,Africa
+Liberia,LBR,2022,5.63,Africa
+Liberia,LBR,2023,5.63,Africa
+Liberia,LBR,2024,5.63,Africa
+Libya,LBY,2006,5,Africa
+Libya,LBY,2008,5,Africa
+Libya,LBY,2010,5,Africa
+Libya,LBY,2011,6.25,Africa
+Libya,LBY,2012,6.25,Africa
+Libya,LBY,2013,5.63,Africa
+Libya,LBY,2014,5.63,Africa
+Libya,LBY,2015,5.63,Africa
+Libya,LBY,2016,5.63,Africa
+Libya,LBY,2017,5.63,Africa
+Libya,LBY,2018,5,Africa
+Libya,LBY,2019,4.38,Africa
+Libya,LBY,2020,3.75,Africa
+Libya,LBY,2021,3.75,Africa
+Libya,LBY,2022,3.75,Africa
+Libya,LBY,2023,3.75,Africa
+Libya,LBY,2024,3.75,Africa
+Lithuania,LTU,2006,5.63,Europe
+Lithuania,LTU,2008,6.25,Europe
+Lithuania,LTU,2010,6.25,Europe
+Lithuania,LTU,2011,6.25,Europe
+Lithuania,LTU,2012,6.25,Europe
+Lithuania,LTU,2013,6.25,Europe
+Lithuania,LTU,2014,6.25,Europe
+Lithuania,LTU,2015,6.25,Europe
+Lithuania,LTU,2016,6.25,Europe
+Lithuania,LTU,2017,6.25,Europe
+Lithuania,LTU,2018,6.25,Europe
+Lithuania,LTU,2019,6.25,Europe
+Lithuania,LTU,2020,5.63,Europe
+Lithuania,LTU,2021,5.63,Europe
+Lithuania,LTU,2022,5.63,Europe
+Lithuania,LTU,2023,5.63,Europe
+Lithuania,LTU,2024,5.63,Europe
+Luxembourg,LUX,2006,8.75,Europe
+Luxembourg,LUX,2008,8.75,Europe
+Luxembourg,LUX,2010,8.75,Europe
+Luxembourg,LUX,2011,8.75,Europe
+Luxembourg,LUX,2012,8.75,Europe
+Luxembourg,LUX,2013,8.75,Europe
+Luxembourg,LUX,2014,8.75,Europe
+Luxembourg,LUX,2015,8.75,Europe
+Luxembourg,LUX,2016,8.75,Europe
+Luxembourg,LUX,2017,8.75,Europe
+Luxembourg,LUX,2018,8.75,Europe
+Luxembourg,LUX,2019,8.75,Europe
+Luxembourg,LUX,2020,8.75,Europe
+Luxembourg,LUX,2021,8.75,Europe
+Luxembourg,LUX,2022,8.75,Europe
+Luxembourg,LUX,2023,8.75,Europe
+Luxembourg,LUX,2024,8.75,Europe
+Madagascar,MDG,2006,6.88,Africa
+Madagascar,MDG,2008,5.63,Africa
+Madagascar,MDG,2010,6.25,Africa
+Madagascar,MDG,2011,5.63,Africa
+Madagascar,MDG,2012,5.63,Africa
+Madagascar,MDG,2013,5.63,Africa
+Madagascar,MDG,2014,5.63,Africa
+Madagascar,MDG,2015,5.63,Africa
+Madagascar,MDG,2016,5.63,Africa
+Madagascar,MDG,2017,5.63,Africa
+Madagascar,MDG,2018,5.63,Africa
+Madagascar,MDG,2019,5.63,Africa
+Madagascar,MDG,2020,5.63,Africa
+Madagascar,MDG,2021,5.63,Africa
+Madagascar,MDG,2022,5.63,Africa
+Madagascar,MDG,2023,5.63,Africa
+Madagascar,MDG,2024,5.63,Africa
+Malawi,MWI,2006,4.38,Africa
+Malawi,MWI,2008,5.63,Africa
+Malawi,MWI,2010,5.63,Africa
+Malawi,MWI,2011,5.63,Africa
+Malawi,MWI,2012,6.25,Africa
+Malawi,MWI,2013,6.25,Africa
+Malawi,MWI,2014,6.25,Africa
+Malawi,MWI,2015,6.25,Africa
+Malawi,MWI,2016,6.25,Africa
+Malawi,MWI,2017,6.25,Africa
+Malawi,MWI,2018,6.25,Africa
+Malawi,MWI,2019,6.25,Africa
+Malawi,MWI,2020,6.25,Africa
+Malawi,MWI,2021,6.25,Africa
+Malawi,MWI,2022,6.25,Africa
+Malawi,MWI,2023,6.25,Africa
+Malawi,MWI,2024,6.25,Africa
+Malaysia,MYS,2006,7.5,Asia
+Malaysia,MYS,2008,7.5,Asia
+Malaysia,MYS,2010,6.25,Asia
+Malaysia,MYS,2011,6.25,Asia
+Malaysia,MYS,2012,6.25,Asia
+Malaysia,MYS,2013,6.25,Asia
+Malaysia,MYS,2014,6.25,Asia
+Malaysia,MYS,2015,6.25,Asia
+Malaysia,MYS,2016,6.25,Asia
+Malaysia,MYS,2017,6.25,Asia
+Malaysia,MYS,2018,6.25,Asia
+Malaysia,MYS,2019,6.25,Asia
+Malaysia,MYS,2020,6.25,Asia
+Malaysia,MYS,2021,6.25,Asia
+Malaysia,MYS,2022,6.25,Asia
+Malaysia,MYS,2023,6.25,Asia
+Malaysia,MYS,2024,6.25,Asia
+Mali,MLI,2006,5.63,Africa
+Mali,MLI,2008,5.63,Africa
+Mali,MLI,2010,5.63,Africa
+Mali,MLI,2011,5.63,Africa
+Mali,MLI,2012,3.13,Africa
+Mali,MLI,2013,6.25,Africa
+Mali,MLI,2014,6.25,Africa
+Mali,MLI,2015,6.25,Africa
+Mali,MLI,2016,6.25,Africa
+Mali,MLI,2017,6.25,Africa
+Mali,MLI,2018,5.63,Africa
+Mali,MLI,2019,5.63,Africa
+Mali,MLI,2020,5.63,Africa
+Mali,MLI,2021,5.63,Africa
+Mali,MLI,2022,5.63,Africa
+Mali,MLI,2023,4.38,Africa
+Mali,MLI,2024,4.38,Africa
+Malta,MLT,2006,8.75,Europe
+Malta,MLT,2008,8.75,Europe
+Malta,MLT,2010,8.75,Europe
+Malta,MLT,2011,8.75,Europe
+Malta,MLT,2012,8.75,Europe
+Malta,MLT,2013,8.75,Europe
+Malta,MLT,2014,8.75,Europe
+Malta,MLT,2015,8.75,Europe
+Malta,MLT,2016,8.75,Europe
+Malta,MLT,2017,8.75,Europe
+Malta,MLT,2018,8.75,Europe
+Malta,MLT,2019,8.13,Europe
+Malta,MLT,2020,8.13,Europe
+Malta,MLT,2021,8.13,Europe
+Malta,MLT,2022,8.13,Europe
+Malta,MLT,2023,8.13,Europe
+Malta,MLT,2024,8.13,Europe
+Mauritania,MRT,2006,3.13,Africa
+Mauritania,MRT,2008,3.75,Africa
+Mauritania,MRT,2010,3.13,Africa
+Mauritania,MRT,2011,3.13,Africa
+Mauritania,MRT,2012,3.13,Africa
+Mauritania,MRT,2013,3.13,Africa
+Mauritania,MRT,2014,3.13,Africa
+Mauritania,MRT,2015,3.13,Africa
+Mauritania,MRT,2016,3.13,Africa
+Mauritania,MRT,2017,3.13,Africa
+Mauritania,MRT,2018,3.13,Africa
+Mauritania,MRT,2019,3.13,Africa
+Mauritania,MRT,2020,3.13,Africa
+Mauritania,MRT,2021,3.13,Africa
+Mauritania,MRT,2022,3.13,Africa
+Mauritania,MRT,2023,3.13,Africa
+Mauritania,MRT,2024,3.13,Africa
+Mauritius,MUS,2006,8.13,Africa
+Mauritius,MUS,2008,8.13,Africa
+Mauritius,MUS,2010,8.13,Africa
+Mauritius,MUS,2011,8.13,Africa
+Mauritius,MUS,2012,8.75,Africa
+Mauritius,MUS,2013,8.75,Africa
+Mauritius,MUS,2014,8.75,Africa
+Mauritius,MUS,2015,8.75,Africa
+Mauritius,MUS,2016,8.75,Africa
+Mauritius,MUS,2017,8.75,Africa
+Mauritius,MUS,2018,8.75,Africa
+Mauritius,MUS,2019,8.75,Africa
+Mauritius,MUS,2020,8.75,Africa
+Mauritius,MUS,2021,8.75,Africa
+Mauritius,MUS,2022,8.75,Africa
+Mauritius,MUS,2023,8.75,Africa
+Mauritius,MUS,2024,8.75,Africa
+Mexico,MEX,2006,5,North America
+Mexico,MEX,2008,5,North America
+Mexico,MEX,2010,5,North America
+Mexico,MEX,2011,5,North America
+Mexico,MEX,2012,5,North America
+Mexico,MEX,2013,5,North America
+Mexico,MEX,2014,5,North America
+Mexico,MEX,2015,4.38,North America
+Mexico,MEX,2016,4.38,North America
+Mexico,MEX,2017,4.38,North America
+Mexico,MEX,2018,3.13,North America
+Mexico,MEX,2019,3.13,North America
+Mexico,MEX,2020,3.13,North America
+Mexico,MEX,2021,3.13,North America
+Mexico,MEX,2022,1.88,North America
+Mexico,MEX,2023,1.88,North America
+Mexico,MEX,2024,1.88,North America
+Moldova,MDA,2006,5,Europe
+Moldova,MDA,2008,5,Europe
+Moldova,MDA,2010,3.13,Europe
+Moldova,MDA,2011,4.38,Europe
+Moldova,MDA,2012,4.38,Europe
+Moldova,MDA,2013,4.38,Europe
+Moldova,MDA,2014,4.38,Europe
+Moldova,MDA,2015,4.38,Europe
+Moldova,MDA,2016,4.38,Europe
+Moldova,MDA,2017,4.38,Europe
+Moldova,MDA,2018,4.38,Europe
+Moldova,MDA,2019,4.38,Europe
+Moldova,MDA,2020,4.38,Europe
+Moldova,MDA,2021,4.38,Europe
+Moldova,MDA,2022,4.38,Europe
+Moldova,MDA,2023,4.38,Europe
+Moldova,MDA,2024,4.38,Europe
+Mongolia,MNG,2006,5.63,Asia
+Mongolia,MNG,2008,5.63,Asia
+Mongolia,MNG,2010,5.63,Asia
+Mongolia,MNG,2011,5,Asia
+Mongolia,MNG,2012,5,Asia
+Mongolia,MNG,2013,5,Asia
+Mongolia,MNG,2014,5,Asia
+Mongolia,MNG,2015,5,Asia
+Mongolia,MNG,2016,5,Asia
+Mongolia,MNG,2017,5,Asia
+Mongolia,MNG,2018,5,Asia
+Mongolia,MNG,2019,5,Asia
+Mongolia,MNG,2020,5.63,Asia
+Mongolia,MNG,2021,5.63,Asia
+Mongolia,MNG,2022,5.63,Asia
+Mongolia,MNG,2023,5.63,Asia
+Mongolia,MNG,2024,5.63,Asia
+Montenegro,MNE,2006,5.63,Europe
+Montenegro,MNE,2008,5.63,Europe
+Montenegro,MNE,2010,5,Europe
+Montenegro,MNE,2011,4.38,Europe
+Montenegro,MNE,2012,4.38,Europe
+Montenegro,MNE,2013,4.38,Europe
+Montenegro,MNE,2014,4.38,Europe
+Montenegro,MNE,2015,4.38,Europe
+Montenegro,MNE,2016,4.38,Europe
+Montenegro,MNE,2017,4.38,Europe
+Montenegro,MNE,2018,4.38,Europe
+Montenegro,MNE,2019,4.38,Europe
+Montenegro,MNE,2020,3.13,Europe
+Montenegro,MNE,2021,3.13,Europe
+Montenegro,MNE,2022,3.75,Europe
+Montenegro,MNE,2023,3.75,Europe
+Montenegro,MNE,2024,3.75,Europe
+Morocco,MAR,2006,5.63,Africa
+Morocco,MAR,2008,5.63,Africa
+Morocco,MAR,2010,5,Africa
+Morocco,MAR,2011,4.38,Africa
+Morocco,MAR,2012,5,Africa
+Morocco,MAR,2013,5,Africa
+Morocco,MAR,2014,5,Africa
+Morocco,MAR,2015,5.63,Africa
+Morocco,MAR,2016,5.63,Africa
+Morocco,MAR,2017,5.63,Africa
+Morocco,MAR,2018,5.63,Africa
+Morocco,MAR,2019,5.63,Africa
+Morocco,MAR,2020,5.63,Africa
+Morocco,MAR,2021,5.63,Africa
+Morocco,MAR,2022,5.63,Africa
+Morocco,MAR,2023,5.63,Africa
+Morocco,MAR,2024,5.63,Africa
+Mozambique,MOZ,2006,6.88,Africa
+Mozambique,MOZ,2008,6.25,Africa
+Mozambique,MOZ,2010,5.63,Africa
+Mozambique,MOZ,2011,5.63,Africa
+Mozambique,MOZ,2012,5.63,Africa
+Mozambique,MOZ,2013,5.63,Africa
+Mozambique,MOZ,2014,5.63,Africa
+Mozambique,MOZ,2015,5.63,Africa
+Mozambique,MOZ,2016,5,Africa
+Mozambique,MOZ,2017,5,Africa
+Mozambique,MOZ,2018,5,Africa
+Mozambique,MOZ,2019,5,Africa
+Mozambique,MOZ,2020,5,Africa
+Mozambique,MOZ,2021,5,Africa
+Mozambique,MOZ,2022,5,Africa
+Mozambique,MOZ,2023,5,Africa
+Mozambique,MOZ,2024,5,Africa
+Myanmar,MMR,2006,5.63,Asia
+Myanmar,MMR,2008,5.63,Asia
+Myanmar,MMR,2010,5.63,Asia
+Myanmar,MMR,2011,5.63,Asia
+Myanmar,MMR,2012,5.63,Asia
+Myanmar,MMR,2013,5.63,Asia
+Myanmar,MMR,2014,5.63,Asia
+Myanmar,MMR,2015,6.88,Asia
+Myanmar,MMR,2016,6.88,Asia
+Myanmar,MMR,2017,5.63,Asia
+Myanmar,MMR,2018,5.63,Asia
+Myanmar,MMR,2019,5.63,Asia
+Myanmar,MMR,2020,4.38,Asia
+Myanmar,MMR,2021,3.13,Asia
+Myanmar,MMR,2022,3.13,Asia
+Myanmar,MMR,2023,3.13,Asia
+Myanmar,MMR,2024,3.13,Asia
+Namibia,NAM,2006,8.75,Africa
+Namibia,NAM,2008,6.88,Africa
+Namibia,NAM,2010,5.63,Africa
+Namibia,NAM,2011,5.63,Africa
+Namibia,NAM,2012,5.63,Africa
+Namibia,NAM,2013,5.63,Africa
+Namibia,NAM,2014,5.63,Africa
+Namibia,NAM,2015,5.63,Africa
+Namibia,NAM,2016,5.63,Africa
+Namibia,NAM,2017,5.63,Africa
+Namibia,NAM,2018,5.63,Africa
+Namibia,NAM,2019,5.63,Africa
+Namibia,NAM,2020,5.63,Africa
+Namibia,NAM,2021,5.63,Africa
+Namibia,NAM,2022,5.63,Africa
+Namibia,NAM,2023,5.63,Africa
+Namibia,NAM,2024,5,Africa
+Nepal,NPL,2006,5.63,Asia
+Nepal,NPL,2008,6.25,Asia
+Nepal,NPL,2010,5.63,Asia
+Nepal,NPL,2011,5.63,Asia
+Nepal,NPL,2012,4.38,Asia
+Nepal,NPL,2013,5.63,Asia
+Nepal,NPL,2014,5.63,Asia
+Nepal,NPL,2015,5.63,Asia
+Nepal,NPL,2016,5.63,Asia
+Nepal,NPL,2017,5.63,Asia
+Nepal,NPL,2018,5.63,Asia
+Nepal,NPL,2019,5.63,Asia
+Nepal,NPL,2020,5.63,Asia
+Nepal,NPL,2021,2.5,Asia
+Nepal,NPL,2022,2.5,Asia
+Nepal,NPL,2023,2.5,Asia
+Nepal,NPL,2024,2.5,Asia
+Netherlands,NLD,2006,10,Europe
+Netherlands,NLD,2008,10,Europe
+Netherlands,NLD,2010,8.13,Europe
+Netherlands,NLD,2011,8.13,Europe
+Netherlands,NLD,2012,8.13,Europe
+Netherlands,NLD,2013,8.13,Europe
+Netherlands,NLD,2014,8.13,Europe
+Netherlands,NLD,2015,8.13,Europe
+Netherlands,NLD,2016,8.13,Europe
+Netherlands,NLD,2017,8.13,Europe
+Netherlands,NLD,2018,8.13,Europe
+Netherlands,NLD,2019,8.75,Europe
+Netherlands,NLD,2020,8.75,Europe
+Netherlands,NLD,2021,8.75,Europe
+Netherlands,NLD,2022,8.75,Europe
+Netherlands,NLD,2023,8.75,Europe
+Netherlands,NLD,2024,8.75,Europe
+New Zealand,NZL,2006,8.13,Oceania
+New Zealand,NZL,2008,8.13,Oceania
+New Zealand,NZL,2010,8.13,Oceania
+New Zealand,NZL,2011,8.13,Oceania
+New Zealand,NZL,2012,8.13,Oceania
+New Zealand,NZL,2013,8.13,Oceania
+New Zealand,NZL,2014,8.13,Oceania
+New Zealand,NZL,2015,8.13,Oceania
+New Zealand,NZL,2016,8.13,Oceania
+New Zealand,NZL,2017,8.13,Oceania
+New Zealand,NZL,2018,8.13,Oceania
+New Zealand,NZL,2019,8.13,Oceania
+New Zealand,NZL,2020,8.75,Oceania
+New Zealand,NZL,2021,8.75,Oceania
+New Zealand,NZL,2022,8.75,Oceania
+New Zealand,NZL,2023,8.75,Oceania
+New Zealand,NZL,2024,8.75,Oceania
+Nicaragua,NIC,2006,3.75,North America
+Nicaragua,NIC,2008,5,North America
+Nicaragua,NIC,2010,5.63,North America
+Nicaragua,NIC,2011,5.63,North America
+Nicaragua,NIC,2012,5.63,North America
+Nicaragua,NIC,2013,5.63,North America
+Nicaragua,NIC,2014,5.63,North America
+Nicaragua,NIC,2015,5.63,North America
+Nicaragua,NIC,2016,5.63,North America
+Nicaragua,NIC,2017,5.63,North America
+Nicaragua,NIC,2018,5.63,North America
+Nicaragua,NIC,2019,5.63,North America
+Nicaragua,NIC,2020,5.63,North America
+Nicaragua,NIC,2021,4.38,North America
+Nicaragua,NIC,2022,4.38,North America
+Nicaragua,NIC,2023,3.75,North America
+Nicaragua,NIC,2024,3.75,North America
+Niger,NER,2006,3.75,Africa
+Niger,NER,2008,3.75,Africa
+Niger,NER,2010,3.75,Africa
+Niger,NER,2011,4.38,Africa
+Niger,NER,2012,4.38,Africa
+Niger,NER,2013,4.38,Africa
+Niger,NER,2014,4.38,Africa
+Niger,NER,2015,4.38,Africa
+Niger,NER,2016,4.38,Africa
+Niger,NER,2017,4.38,Africa
+Niger,NER,2018,4.38,Africa
+Niger,NER,2019,4.38,Africa
+Niger,NER,2020,4.38,Africa
+Niger,NER,2021,4.38,Africa
+Niger,NER,2022,5.63,Africa
+Niger,NER,2023,3.75,Africa
+Niger,NER,2024,3.75,Africa
+Nigeria,NGA,2006,4.38,Africa
+Nigeria,NGA,2008,4.38,Africa
+Nigeria,NGA,2010,3.13,Africa
+Nigeria,NGA,2011,3.13,Africa
+Nigeria,NGA,2012,3.13,Africa
+Nigeria,NGA,2013,3.13,Africa
+Nigeria,NGA,2014,3.13,Africa
+Nigeria,NGA,2015,5,Africa
+Nigeria,NGA,2016,4.38,Africa
+Nigeria,NGA,2017,3.75,Africa
+Nigeria,NGA,2018,3.75,Africa
+Nigeria,NGA,2019,3.75,Africa
+Nigeria,NGA,2020,3.75,Africa
+Nigeria,NGA,2021,3.75,Africa
+Nigeria,NGA,2022,3.75,Africa
+Nigeria,NGA,2023,3.75,Africa
+Nigeria,NGA,2024,3.75,Africa
+North America,OWID_NAM,2006,5.4935713,
+North America,OWID_NAM,2008,5.627143,
+North America,OWID_NAM,2010,5.627143,
+North America,OWID_NAM,2011,5.627143,
+North America,OWID_NAM,2012,5.672143,
+North America,OWID_NAM,2013,5.672143,
+North America,OWID_NAM,2014,5.627857,
+North America,OWID_NAM,2015,5.627857,
+North America,OWID_NAM,2016,5.627857,
+North America,OWID_NAM,2017,5.6728573,
+North America,OWID_NAM,2018,5.537857,
+North America,OWID_NAM,2019,5.582857,
+North America,OWID_NAM,2020,5.404286,
+North America,OWID_NAM,2021,4.8235717,
+North America,OWID_NAM,2022,4.600714,
+North America,OWID_NAM,2023,4.4664288,
+North America,OWID_NAM,2024,4.422143,
+North America (population-weighted),,2006,7.368723,
+North America (population-weighted),,2008,7.382821,
+North America (population-weighted),,2010,7.0423408,
+North America (population-weighted),,2011,7.039697,
+North America (population-weighted),,2012,7.0401387,
+North America (population-weighted),,2013,7.0376415,
+North America (population-weighted),,2014,7.0240197,
+North America (population-weighted),,2015,6.901311,
+North America (population-weighted),,2016,6.900447,
+North America (population-weighted),,2017,6.918076,
+North America (population-weighted),,2018,6.2838373,
+North America (population-weighted),,2019,6.3238845,
+North America (population-weighted),,2020,5.568088,
+North America (population-weighted),,2021,5.382206,
+North America (population-weighted),,2022,5.0812106,
+North America (population-weighted),,2023,5.012319,
+North America (population-weighted),,2024,5.015527,
+North Korea,PRK,2006,1.25,Asia
+North Korea,PRK,2008,1.25,Asia
+North Korea,PRK,2010,1.25,Asia
+North Korea,PRK,2011,1.25,Asia
+North Korea,PRK,2012,1.25,Asia
+North Korea,PRK,2013,1.25,Asia
+North Korea,PRK,2014,1.25,Asia
+North Korea,PRK,2015,1.25,Asia
+North Korea,PRK,2016,1.25,Asia
+North Korea,PRK,2017,1.25,Asia
+North Korea,PRK,2018,1.25,Asia
+North Korea,PRK,2019,1.25,Asia
+North Korea,PRK,2020,1.25,Asia
+North Korea,PRK,2021,1.25,Asia
+North Korea,PRK,2022,1.25,Asia
+North Korea,PRK,2023,1.25,Asia
+North Korea,PRK,2024,1.25,Asia
+North Macedonia,MKD,2006,3.75,Europe
+North Macedonia,MKD,2008,3.75,Europe
+North Macedonia,MKD,2010,4.38,Europe
+North Macedonia,MKD,2011,4.38,Europe
+North Macedonia,MKD,2012,4.38,Europe
+North Macedonia,MKD,2013,4.38,Europe
+North Macedonia,MKD,2014,4.38,Europe
+North Macedonia,MKD,2015,4.38,Europe
+North Macedonia,MKD,2016,3.75,Europe
+North Macedonia,MKD,2017,3.75,Europe
+North Macedonia,MKD,2018,3.75,Europe
+North Macedonia,MKD,2019,3.75,Europe
+North Macedonia,MKD,2020,3.13,Europe
+North Macedonia,MKD,2021,3.13,Europe
+North Macedonia,MKD,2022,3.13,Europe
+North Macedonia,MKD,2023,3.13,Europe
+North Macedonia,MKD,2024,3.13,Europe
+Norway,NOR,2006,8.13,Europe
+Norway,NOR,2008,8.75,Europe
+Norway,NOR,2010,9.38,Europe
+Norway,NOR,2011,9.38,Europe
+Norway,NOR,2012,10,Europe
+Norway,NOR,2013,10,Europe
+Norway,NOR,2014,10,Europe
+Norway,NOR,2015,10,Europe
+Norway,NOR,2016,10,Europe
+Norway,NOR,2017,10,Europe
+Norway,NOR,2018,10,Europe
+Norway,NOR,2019,10,Europe
+Norway,NOR,2020,10,Europe
+Norway,NOR,2021,10,Europe
+Norway,NOR,2022,10,Europe
+Norway,NOR,2023,10,Europe
+Norway,NOR,2024,10,Europe
+Oceania,OWID_OCE,2006,7.0325003,
+Oceania,OWID_OCE,2008,7.0325003,
+Oceania,OWID_OCE,2010,7.19,
+Oceania,OWID_OCE,2011,7.19,
+Oceania,OWID_OCE,2012,7.19,
+Oceania,OWID_OCE,2013,7.19,
+Oceania,OWID_OCE,2014,7.035,
+Oceania,OWID_OCE,2015,7.035,
+Oceania,OWID_OCE,2016,7.035,
+Oceania,OWID_OCE,2017,7.035,
+Oceania,OWID_OCE,2018,7.035,
+Oceania,OWID_OCE,2019,7.035,
+Oceania,OWID_OCE,2020,7.3450003,
+Oceania,OWID_OCE,2021,7.3450003,
+Oceania,OWID_OCE,2022,6.8775,
+Oceania,OWID_OCE,2023,6.8775,
+Oceania,OWID_OCE,2024,7.19,
+Oceania (population-weighted),,2006,8.046495,
+Oceania (population-weighted),,2008,8.038599,
+Oceania (population-weighted),,2010,8.429039,
+Oceania (population-weighted),,2011,8.423716,
+Oceania (population-weighted),,2012,8.419821,
+Oceania (population-weighted),,2013,8.4163265,
+Oceania (population-weighted),,2014,7.891092,
+Oceania (population-weighted),,2015,7.886518,
+Oceania (population-weighted),,2016,7.8829226,
+Oceania (population-weighted),,2017,7.879997,
+Oceania (population-weighted),,2018,7.8769755,
+Oceania (population-weighted),,2019,7.873621,
+Oceania (population-weighted),,2020,8.090608,
+Oceania (population-weighted),,2021,8.085796,
+Oceania (population-weighted),,2022,7.1611824,
+Oceania (population-weighted),,2023,7.15786,
+Oceania (population-weighted),,2024,7.923508,
+Oman,OMN,2006,5,Asia
+Oman,OMN,2008,5,Asia
+Oman,OMN,2010,4.38,Asia
+Oman,OMN,2011,4.38,Asia
+Oman,OMN,2012,4.38,Asia
+Oman,OMN,2013,4.38,Asia
+Oman,OMN,2014,4.38,Asia
+Oman,OMN,2015,4.38,Asia
+Oman,OMN,2016,4.38,Asia
+Oman,OMN,2017,4.38,Asia
+Oman,OMN,2018,4.38,Asia
+Oman,OMN,2019,4.38,Asia
+Oman,OMN,2020,4.38,Asia
+Oman,OMN,2021,4.38,Asia
+Oman,OMN,2022,5,Asia
+Oman,OMN,2023,5,Asia
+Oman,OMN,2024,5,Asia
+Pakistan,PAK,2006,4.38,Asia
+Pakistan,PAK,2008,4.38,Asia
+Pakistan,PAK,2010,4.38,Asia
+Pakistan,PAK,2011,4.38,Asia
+Pakistan,PAK,2012,4.38,Asia
+Pakistan,PAK,2013,3.75,Asia
+Pakistan,PAK,2014,3.75,Asia
+Pakistan,PAK,2015,2.5,Asia
+Pakistan,PAK,2016,2.5,Asia
+Pakistan,PAK,2017,2.5,Asia
+Pakistan,PAK,2018,2.5,Asia
+Pakistan,PAK,2019,2.5,Asia
+Pakistan,PAK,2020,2.5,Asia
+Pakistan,PAK,2021,2.5,Asia
+Pakistan,PAK,2022,2.5,Asia
+Pakistan,PAK,2023,2.5,Asia
+Pakistan,PAK,2024,2.5,Asia
+Palestine,PSE,2006,6.88,Asia
+Palestine,PSE,2008,6.25,Asia
+Palestine,PSE,2010,4.38,Asia
+Palestine,PSE,2011,4.38,Asia
+Palestine,PSE,2012,4.38,Asia
+Palestine,PSE,2013,4.38,Asia
+Palestine,PSE,2014,4.38,Asia
+Palestine,PSE,2015,4.38,Asia
+Palestine,PSE,2016,4.38,Asia
+Palestine,PSE,2017,4.38,Asia
+Palestine,PSE,2018,4.38,Asia
+Palestine,PSE,2019,4.38,Asia
+Palestine,PSE,2020,4.38,Asia
+Palestine,PSE,2021,4.38,Asia
+Palestine,PSE,2022,4.38,Asia
+Palestine,PSE,2023,3.75,Asia
+Palestine,PSE,2024,3.75,Asia
+Panama,PAN,2006,5.63,North America
+Panama,PAN,2008,5.63,North America
+Panama,PAN,2010,5,North America
+Panama,PAN,2011,5,North America
+Panama,PAN,2012,5,North America
+Panama,PAN,2013,5,North America
+Panama,PAN,2014,5,North America
+Panama,PAN,2015,5,North America
+Panama,PAN,2016,5,North America
+Panama,PAN,2017,5,North America
+Panama,PAN,2018,5,North America
+Panama,PAN,2019,5,North America
+Panama,PAN,2020,5,North America
+Panama,PAN,2021,3.75,North America
+Panama,PAN,2022,3.75,North America
+Panama,PAN,2023,3.75,North America
+Panama,PAN,2024,3.75,North America
+Papua New Guinea,PNG,2006,6.25,Oceania
+Papua New Guinea,PNG,2008,6.25,Oceania
+Papua New Guinea,PNG,2010,6.25,Oceania
+Papua New Guinea,PNG,2011,6.25,Oceania
+Papua New Guinea,PNG,2012,6.25,Oceania
+Papua New Guinea,PNG,2013,6.25,Oceania
+Papua New Guinea,PNG,2014,5.63,Oceania
+Papua New Guinea,PNG,2015,5.63,Oceania
+Papua New Guinea,PNG,2016,5.63,Oceania
+Papua New Guinea,PNG,2017,5.63,Oceania
+Papua New Guinea,PNG,2018,5.63,Oceania
+Papua New Guinea,PNG,2019,5.63,Oceania
+Papua New Guinea,PNG,2020,6.25,Oceania
+Papua New Guinea,PNG,2021,6.25,Oceania
+Papua New Guinea,PNG,2022,5.63,Oceania
+Papua New Guinea,PNG,2023,5.63,Oceania
+Papua New Guinea,PNG,2024,5.63,Oceania
+Paraguay,PRY,2006,4.38,South America
+Paraguay,PRY,2008,4.38,South America
+Paraguay,PRY,2010,4.38,South America
+Paraguay,PRY,2011,4.38,South America
+Paraguay,PRY,2012,4.38,South America
+Paraguay,PRY,2013,4.38,South America
+Paraguay,PRY,2014,4.38,South America
+Paraguay,PRY,2015,4.38,South America
+Paraguay,PRY,2016,4.38,South America
+Paraguay,PRY,2017,4.38,South America
+Paraguay,PRY,2018,4.38,South America
+Paraguay,PRY,2019,4.38,South America
+Paraguay,PRY,2020,4.38,South America
+Paraguay,PRY,2021,3.13,South America
+Paraguay,PRY,2022,1.88,South America
+Paraguay,PRY,2023,1.88,South America
+Paraguay,PRY,2024,1.88,South America
+Peru,PER,2006,5,South America
+Peru,PER,2008,5,South America
+Peru,PER,2010,5,South America
+Peru,PER,2011,5,South America
+Peru,PER,2012,4.38,South America
+Peru,PER,2013,5,South America
+Peru,PER,2014,5,South America
+Peru,PER,2015,4.38,South America
+Peru,PER,2016,4.38,South America
+Peru,PER,2017,5,South America
+Peru,PER,2018,5.63,South America
+Peru,PER,2019,5.63,South America
+Peru,PER,2020,5.63,South America
+Peru,PER,2021,3.75,South America
+Peru,PER,2022,3.13,South America
+Peru,PER,2023,3.13,South America
+Peru,PER,2024,2.5,South America
+Philippines,PHL,2006,3.75,Asia
+Philippines,PHL,2008,3.13,Asia
+Philippines,PHL,2010,3.13,Asia
+Philippines,PHL,2011,3.13,Asia
+Philippines,PHL,2012,3.13,Asia
+Philippines,PHL,2013,3.13,Asia
+Philippines,PHL,2014,4.38,Asia
+Philippines,PHL,2015,4.38,Asia
+Philippines,PHL,2016,4.38,Asia
+Philippines,PHL,2017,4.38,Asia
+Philippines,PHL,2018,4.38,Asia
+Philippines,PHL,2019,4.38,Asia
+Philippines,PHL,2020,4.38,Asia
+Philippines,PHL,2021,4.38,Asia
+Philippines,PHL,2022,4.38,Asia
+Philippines,PHL,2023,4.38,Asia
+Philippines,PHL,2024,4.38,Asia
+Poland,POL,2006,5.63,Europe
+Poland,POL,2008,5.63,Europe
+Poland,POL,2010,4.38,Europe
+Poland,POL,2011,4.38,Europe
+Poland,POL,2012,4.38,Europe
+Poland,POL,2013,4.38,Europe
+Poland,POL,2014,6.25,Europe
+Poland,POL,2015,4.38,Europe
+Poland,POL,2016,4.38,Europe
+Poland,POL,2017,4.38,Europe
+Poland,POL,2018,4.38,Europe
+Poland,POL,2019,4.38,Europe
+Poland,POL,2020,5.63,Europe
+Poland,POL,2021,5.63,Europe
+Poland,POL,2022,6.25,Europe
+Poland,POL,2023,6.25,Europe
+Poland,POL,2024,6.25,Europe
+Portugal,PRT,2006,7.5,Europe
+Portugal,PRT,2008,7.5,Europe
+Portugal,PRT,2010,7.5,Europe
+Portugal,PRT,2011,7.5,Europe
+Portugal,PRT,2012,7.5,Europe
+Portugal,PRT,2013,6.88,Europe
+Portugal,PRT,2014,6.88,Europe
+Portugal,PRT,2015,6.88,Europe
+Portugal,PRT,2016,6.88,Europe
+Portugal,PRT,2017,6.88,Europe
+Portugal,PRT,2018,6.88,Europe
+Portugal,PRT,2019,7.5,Europe
+Portugal,PRT,2020,7.5,Europe
+Portugal,PRT,2021,6.88,Europe
+Portugal,PRT,2022,6.88,Europe
+Portugal,PRT,2023,6.88,Europe
+Portugal,PRT,2024,8.75,Europe
+Qatar,QAT,2006,5,Asia
+Qatar,QAT,2008,4.38,Asia
+Qatar,QAT,2010,5.63,Asia
+Qatar,QAT,2011,5.63,Asia
+Qatar,QAT,2012,5.63,Asia
+Qatar,QAT,2013,5.63,Asia
+Qatar,QAT,2014,5.63,Asia
+Qatar,QAT,2015,5.63,Asia
+Qatar,QAT,2016,5.63,Asia
+Qatar,QAT,2017,5.63,Asia
+Qatar,QAT,2018,5.63,Asia
+Qatar,QAT,2019,5.63,Asia
+Qatar,QAT,2020,5.63,Asia
+Qatar,QAT,2021,5.63,Asia
+Qatar,QAT,2022,5.63,Asia
+Qatar,QAT,2023,5.63,Asia
+Qatar,QAT,2024,5.63,Asia
+Romania,ROU,2006,5,Europe
+Romania,ROU,2008,5,Europe
+Romania,ROU,2010,3.75,Europe
+Romania,ROU,2011,4.38,Europe
+Romania,ROU,2012,4.38,Europe
+Romania,ROU,2013,4.38,Europe
+Romania,ROU,2014,5,Europe
+Romania,ROU,2015,5,Europe
+Romania,ROU,2016,5,Europe
+Romania,ROU,2017,4.38,Europe
+Romania,ROU,2018,4.38,Europe
+Romania,ROU,2019,4.38,Europe
+Romania,ROU,2020,3.75,Europe
+Romania,ROU,2021,3.75,Europe
+Romania,ROU,2022,3.75,Europe
+Romania,ROU,2023,3.75,Europe
+Romania,ROU,2024,3.75,Europe
+Russia,RUS,2006,3.75,Europe
+Russia,RUS,2008,3.75,Europe
+Russia,RUS,2010,3.13,Europe
+Russia,RUS,2011,3.13,Europe
+Russia,RUS,2012,2.5,Europe
+Russia,RUS,2013,2.5,Europe
+Russia,RUS,2014,2.5,Europe
+Russia,RUS,2015,2.5,Europe
+Russia,RUS,2016,2.5,Europe
+Russia,RUS,2017,2.5,Europe
+Russia,RUS,2018,2.5,Europe
+Russia,RUS,2019,2.5,Europe
+Russia,RUS,2020,3.13,Europe
+Russia,RUS,2021,3.75,Europe
+Russia,RUS,2022,3.75,Europe
+Russia,RUS,2023,3.75,Europe
+Russia,RUS,2024,3.75,Europe
+Rwanda,RWA,2006,5,Africa
+Rwanda,RWA,2008,5,Africa
+Rwanda,RWA,2010,5,Africa
+Rwanda,RWA,2011,5,Africa
+Rwanda,RWA,2012,5,Africa
+Rwanda,RWA,2013,5,Africa
+Rwanda,RWA,2014,4.38,Africa
+Rwanda,RWA,2015,4.38,Africa
+Rwanda,RWA,2016,4.38,Africa
+Rwanda,RWA,2017,4.38,Africa
+Rwanda,RWA,2018,4.38,Africa
+Rwanda,RWA,2019,4.38,Africa
+Rwanda,RWA,2020,4.38,Africa
+Rwanda,RWA,2021,4.38,Africa
+Rwanda,RWA,2022,4.38,Africa
+Rwanda,RWA,2023,5,Africa
+Rwanda,RWA,2024,5,Africa
+Saudi Arabia,SAU,2006,4.38,Asia
+Saudi Arabia,SAU,2008,3.75,Asia
+Saudi Arabia,SAU,2010,3.75,Asia
+Saudi Arabia,SAU,2011,3.13,Asia
+Saudi Arabia,SAU,2012,3.13,Asia
+Saudi Arabia,SAU,2013,3.13,Asia
+Saudi Arabia,SAU,2014,3.13,Asia
+Saudi Arabia,SAU,2015,3.13,Asia
+Saudi Arabia,SAU,2016,3.13,Asia
+Saudi Arabia,SAU,2017,3.13,Asia
+Saudi Arabia,SAU,2018,3.13,Asia
+Saudi Arabia,SAU,2019,3.13,Asia
+Saudi Arabia,SAU,2020,3.13,Asia
+Saudi Arabia,SAU,2021,3.13,Asia
+Saudi Arabia,SAU,2022,3.13,Asia
+Saudi Arabia,SAU,2023,3.13,Asia
+Saudi Arabia,SAU,2024,3.13,Asia
+Senegal,SEN,2006,5.63,Africa
+Senegal,SEN,2008,5.63,Africa
+Senegal,SEN,2010,5,Africa
+Senegal,SEN,2011,5.63,Africa
+Senegal,SEN,2012,5.63,Africa
+Senegal,SEN,2013,5.63,Africa
+Senegal,SEN,2014,5.63,Africa
+Senegal,SEN,2015,5.63,Africa
+Senegal,SEN,2016,6.25,Africa
+Senegal,SEN,2017,6.25,Africa
+Senegal,SEN,2018,6.25,Africa
+Senegal,SEN,2019,6.25,Africa
+Senegal,SEN,2020,6.25,Africa
+Senegal,SEN,2021,6.25,Africa
+Senegal,SEN,2022,6.25,Africa
+Senegal,SEN,2023,5.63,Africa
+Senegal,SEN,2024,6.25,Africa
+Serbia,SRB,2006,5.63,Europe
+Serbia,SRB,2008,5.63,Europe
+Serbia,SRB,2010,4.38,Europe
+Serbia,SRB,2011,4.38,Europe
+Serbia,SRB,2012,4.38,Europe
+Serbia,SRB,2013,5,Europe
+Serbia,SRB,2014,5,Europe
+Serbia,SRB,2015,5,Europe
+Serbia,SRB,2016,5,Europe
+Serbia,SRB,2017,5,Europe
+Serbia,SRB,2018,5,Europe
+Serbia,SRB,2019,5,Europe
+Serbia,SRB,2020,3.75,Europe
+Serbia,SRB,2021,3.75,Europe
+Serbia,SRB,2022,3.75,Europe
+Serbia,SRB,2023,3.75,Europe
+Serbia,SRB,2024,3.75,Europe
+Sierra Leone,SLE,2006,3.75,Africa
+Sierra Leone,SLE,2008,5,Africa
+Sierra Leone,SLE,2010,5.63,Africa
+Sierra Leone,SLE,2011,5.63,Africa
+Sierra Leone,SLE,2012,6.25,Africa
+Sierra Leone,SLE,2013,6.25,Africa
+Sierra Leone,SLE,2014,6.25,Africa
+Sierra Leone,SLE,2015,6.25,Africa
+Sierra Leone,SLE,2016,6.25,Africa
+Sierra Leone,SLE,2017,6.25,Africa
+Sierra Leone,SLE,2018,6.25,Africa
+Sierra Leone,SLE,2019,6.25,Africa
+Sierra Leone,SLE,2020,6.25,Africa
+Sierra Leone,SLE,2021,6.25,Africa
+Sierra Leone,SLE,2022,6.25,Africa
+Sierra Leone,SLE,2023,5,Africa
+Sierra Leone,SLE,2024,5,Africa
+Singapore,SGP,2006,7.5,Asia
+Singapore,SGP,2008,7.5,Asia
+Singapore,SGP,2010,7.5,Asia
+Singapore,SGP,2011,7.5,Asia
+Singapore,SGP,2012,6.88,Asia
+Singapore,SGP,2013,6.88,Asia
+Singapore,SGP,2014,6.25,Asia
+Singapore,SGP,2015,6.25,Asia
+Singapore,SGP,2016,6.25,Asia
+Singapore,SGP,2017,6.25,Asia
+Singapore,SGP,2018,6.25,Asia
+Singapore,SGP,2019,6.25,Asia
+Singapore,SGP,2020,6.25,Asia
+Singapore,SGP,2021,7.5,Asia
+Singapore,SGP,2022,7.5,Asia
+Singapore,SGP,2023,7.5,Asia
+Singapore,SGP,2024,7.5,Asia
+Slovakia,SVK,2006,5,Europe
+Slovakia,SVK,2008,5,Europe
+Slovakia,SVK,2010,5,Europe
+Slovakia,SVK,2011,5,Europe
+Slovakia,SVK,2012,5,Europe
+Slovakia,SVK,2013,5,Europe
+Slovakia,SVK,2014,5,Europe
+Slovakia,SVK,2015,5,Europe
+Slovakia,SVK,2016,5.63,Europe
+Slovakia,SVK,2017,5.63,Europe
+Slovakia,SVK,2018,5.63,Europe
+Slovakia,SVK,2019,5.63,Europe
+Slovakia,SVK,2020,5.63,Europe
+Slovakia,SVK,2021,5.63,Europe
+Slovakia,SVK,2022,5.63,Europe
+Slovakia,SVK,2023,5.63,Europe
+Slovakia,SVK,2024,5.63,Europe
+Slovenia,SVN,2006,6.88,Europe
+Slovenia,SVN,2008,6.88,Europe
+Slovenia,SVN,2010,6.25,Europe
+Slovenia,SVN,2011,6.25,Europe
+Slovenia,SVN,2012,6.25,Europe
+Slovenia,SVN,2013,6.25,Europe
+Slovenia,SVN,2014,5.63,Europe
+Slovenia,SVN,2015,5.63,Europe
+Slovenia,SVN,2016,5.63,Europe
+Slovenia,SVN,2017,6.25,Europe
+Slovenia,SVN,2018,6.25,Europe
+Slovenia,SVN,2019,6.25,Europe
+Slovenia,SVN,2020,6.25,Europe
+Slovenia,SVN,2021,6.25,Europe
+Slovenia,SVN,2022,6.25,Europe
+Slovenia,SVN,2023,6.25,Europe
+Slovenia,SVN,2024,6.25,Europe
+South Africa,ZAF,2006,6.88,Africa
+South Africa,ZAF,2008,6.88,Africa
+South Africa,ZAF,2010,6.25,Africa
+South Africa,ZAF,2011,6.25,Africa
+South Africa,ZAF,2012,6.25,Africa
+South Africa,ZAF,2013,6.25,Africa
+South Africa,ZAF,2014,6.25,Africa
+South Africa,ZAF,2015,5,Africa
+South Africa,ZAF,2016,5,Africa
+South Africa,ZAF,2017,5,Africa
+South Africa,ZAF,2018,5,Africa
+South Africa,ZAF,2019,5,Africa
+South Africa,ZAF,2020,5,Africa
+South Africa,ZAF,2021,5,Africa
+South Africa,ZAF,2022,5,Africa
+South Africa,ZAF,2023,5,Africa
+South Africa,ZAF,2024,5,Africa
+South America,OWID_SAM,2006,4.9508333,
+South America,OWID_SAM,2008,4.9508333,
+South America,OWID_SAM,2010,4.95,
+South America,OWID_SAM,2011,4.8975,
+South America,OWID_SAM,2012,4.8983335,
+South America,OWID_SAM,2013,5.0025,
+South America,OWID_SAM,2014,5.1583333,
+South America,OWID_SAM,2015,5.0033336,
+South America,OWID_SAM,2016,5.0033336,
+South America,OWID_SAM,2017,5.2625,
+South America,OWID_SAM,2018,5.4191666,
+South America,OWID_SAM,2019,5.4191666,
+South America,OWID_SAM,2020,5.3675003,
+South America,OWID_SAM,2021,4.636667,
+South America,OWID_SAM,2022,4.065,
+South America,OWID_SAM,2023,3.9608333,
+South America,OWID_SAM,2024,3.805,
+South America (population-weighted),,2006,5.2689505,
+South America (population-weighted),,2008,5.2263913,
+South America (population-weighted),,2010,4.6483192,
+South America (population-weighted),,2011,4.6201825,
+South America (population-weighted),,2012,4.59842,
+South America (population-weighted),,2013,4.672007,
+South America (population-weighted),,2014,5.594661,
+South America (population-weighted),,2015,4.454962,
+South America (population-weighted),,2016,4.455658,
+South America (population-weighted),,2017,5.2164354,
+South America (population-weighted),,2018,5.302268,
+South America (population-weighted),,2019,5.3056355,
+South America (population-weighted),,2020,5.4541965,
+South America (population-weighted),,2021,4.8395815,
+South America (population-weighted),,2022,4.288815,
+South America (population-weighted),,2023,4.263775,
+South America (population-weighted),,2024,4.0976477,
+South Korea,KOR,2006,7.5,Asia
+South Korea,KOR,2008,7.5,Asia
+South Korea,KOR,2010,7.5,Asia
+South Korea,KOR,2011,7.5,Asia
+South Korea,KOR,2012,7.5,Asia
+South Korea,KOR,2013,7.5,Asia
+South Korea,KOR,2014,7.5,Asia
+South Korea,KOR,2015,7.5,Asia
+South Korea,KOR,2016,7.5,Asia
+South Korea,KOR,2017,7.5,Asia
+South Korea,KOR,2018,7.5,Asia
+South Korea,KOR,2019,7.5,Asia
+South Korea,KOR,2020,7.5,Asia
+South Korea,KOR,2021,7.5,Asia
+South Korea,KOR,2022,6.25,Asia
+South Korea,KOR,2023,6.25,Asia
+South Korea,KOR,2024,5.63,Asia
+Spain,ESP,2006,8.75,Europe
+Spain,ESP,2008,8.75,Europe
+Spain,ESP,2010,7.5,Europe
+Spain,ESP,2011,7.5,Europe
+Spain,ESP,2012,7.5,Europe
+Spain,ESP,2013,7.5,Europe
+Spain,ESP,2014,6.88,Europe
+Spain,ESP,2015,8.13,Europe
+Spain,ESP,2016,8.13,Europe
+Spain,ESP,2017,7.5,Europe
+Spain,ESP,2018,7.5,Europe
+Spain,ESP,2019,8.13,Europe
+Spain,ESP,2020,8.13,Europe
+Spain,ESP,2021,7.5,Europe
+Spain,ESP,2022,7.5,Europe
+Spain,ESP,2023,7.5,Europe
+Spain,ESP,2024,7.5,Europe
+Sri Lanka,LKA,2006,7.5,Asia
+Sri Lanka,LKA,2008,7.5,Asia
+Sri Lanka,LKA,2010,6.88,Asia
+Sri Lanka,LKA,2011,6.88,Asia
+Sri Lanka,LKA,2012,6.88,Asia
+Sri Lanka,LKA,2013,6.88,Asia
+Sri Lanka,LKA,2014,6.88,Asia
+Sri Lanka,LKA,2015,6.88,Asia
+Sri Lanka,LKA,2016,6.88,Asia
+Sri Lanka,LKA,2017,6.25,Asia
+Sri Lanka,LKA,2018,6.25,Asia
+Sri Lanka,LKA,2019,6.25,Asia
+Sri Lanka,LKA,2020,6.25,Asia
+Sri Lanka,LKA,2021,6.25,Asia
+Sri Lanka,LKA,2022,6.25,Asia
+Sri Lanka,LKA,2023,6.25,Asia
+Sri Lanka,LKA,2024,6.25,Asia
+Sudan,SDN,2006,5,Africa
+Sudan,SDN,2008,5,Africa
+Sudan,SDN,2010,5,Africa
+Sudan,SDN,2011,5,Africa
+Sudan,SDN,2012,5,Africa
+Sudan,SDN,2013,5,Africa
+Sudan,SDN,2014,5,Africa
+Sudan,SDN,2015,5,Africa
+Sudan,SDN,2016,5,Africa
+Sudan,SDN,2017,5,Africa
+Sudan,SDN,2018,5,Africa
+Sudan,SDN,2019,5,Africa
+Sudan,SDN,2020,5,Africa
+Sudan,SDN,2021,5,Africa
+Sudan,SDN,2022,5,Africa
+Sudan,SDN,2023,5.63,Africa
+Sudan,SDN,2024,5.63,Africa
+Suriname,SUR,2006,5,South America
+Suriname,SUR,2008,5,South America
+Suriname,SUR,2010,5,South America
+Suriname,SUR,2011,5,South America
+Suriname,SUR,2012,5,South America
+Suriname,SUR,2013,5,South America
+Suriname,SUR,2014,5,South America
+Suriname,SUR,2015,5,South America
+Suriname,SUR,2016,5,South America
+Suriname,SUR,2017,5,South America
+Suriname,SUR,2018,5,South America
+Suriname,SUR,2019,5,South America
+Suriname,SUR,2020,5,South America
+Suriname,SUR,2021,5,South America
+Suriname,SUR,2022,5,South America
+Suriname,SUR,2023,5,South America
+Suriname,SUR,2024,5,South America
+Sweden,SWE,2006,9.38,Europe
+Sweden,SWE,2008,9.38,Europe
+Sweden,SWE,2010,9.38,Europe
+Sweden,SWE,2011,9.38,Europe
+Sweden,SWE,2012,10,Europe
+Sweden,SWE,2013,10,Europe
+Sweden,SWE,2014,10,Europe
+Sweden,SWE,2015,10,Europe
+Sweden,SWE,2016,10,Europe
+Sweden,SWE,2017,10,Europe
+Sweden,SWE,2018,10,Europe
+Sweden,SWE,2019,10,Europe
+Sweden,SWE,2020,10,Europe
+Sweden,SWE,2021,10,Europe
+Sweden,SWE,2022,10,Europe
+Sweden,SWE,2023,10,Europe
+Sweden,SWE,2024,10,Europe
+Switzerland,CHE,2006,8.75,Europe
+Switzerland,CHE,2008,9.38,Europe
+Switzerland,CHE,2010,9.38,Europe
+Switzerland,CHE,2011,9.38,Europe
+Switzerland,CHE,2012,9.38,Europe
+Switzerland,CHE,2013,9.38,Europe
+Switzerland,CHE,2014,9.38,Europe
+Switzerland,CHE,2015,9.38,Europe
+Switzerland,CHE,2016,9.38,Europe
+Switzerland,CHE,2017,9.38,Europe
+Switzerland,CHE,2018,9.38,Europe
+Switzerland,CHE,2019,9.38,Europe
+Switzerland,CHE,2020,9.38,Europe
+Switzerland,CHE,2021,9.38,Europe
+Switzerland,CHE,2022,9.38,Europe
+Switzerland,CHE,2023,9.38,Europe
+Switzerland,CHE,2024,10,Europe
+Syria,SYR,2006,6.88,Asia
+Syria,SYR,2008,5.63,Asia
+Syria,SYR,2010,5.63,Asia
+Syria,SYR,2011,5.63,Asia
+Syria,SYR,2012,5,Asia
+Syria,SYR,2013,5.63,Asia
+Syria,SYR,2014,5,Asia
+Syria,SYR,2015,4.38,Asia
+Syria,SYR,2016,4.38,Asia
+Syria,SYR,2017,4.38,Asia
+Syria,SYR,2018,4.38,Asia
+Syria,SYR,2019,4.38,Asia
+Syria,SYR,2020,4.38,Asia
+Syria,SYR,2021,4.38,Asia
+Syria,SYR,2022,4.38,Asia
+Syria,SYR,2023,4.38,Asia
+Syria,SYR,2024,4.38,Asia
+Taiwan,TWN,2006,5.63,Asia
+Taiwan,TWN,2008,5.63,Asia
+Taiwan,TWN,2010,5.63,Asia
+Taiwan,TWN,2011,5.63,Asia
+Taiwan,TWN,2012,5.63,Asia
+Taiwan,TWN,2013,5.63,Asia
+Taiwan,TWN,2014,5.63,Asia
+Taiwan,TWN,2015,5.63,Asia
+Taiwan,TWN,2016,5.63,Asia
+Taiwan,TWN,2017,5.63,Asia
+Taiwan,TWN,2018,5.63,Asia
+Taiwan,TWN,2019,5.63,Asia
+Taiwan,TWN,2020,8.13,Asia
+Taiwan,TWN,2021,8.13,Asia
+Taiwan,TWN,2022,8.13,Asia
+Taiwan,TWN,2023,8.13,Asia
+Taiwan,TWN,2024,8.13,Asia
+Tajikistan,TJK,2006,6.25,Asia
+Tajikistan,TJK,2008,6.25,Asia
+Tajikistan,TJK,2010,6.25,Asia
+Tajikistan,TJK,2011,6.25,Asia
+Tajikistan,TJK,2012,6.25,Asia
+Tajikistan,TJK,2013,6.25,Asia
+Tajikistan,TJK,2014,6.25,Asia
+Tajikistan,TJK,2015,6.25,Asia
+Tajikistan,TJK,2016,6.25,Asia
+Tajikistan,TJK,2017,6.25,Asia
+Tajikistan,TJK,2018,6.25,Asia
+Tajikistan,TJK,2019,6.25,Asia
+Tajikistan,TJK,2020,4.38,Asia
+Tajikistan,TJK,2021,4.38,Asia
+Tajikistan,TJK,2022,4.38,Asia
+Tajikistan,TJK,2023,4.38,Asia
+Tajikistan,TJK,2024,4.38,Asia
+Tanzania,TZA,2006,5.63,Africa
+Tanzania,TZA,2008,5.63,Africa
+Tanzania,TZA,2010,5.63,Africa
+Tanzania,TZA,2011,5.63,Africa
+Tanzania,TZA,2012,5.63,Africa
+Tanzania,TZA,2013,5.63,Africa
+Tanzania,TZA,2014,5.63,Africa
+Tanzania,TZA,2015,5.63,Africa
+Tanzania,TZA,2016,6.25,Africa
+Tanzania,TZA,2017,5.63,Africa
+Tanzania,TZA,2018,5.63,Africa
+Tanzania,TZA,2019,5.63,Africa
+Tanzania,TZA,2020,6.25,Africa
+Tanzania,TZA,2021,6.25,Africa
+Tanzania,TZA,2022,6.25,Africa
+Tanzania,TZA,2023,6.88,Africa
+Tanzania,TZA,2024,6.88,Africa
+Thailand,THA,2006,5.63,Asia
+Thailand,THA,2008,6.88,Asia
+Thailand,THA,2010,6.25,Asia
+Thailand,THA,2011,6.25,Asia
+Thailand,THA,2012,6.25,Asia
+Thailand,THA,2013,5,Asia
+Thailand,THA,2014,5,Asia
+Thailand,THA,2015,5,Asia
+Thailand,THA,2016,5,Asia
+Thailand,THA,2017,5,Asia
+Thailand,THA,2018,5,Asia
+Thailand,THA,2019,6.25,Asia
+Thailand,THA,2020,6.25,Asia
+Thailand,THA,2021,6.25,Asia
+Thailand,THA,2022,5.63,Asia
+Thailand,THA,2023,5,Asia
+Thailand,THA,2024,5.63,Asia
+Togo,TGO,2006,5.63,Africa
+Togo,TGO,2008,4.38,Africa
+Togo,TGO,2010,5,Africa
+Togo,TGO,2011,5,Africa
+Togo,TGO,2012,5,Africa
+Togo,TGO,2013,5,Africa
+Togo,TGO,2014,5,Africa
+Togo,TGO,2015,5,Africa
+Togo,TGO,2016,5,Africa
+Togo,TGO,2017,5,Africa
+Togo,TGO,2018,5,Africa
+Togo,TGO,2019,5,Africa
+Togo,TGO,2020,5,Africa
+Togo,TGO,2021,5,Africa
+Togo,TGO,2022,5.63,Africa
+Togo,TGO,2023,5.63,Africa
+Togo,TGO,2024,5.63,Africa
+Trinidad and Tobago,TTO,2006,5.63,North America
+Trinidad and Tobago,TTO,2008,5.63,North America
+Trinidad and Tobago,TTO,2010,5,North America
+Trinidad and Tobago,TTO,2011,5,North America
+Trinidad and Tobago,TTO,2012,5,North America
+Trinidad and Tobago,TTO,2013,5,North America
+Trinidad and Tobago,TTO,2014,5,North America
+Trinidad and Tobago,TTO,2015,5,North America
+Trinidad and Tobago,TTO,2016,5,North America
+Trinidad and Tobago,TTO,2017,5,North America
+Trinidad and Tobago,TTO,2018,5.63,North America
+Trinidad and Tobago,TTO,2019,5.63,North America
+Trinidad and Tobago,TTO,2020,5.63,North America
+Trinidad and Tobago,TTO,2021,5.63,North America
+Trinidad and Tobago,TTO,2022,5.63,North America
+Trinidad and Tobago,TTO,2023,5.63,North America
+Trinidad and Tobago,TTO,2024,5.63,North America
+Tunisia,TUN,2006,6.88,Africa
+Tunisia,TUN,2008,5.63,Africa
+Tunisia,TUN,2010,5.63,Africa
+Tunisia,TUN,2011,6.25,Africa
+Tunisia,TUN,2012,6.25,Africa
+Tunisia,TUN,2013,6.25,Africa
+Tunisia,TUN,2014,6.25,Africa
+Tunisia,TUN,2015,6.88,Africa
+Tunisia,TUN,2016,6.25,Africa
+Tunisia,TUN,2017,6.25,Africa
+Tunisia,TUN,2018,6.25,Africa
+Tunisia,TUN,2019,5.63,Africa
+Tunisia,TUN,2020,5.63,Africa
+Tunisia,TUN,2021,5,Africa
+Tunisia,TUN,2022,5.63,Africa
+Tunisia,TUN,2023,5.63,Africa
+Tunisia,TUN,2024,5.63,Africa
+Turkey,TUR,2006,3.75,Asia
+Turkey,TUR,2008,5,Asia
+Turkey,TUR,2010,5,Asia
+Turkey,TUR,2011,5,Asia
+Turkey,TUR,2012,5,Asia
+Turkey,TUR,2013,5,Asia
+Turkey,TUR,2014,5.63,Asia
+Turkey,TUR,2015,5.63,Asia
+Turkey,TUR,2016,5.63,Asia
+Turkey,TUR,2017,5.63,Asia
+Turkey,TUR,2018,5,Asia
+Turkey,TUR,2019,5,Asia
+Turkey,TUR,2020,5.63,Asia
+Turkey,TUR,2021,5.63,Asia
+Turkey,TUR,2022,5.63,Asia
+Turkey,TUR,2023,5,Asia
+Turkey,TUR,2024,5,Asia
+Turkmenistan,TKM,2006,5,Asia
+Turkmenistan,TKM,2008,5,Asia
+Turkmenistan,TKM,2010,5,Asia
+Turkmenistan,TKM,2011,5,Asia
+Turkmenistan,TKM,2012,5,Asia
+Turkmenistan,TKM,2013,5,Asia
+Turkmenistan,TKM,2014,5,Asia
+Turkmenistan,TKM,2015,5,Asia
+Turkmenistan,TKM,2016,5,Asia
+Turkmenistan,TKM,2017,5,Asia
+Turkmenistan,TKM,2018,5,Asia
+Turkmenistan,TKM,2019,5,Asia
+Turkmenistan,TKM,2020,5,Asia
+Turkmenistan,TKM,2021,5,Asia
+Turkmenistan,TKM,2022,5,Asia
+Turkmenistan,TKM,2023,5,Asia
+Turkmenistan,TKM,2024,5,Asia
+Uganda,UGA,2006,6.25,Africa
+Uganda,UGA,2008,6.25,Africa
+Uganda,UGA,2010,5.63,Africa
+Uganda,UGA,2011,6.25,Africa
+Uganda,UGA,2012,6.25,Africa
+Uganda,UGA,2013,6.25,Africa
+Uganda,UGA,2014,6.25,Africa
+Uganda,UGA,2015,6.25,Africa
+Uganda,UGA,2016,6.88,Africa
+Uganda,UGA,2017,6.88,Africa
+Uganda,UGA,2018,6.88,Africa
+Uganda,UGA,2019,6.88,Africa
+Uganda,UGA,2020,6.88,Africa
+Uganda,UGA,2021,6.88,Africa
+Uganda,UGA,2022,6.88,Africa
+Uganda,UGA,2023,6.88,Africa
+Uganda,UGA,2024,6.88,Africa
+Ukraine,UKR,2006,5.63,Europe
+Ukraine,UKR,2008,6.25,Europe
+Ukraine,UKR,2010,4.38,Europe
+Ukraine,UKR,2011,4.38,Europe
+Ukraine,UKR,2012,4.38,Europe
+Ukraine,UKR,2013,4.38,Europe
+Ukraine,UKR,2014,5,Europe
+Ukraine,UKR,2015,5,Europe
+Ukraine,UKR,2016,5,Europe
+Ukraine,UKR,2017,6.25,Europe
+Ukraine,UKR,2018,6.25,Europe
+Ukraine,UKR,2019,6.25,Europe
+Ukraine,UKR,2020,5,Europe
+Ukraine,UKR,2021,5,Europe
+Ukraine,UKR,2022,6.25,Europe
+Ukraine,UKR,2023,5,Europe
+Ukraine,UKR,2024,5,Europe
+United Arab Emirates,ARE,2006,5,Asia
+United Arab Emirates,ARE,2008,5,Asia
+United Arab Emirates,ARE,2010,5,Asia
+United Arab Emirates,ARE,2011,5,Asia
+United Arab Emirates,ARE,2012,5,Asia
+United Arab Emirates,ARE,2013,5,Asia
+United Arab Emirates,ARE,2014,5,Asia
+United Arab Emirates,ARE,2015,5,Asia
+United Arab Emirates,ARE,2016,5,Asia
+United Arab Emirates,ARE,2017,5,Asia
+United Arab Emirates,ARE,2018,5,Asia
+United Arab Emirates,ARE,2019,5,Asia
+United Arab Emirates,ARE,2020,5,Asia
+United Arab Emirates,ARE,2021,5.63,Asia
+United Arab Emirates,ARE,2022,5.63,Asia
+United Arab Emirates,ARE,2023,5.63,Asia
+United Arab Emirates,ARE,2024,5.63,Asia
+United Kingdom,GBR,2006,8.13,Europe
+United Kingdom,GBR,2008,8.75,Europe
+United Kingdom,GBR,2010,8.13,Europe
+United Kingdom,GBR,2011,8.13,Europe
+United Kingdom,GBR,2012,8.75,Europe
+United Kingdom,GBR,2013,8.75,Europe
+United Kingdom,GBR,2014,8.75,Europe
+United Kingdom,GBR,2015,8.75,Europe
+United Kingdom,GBR,2016,8.75,Europe
+United Kingdom,GBR,2017,8.13,Europe
+United Kingdom,GBR,2018,8.13,Europe
+United Kingdom,GBR,2019,7.5,Europe
+United Kingdom,GBR,2020,7.5,Europe
+United Kingdom,GBR,2021,6.25,Europe
+United Kingdom,GBR,2022,6.88,Europe
+United Kingdom,GBR,2023,6.88,Europe
+United Kingdom,GBR,2024,6.88,Europe
+United States,USA,2006,8.75,North America
+United States,USA,2008,8.75,North America
+United States,USA,2010,8.13,North America
+United States,USA,2011,8.13,North America
+United States,USA,2012,8.13,North America
+United States,USA,2013,8.13,North America
+United States,USA,2014,8.13,North America
+United States,USA,2015,8.13,North America
+United States,USA,2016,8.13,North America
+United States,USA,2017,8.13,North America
+United States,USA,2018,7.5,North America
+United States,USA,2019,7.5,North America
+United States,USA,2020,6.25,North America
+United States,USA,2021,6.25,North America
+United States,USA,2022,6.25,North America
+United States,USA,2023,6.25,North America
+United States,USA,2024,6.25,North America
+Uruguay,URY,2006,6.88,South America
+Uruguay,URY,2008,7.5,South America
+Uruguay,URY,2010,7.5,South America
+Uruguay,URY,2011,7.5,South America
+Uruguay,URY,2012,7.5,South America
+Uruguay,URY,2013,7.5,South America
+Uruguay,URY,2014,7.5,South America
+Uruguay,URY,2015,7.5,South America
+Uruguay,URY,2016,7.5,South America
+Uruguay,URY,2017,7.5,South America
+Uruguay,URY,2018,7.5,South America
+Uruguay,URY,2019,7.5,South America
+Uruguay,URY,2020,8.13,South America
+Uruguay,URY,2021,8.75,South America
+Uruguay,URY,2022,8.13,South America
+Uruguay,URY,2023,6.88,South America
+Uruguay,URY,2024,6.88,South America
+Uzbekistan,UZB,2006,5,Asia
+Uzbekistan,UZB,2008,5,Asia
+Uzbekistan,UZB,2010,5,Asia
+Uzbekistan,UZB,2011,5,Asia
+Uzbekistan,UZB,2012,4.38,Asia
+Uzbekistan,UZB,2013,4.38,Asia
+Uzbekistan,UZB,2014,6.25,Asia
+Uzbekistan,UZB,2015,5,Asia
+Uzbekistan,UZB,2016,5,Asia
+Uzbekistan,UZB,2017,5,Asia
+Uzbekistan,UZB,2018,5,Asia
+Uzbekistan,UZB,2019,5,Asia
+Uzbekistan,UZB,2020,5,Asia
+Uzbekistan,UZB,2021,5,Asia
+Uzbekistan,UZB,2022,5,Asia
+Uzbekistan,UZB,2023,5,Asia
+Uzbekistan,UZB,2024,5,Asia
+Venezuela,VEN,2006,5,South America
+Venezuela,VEN,2008,4.38,South America
+Venezuela,VEN,2010,4.38,South America
+Venezuela,VEN,2011,4.38,South America
+Venezuela,VEN,2012,4.38,South America
+Venezuela,VEN,2013,4.38,South America
+Venezuela,VEN,2014,4.38,South America
+Venezuela,VEN,2015,4.38,South America
+Venezuela,VEN,2016,4.38,South America
+Venezuela,VEN,2017,4.38,South America
+Venezuela,VEN,2018,4.38,South America
+Venezuela,VEN,2019,4.38,South America
+Venezuela,VEN,2020,4.38,South America
+Venezuela,VEN,2021,2.5,South America
+Venezuela,VEN,2022,1.88,South America
+Venezuela,VEN,2023,3.13,South America
+Venezuela,VEN,2024,3.13,South America
+Vietnam,VNM,2006,4.38,Asia
+Vietnam,VNM,2008,4.38,Asia
+Vietnam,VNM,2010,5.63,Asia
+Vietnam,VNM,2011,6.25,Asia
+Vietnam,VNM,2012,6.25,Asia
+Vietnam,VNM,2013,6.88,Asia
+Vietnam,VNM,2014,6.88,Asia
+Vietnam,VNM,2015,6.88,Asia
+Vietnam,VNM,2016,6.88,Asia
+Vietnam,VNM,2017,5.63,Asia
+Vietnam,VNM,2018,5.63,Asia
+Vietnam,VNM,2019,5.63,Asia
+Vietnam,VNM,2020,5.63,Asia
+Vietnam,VNM,2021,5.63,Asia
+Vietnam,VNM,2022,3.75,Asia
+Vietnam,VNM,2023,3.75,Asia
+Vietnam,VNM,2024,3.75,Asia
+World,OWID_WRL,2006,5.8183236,
+World,OWID_WRL,2008,5.7283235,
+World,OWID_WRL,2010,5.518982,
+World,OWID_WRL,2011,5.5377846,
+World,OWID_WRL,2012,5.537665,
+World,OWID_WRL,2013,5.57503,
+World,OWID_WRL,2014,5.6088023,
+World,OWID_WRL,2015,5.642635,
+World,OWID_WRL,2016,5.616467,
+World,OWID_WRL,2017,5.6202397,
+World,OWID_WRL,2018,5.593952,
+World,OWID_WRL,2019,5.5714374,
+World,OWID_WRL,2020,5.5490417,
+World,OWID_WRL,2021,5.3804193,
+World,OWID_WRL,2022,5.3208385,
+World,OWID_WRL,2023,5.245868,
+World,OWID_WRL,2024,5.257006,
+World (population-weighted),,2006,5.971377,
+World (population-weighted),,2008,5.980691,
+World (population-weighted),,2010,5.2950196,
+World (population-weighted),,2011,5.3972826,
+World (population-weighted),,2012,5.2561617,
+World (population-weighted),,2013,5.36233,
+World (population-weighted),,2014,5.547383,
+World (population-weighted),,2015,5.6410203,
+World (population-weighted),,2016,5.609862,
+World (population-weighted),,2017,5.5736003,
+World (population-weighted),,2018,5.4908814,
+World (population-weighted),,2019,4.8162026,
+World (population-weighted),,2020,4.8106985,
+World (population-weighted),,2021,4.7157183,
+World (population-weighted),,2022,4.751396,
+World (population-weighted),,2023,4.831576,
+World (population-weighted),,2024,4.9523764,
+Yemen,YEM,2006,4.38,Asia
+Yemen,YEM,2008,5,Asia
+Yemen,YEM,2010,5,Asia
+Yemen,YEM,2011,5,Asia
+Yemen,YEM,2012,5,Asia
+Yemen,YEM,2013,5,Asia
+Yemen,YEM,2014,5,Asia
+Yemen,YEM,2015,5,Asia
+Yemen,YEM,2016,5,Asia
+Yemen,YEM,2017,5,Asia
+Yemen,YEM,2018,5,Asia
+Yemen,YEM,2019,5,Asia
+Yemen,YEM,2020,5,Asia
+Yemen,YEM,2021,5,Asia
+Yemen,YEM,2022,5,Asia
+Yemen,YEM,2023,5,Asia
+Yemen,YEM,2024,5,Asia
+Zambia,ZMB,2006,6.25,Africa
+Zambia,ZMB,2008,6.25,Africa
+Zambia,ZMB,2010,5.63,Africa
+Zambia,ZMB,2011,6.25,Africa
+Zambia,ZMB,2012,6.25,Africa
+Zambia,ZMB,2013,6.25,Africa
+Zambia,ZMB,2014,6.88,Africa
+Zambia,ZMB,2015,6.88,Africa
+Zambia,ZMB,2016,6.88,Africa
+Zambia,ZMB,2017,6.88,Africa
+Zambia,ZMB,2018,6.88,Africa
+Zambia,ZMB,2019,6.88,Africa
+Zambia,ZMB,2020,6.88,Africa
+Zambia,ZMB,2021,6.88,Africa
+Zambia,ZMB,2022,6.88,Africa
+Zambia,ZMB,2023,6.88,Africa
+Zambia,ZMB,2024,6.88,Africa
+Zimbabwe,ZWE,2006,5.63,Africa
+Zimbabwe,ZWE,2008,5.63,Africa
+Zimbabwe,ZWE,2010,5.63,Africa
+Zimbabwe,ZWE,2011,5,Africa
+Zimbabwe,ZWE,2012,5,Africa
+Zimbabwe,ZWE,2013,5,Africa
+Zimbabwe,ZWE,2014,5,Africa
+Zimbabwe,ZWE,2015,5.63,Africa
+Zimbabwe,ZWE,2016,5.63,Africa
+Zimbabwe,ZWE,2017,5.63,Africa
+Zimbabwe,ZWE,2018,5.63,Africa
+Zimbabwe,ZWE,2019,5.63,Africa
+Zimbabwe,ZWE,2020,5.63,Africa
+Zimbabwe,ZWE,2021,5,Africa
+Zimbabwe,ZWE,2022,5,Africa
+Zimbabwe,ZWE,2023,5,Africa
+Zimbabwe,ZWE,2024,5,Africa

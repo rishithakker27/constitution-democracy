@@ -1,0 +1,151 @@
+{
+  "part": 12,
+  "section_label": "Special Domains — Military, Education, Ethnicity/Language, Environment & Remaining Equality Variables",
+  "variables": [
+    {
+      "variable_name": "MILITARY",
+      "question_number": "v639",
+      "description": "Whether the military or armed forces are mentioned in the constitution",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civilian_control_of_security"]
+    },
+    {
+      "variable_name": "COMCHIEF",
+      "question_number": "v640",
+      "description": "Who is the commander in chief of the armed forces (asked only if MILITARY=1)",
+      "coding_scheme": "1=Head of State; 2=Head of Government; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["civilian_control_of_security"],
+      "notes": "Civilian commander-in-chief (Head of State or Government) is a key indicator of civilian supremacy over the military"
+    },
+    {
+      "variable_name": "TERROR",
+      "question_number": "v646",
+      "description": "Whether there is special mention of terrorism and public security provisions regarding terrorism (asked only if MILITARY=1)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["civilian_control_of_security", "emergency_powers_constraints"]
+    },
+    {
+      "variable_name": "MILSERV",
+      "question_number": "v505",
+      "description": "Whether the constitution refers to a duty of military service",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civilian_control_of_security"],
+      "notes": "Borderline; conscription duties can indicate the state's relationship between civilians and military service"
+    },
+    {
+      "variable_name": "ETHINCL",
+      "question_number": "v652",
+      "description": "Whether the constitution contains provisions concerning national integration of ethnic communities",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "OPGROUP",
+      "question_number": "v654",
+      "description": "Whether the constitution provides for positive obligations to transfer wealth to, or provide opportunity for, particular groups (affirmative action provisions)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["equality_gender_minority_indigenous", "socioeconomic_rights"]
+    },
+    {
+      "variable_name": "LANG",
+      "question_number": "v655",
+      "description": "Whether the constitution specifies either an official or national language",
+      "coding_scheme": "1=Official only; 2=National only; 3=Both official and national; 4=No official/national language but language specified for government business; 5=No languages mentioned; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["equality_gender_minority_indigenous"],
+      "notes": "Relevant to minority rights when multiple language communities exist"
+    },
+    {
+      "variable_name": "LANGPROT",
+      "question_number": "v658",
+      "description": "Whether the constitution refers to the protection of different languages",
+      "coding_scheme": "1=Yes; 2=No; 3=Constitution explicitly requires neutrality towards languages; 96=Other; 97=Unable to Determine",
+      "dimensions": ["equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "ENV",
+      "question_number": "v626",
+      "description": "Whether the constitution refers to protection or preservation of the environment",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"],
+      "notes": "Borderline; environmental rights are increasingly recognized as related to socioeconomic well-being"
+    },
+    {
+      "variable_name": "ENVREF",
+      "question_number": "v627",
+      "description": "How the constitution refers to the environment (asked only if ENV=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ENVREF_1=Duty of the State to Protect; ENVREF_2=Duty of the People to Protect; ENVREF_3=Right of the People to Enjoy; ENVREF_4=General Reference; ENVREF_90=Left to non-constitutional law; ENVREF_96=Other; ENVREF_97=Unable to Determine; ENVREF_98=Not Specified",
+      "dimensions": ["socioeconomic_rights", "civil_liberties"],
+      "notes": "ENVREF_3 (right to enjoy environment) is most relevant to civil/socioeconomic rights; ENVREF_1 and ENVREF_2 reflect duties"
+    },
+    {
+      "variable_name": "EDUCATE",
+      "question_number": "v659",
+      "description": "Whether the constitution contains provisions concerning education",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "EDCOMP",
+      "question_number": "v660",
+      "description": "Whether the constitution stipulates that education be compulsory until at least some level (asked only if EDUCATE=1)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "EDCOMPL",
+      "question_number": "v661",
+      "description": "To what level the constitution makes education compulsory (asked only if EDCOMP=1)",
+      "coding_scheme": "1=Basic/elementary/primary; 2=Secondary/intermediate; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "EDFREE",
+      "question_number": "v662",
+      "description": "Whether the constitution stipulates that education be free, at least up to some level (must reference education at no cost, not merely public education)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "EDFREEL",
+      "question_number": "v663",
+      "description": "To what level the constitution stipulates education should be free (asked only if EDFREE=1)",
+      "coding_scheme": "1=Basic/elementary/primary; 2=Secondary/intermediate; 3=All levels; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "ACFREE",
+      "question_number": "v664",
+      "description": "Whether the constitution guarantees academic freedom",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "socioeconomic_rights"]
+    },
+    {
+      "variable_name": "ACHIGHED",
+      "question_number": "v665",
+      "description": "Whether the constitution guarantees equal access to higher education",
+      "coding_scheme": "1=Yes; 2=Yes, but qualified (access limited by ability or competitive basis); 3=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "CULTRGHT",
+      "question_number": "v502",
+      "description": "Whether the constitution refers to a state duty to protect or promote culture or cultural rights (must specifically mention 'culture' or 'cultural rights')",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["equality_gender_minority_indigenous", "socioeconomic_rights"]
+    },
+    {
+      "variable_name": "GOVMED",
+      "question_number": "v637",
+      "description": "How the constitution addresses the state operation of print or electronic media",
+      "coding_scheme": "1=State must operate all media outlets; 2=State can operate media outlets; 3=State cannot operate media outlets; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["transparency_information_access", "civil_liberties"]
+    },
+    {
+      "variable_name": "MEDMARK",
+      "question_number": "v638",
+      "description": "General principles about the operation of the media market mentioned in the constitution. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): MEDMARK_1=No monopoly or oligopoly; MEDMARK_2=Competitive; MEDMARK_3=Pluralism; MEDMARK_4=Balanced; MEDMARK_5=Fair; MEDMARK_6=Only monopoly; MEDMARK_7=Oligopoly; MEDMARK_90=Left to non-constitutional law; MEDMARK_96=Other; MEDMARK_97=Unable to Determine; MEDMARK_98=Not Specified",
+      "dimensions": ["transparency_information_access", "civil_liberties"]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# ── Raw data (too large / publicly available) ─────────────────────────────
+data/ccpcnc/
+data/vdem/
+
+# ── Node / portfolio build artifacts ──────────────────────────────────────
+portfolio/node_modules/
+portfolio/dist/
+
+# ── CatBoost training artifacts ───────────────────────────────────────────
+catboost_info/
+
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+env/
+
+# ── Jupyter checkpoints ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── macOS ─────────────────────────────────────────────────────────────────
+.DS_Store
+
+# ── LaTeX build artifacts ─────────────────────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# ── Claude Code local settings ───────────────────────────────────────────
+.claude/

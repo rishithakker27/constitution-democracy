@@ -1,0 +1,61 @@
+{
+  "project": "CCPCNC v5 Variable-to-Dimension Mapping",
+  "codebook_version": "5.0 (November 10, 2025)",
+  "authors": "Elkins & Ginsburg",
+  "created": "2026-06-03",
+  "purpose": "Maps substantive CCPCNC variables to 14 constitutional dimensions for typology construction. Structural, metadata, source, and symbolic variables are excluded.",
+
+  "how_to_combine": "Concatenate the 'variables' array from each part file. All entries share the same schema.",
+
+  "entry_schema": {
+    "variable_name": "Canonical variable name (parent name for multi-response questions). Sub-variables follow the pattern PARENT_N where N is the answer code.",
+    "question_number": "vN — the survey instrument question number from the CCP codebook",
+    "description": "Human-readable explanation of what the variable measures",
+    "coding_scheme": "Full set of values from the codebook. For multi-response questions, lists all sub-variable names and what each measures. Each sub-variable is binary: 0=not selected, 1=selected, 99=not applicable.",
+    "dimensions": "Array of one or more dimension keys the variable is relevant to",
+    "notes": "Optional. Flags borderline assignments, inter-variable dependencies, or direction of coding relative to dimension"
+  },
+
+  "special_codes_universal": {
+    "90": "Left explicitly to non-constitutional law",
+    "96": "Other (coder leaves comment)",
+    "97": "Unable to Determine",
+    "98": "Not Specified (topic not mentioned in constitution)",
+    "99": "Not Applicable (prior question makes this question irrelevant)"
+  },
+
+  "dimensions": {
+    "civil_liberties": "Constitutional protections for individual freedoms such as speech, assembly, religion, movement, privacy, and freedom from arbitrary arrest or detention.",
+    "socioeconomic_rights": "Provisions guaranteeing rights related to education, healthcare, housing, social security, labor (e.g., fair wages, unionization), and an adequate standard of living.",
+    "political_competition": "Rules governing multi-party systems, free and fair elections, suffrage, referendums, and the ability of opposition parties to form and compete for power.",
+    "legislative_autonomy": "The legislature's independence from executive control, including powers to initiate legislation, oversee the executive, control its own procedures, and resist dissolution or interference.",
+    "executive_constraints": "Constitutional limits on executive power, such as term limits, veto override procedures, legislative or judicial checks, and requirements for approval of appointments or treaties.",
+    "judicial_independence": "Provisions insulating judges from political pressure, including security of tenure, protected salaries, immunity from removal except for cause, and autonomous court administration.",
+    "rule_of_law_due_process": "Constitutional guarantees that laws are applied equally and consistently, including due process rights (notice, hearing, impartial tribunal), prohibition of retroactive laws, and habeas corpus.",
+    "institutional_accountability": "Mechanisms that hold state institutions accountable, such as ombudsmen, anti-corruption commissions, supreme audit institutions, and independent central banks.",
+    "emergency_powers_constraints": "Limits on the declaration and exercise of states of emergency, including parliamentary oversight, sunset clauses, non-derogable rights, and judicial review of emergency measures.",
+    "civilian_control_of_security": "Provisions ensuring the military, police, and intelligence services are subordinate to elected civilian authorities, such as civilian defense ministers, prohibitions on military roles in law enforcement, and legislative oversight.",
+    "amendment_rigidity": "The procedural difficulty of amending the constitution, measured by requirements such as supermajorities in the legislature, multiple sessions, referendums, or approval by subnational units.",
+    "federalism_decentralization": "Constitutional distribution of power between central and subnational governments, including enumerated state/provincial powers, fiscal autonomy, local self-government, and mechanisms for intergovernmental cooperation.",
+    "transparency_information_access": "Provisions guaranteeing public access to government documents and meetings, subject only to limited exceptions (national security, privacy), and establishing a right to information.",
+    "equality_gender_minority_indigenous": "Constitutional protections against discrimination based on gender, ethnicity, religion, disability, sexual orientation, or indigenous status, including affirmative action, group rights, or special representation."
+  },
+
+  "parts": [
+    {"file": "ccp_mapping_part01_basic_principles_amending.json", "n_variables": 15, "label": "Basic Principles & Amending"},
+    {"file": "ccp_mapping_part02_executive_hos_hog.json", "n_variables": 26, "label": "Executive — HoS & HoG"},
+    {"file": "ccp_mapping_part03_cabinet_emergency.json", "n_variables": 11, "label": "Cabinet & Emergency Powers"},
+    {"file": "ccp_mapping_part04_legislature.json", "n_variables": 30, "label": "Legislature — Structure, Oversight, Legislation, Rules"},
+    {"file": "ccp_mapping_part05_judiciary.json", "n_variables": 31, "label": "Judiciary — All Courts, Review, Removal, Independence"},
+    {"file": "ccp_mapping_part06_federalism_elections.json", "n_variables": 23, "label": "Federalism, Indigenous Rights & Elections"},
+    {"file": "ccp_mapping_part07_regulatory_bodies_international.json", "n_variables": 15, "label": "Regulatory Bodies, International & War"},
+    {"file": "ccp_mapping_part08_criminal_procedures.json", "n_variables": 23, "label": "Criminal Procedures & Due Process"},
+    {"file": "ccp_mapping_part09_rights_citizenship_ruleoflaw_information.json", "n_variables": 16, "label": "Rights — Citizenship, Rule of Law, Information & Religion"},
+    {"file": "ccp_mapping_part10_rights_economic_labor.json", "n_variables": 18, "label": "Rights — Economic, Property, Labor & Social Security"},
+    {"file": "ccp_mapping_part11_rights_civil_political.json", "n_variables": 23, "label": "Rights — Civil and Political"},
+    {"file": "ccp_mapping_part12_special_domains_military_education_equality.json", "n_variables": 20, "label": "Special Domains — Military, Education, Ethnicity/Language, Environment"}
+  ],
+
+  "total_question_entries": 251,
+  "note_on_dataset_columns": "Many entries correspond to multiple columns in the actual CCPCNC dataset because multi-response questions generate one binary column per answer choice. Total dataset columns covered is approximately 400+."
+}

@@ -1,0 +1,235 @@
+.models__heading { margin-bottom: 2.5rem; }
+
+/* ── Main 2-col grid ── */
+.models__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .models__grid { grid-template-columns: 1fr; }
+}
+
+.models__panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.models__panel--tall {
+  /* let it grow to match the right column */
+}
+
+.models__panel-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.35rem;
+}
+
+.models__panel-header h3 {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.models__primary-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: rgba(0,105,62,0.25);
+  color: #4ade80;
+  padding: 0.18rem 0.55rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0,105,62,0.4);
+  white-space: nowrap;
+}
+
+.models__panels-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.models__panel h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.35rem;
+}
+
+.models__panel-sub {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+  line-height: 1.55;
+}
+
+.models__tooltip {
+  background: #1e2d40;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.8rem;
+  color: var(--text);
+}
+
+.models__r2-legend {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.6rem;
+  font-size: 0.73rem;
+  color: var(--muted);
+}
+
+.models__r2-legend span {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.models__dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── SHAP section ── */
+.models__shap-section {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.models__shap-heading {
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+}
+
+.models__shap-sub {
+  font-size: 0.82rem;
+  color: var(--muted);
+  max-width: 720px;
+  line-height: 1.6;
+  margin-bottom: 1.75rem;
+}
+
+.models__shap-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+@media (max-width: 720px) {
+  .models__shap-grid { grid-template-columns: 1fr; }
+}
+
+.models__shap-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.models__shap-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.7rem;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.models__shap-label span {
+  font-weight: 400;
+  opacity: 0.75;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.models__shap-label--primary {
+  background: rgba(0,105,62,0.2);
+  color: #4ade80;
+  border: 1px solid rgba(0,105,62,0.4);
+}
+
+.models__shap-label--comparison {
+  background: rgba(200,164,0,0.12);
+  color: var(--gold);
+  border: 1px solid rgba(200,164,0,0.3);
+}
+
+.models__shap-label--libdem {
+  background: rgba(96,165,250,0.12);
+  color: #60a5fa;
+  border: 1px solid rgba(96,165,250,0.3);
+}
+
+/* ── Target comparison section ── */
+.models__comparison-section {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* ── Dropdown inside panel header ── */
+.models__select {
+  background: var(--card2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  color: #60a5fa;
+  font-size: 0.8rem;
+  font-family: var(--sans);
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
+
+.models__shap-img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #fff;
+  display: block;
+}
+
+/* ── Caveats ── */
+.models__caveats {
+  background: rgba(200,164,0,0.06);
+  border: 1px solid rgba(200,164,0,0.18);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.models__caveats ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.models__caveats li {
+  font-size: 0.855rem;
+  color: var(--muted);
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.models__caveats li::before {
+  content: '⚠';
+  position: absolute;
+  left: 0;
+  font-size: 0.75rem;
+  top: 0.05rem;
+  color: var(--gold);
+}

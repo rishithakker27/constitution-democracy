@@ -1,0 +1,15 @@
+label,feature,importance
+Transparency / info access,ccpc_transparency_information_access,10.294611155171465
+Institutional accountability,ccpc_institutional_accountability,9.781097528356916
+Civilian control of security,ccpc_civilian_control_of_security,9.124426474786837
+Civil liberties,ccpc_civil_liberties,8.711192035501496
+Emergency powers constraints,ccpc_emergency_powers_constraints,8.460886293452601
+Political competition,ccpc_political_competition,8.316616161090915
+Executive constraints,ccpc_executive_constraints,8.038726845136951
+Federalism / decentralization,ccpc_federalism_decentralization,6.616766139816434
+Amendment rigidity,ccpc_amendment_rigidity,6.501952805451606
+Socioeconomic rights,ccpc_socioeconomic_rights,5.6522919199480155
+Judicial independence,ccpc_judicial_independence,5.0826519820766745
+Rule of law / due process,ccpc_rule_of_law_due_process,4.890107155021648
+Legislative autonomy,ccpc_legislative_autonomy,4.7960843732207
+Equality (gender/minority/indigenous),ccpc_equality_gender_minority_indigenous,3.732589130967759

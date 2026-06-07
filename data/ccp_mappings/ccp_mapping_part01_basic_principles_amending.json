@@ -1,0 +1,117 @@
+{
+  "part": 1,
+  "section_label": "Basic Principles & Amending",
+  "note": "Each entry covers one survey question. Multi-response questions list all sub-variable names in coding_scheme; each sub-variable is binary (0=not selected, 1=selected, 99=not applicable).",
+  "variables": [
+    {
+      "variable_name": "DEMOC",
+      "question_number": "v51",
+      "description": "Whether the constitution refers to 'democracy' or 'democratic'",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["political_competition", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "DEMONUM",
+      "question_number": "v52",
+      "description": "How many times the constitution mentions the words 'democracy' or 'democratic' (asked only if DEMOC=1). Excludes occurrences in the country's official name.",
+      "coding_scheme": "Open-ended numeric response; 99=Not Applicable",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "OVERTHRW",
+      "question_number": "v63",
+      "description": "Whether the constitution suggests that citizens have the right to overthrow their government under certain circumstances",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "political_competition"]
+    },
+    {
+      "variable_name": "TRUTHCOM",
+      "question_number": "v49",
+      "description": "Whether the constitution provides for a commission for truth and reconciliation",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["institutional_accountability", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "PREVLEAD",
+      "question_number": "v50",
+      "description": "Whether the constitution mentions anything about crimes committed by the previous regime",
+      "coding_scheme": "1=Yes, these crimes will be pardoned; 2=Yes, these crimes are punishable; 3=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["institutional_accountability", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "OATH",
+      "question_number": "v53",
+      "description": "Whether the constitution stipulates that some public office holders take an oath to support or abide by the constitution",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["institutional_accountability", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "DIGNITY",
+      "question_number": "v58",
+      "description": "Whether the constitution refers to the 'dignity of man' or human 'dignity' (must be explicitly mentioned, not implied)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "SOCIALSM",
+      "question_number": "v54",
+      "description": "Whether the constitution refers to 'socialism' or 'socialist'",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"],
+      "notes": "Borderline; indicates ideological orientation toward state-provided socioeconomic goods"
+    },
+    {
+      "variable_name": "MARKET",
+      "question_number": "v55",
+      "description": "Whether the constitution refers to the 'free market,' 'capitalism,' or an analogous term",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"],
+      "notes": "Borderline; indicates ideological orientation toward market-based economy"
+    },
+    {
+      "variable_name": "AMEND",
+      "question_number": "v70",
+      "description": "Whether the constitution provides for at least one procedure for amending the constitution",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["amendment_rigidity"]
+    },
+    {
+      "variable_name": "UNAMEND",
+      "question_number": "v72",
+      "description": "Whether any parts of the constitution are explicitly unamendable (asked only if AMEND=1)",
+      "coding_scheme": "1=Yes; 2=No; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["amendment_rigidity", "rule_of_law_due_process"],
+      "notes": "Unamendable clauses ('eternity clauses') represent the highest form of constitutional rigidity and often protect fundamental rights or democratic structures"
+    },
+    {
+      "variable_name": "AMNDPROP",
+      "question_number": "v74",
+      "description": "Who is allowed to propose amendments to the constitution (asked only if AMEND=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): AMNDPROP_1=Head of State; AMNDPROP_2=Head of Government; AMNDPROP_3=Government/Cabinet; AMNDPROP_4=First/only Chamber of Legislature; AMNDPROP_5=Second Chamber; AMNDPROP_6=Both Chambers required; AMNDPROP_7=Subsidiary Units; AMNDPROP_8=Public (initiatives/referendum); AMNDPROP_9=Members of Judiciary; AMNDPROP_10=Ombudsman; AMNDPROP_96=Other; AMNDPROP_97=Unable to Determine; AMNDPROP_98=Not Specified",
+      "dimensions": ["amendment_rigidity", "federalism_decentralization"],
+      "notes": "AMNDPROP_7 (subsidiary units) and AMNDPROP_8 (public) are particularly relevant to federalism and democratic rigidity respectively"
+    },
+    {
+      "variable_name": "AMNDAPPR",
+      "question_number": "v76",
+      "description": "Who approves amendments to the constitution (asked only if AMEND=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): AMNDAPPR_1=Head of State; AMNDAPPR_2=Head of Government; AMNDAPPR_3=Government/Cabinet; AMNDAPPR_4=First/only Chamber of Legislature; AMNDAPPR_5=Second Chamber; AMNDAPPR_6=Both Chambers required; AMNDAPPR_7=Subsidiary Units; AMNDAPPR_8=Public (referendum); AMNDAPPR_96=Other; AMNDAPPR_97=Unable to Determine; AMNDAPPR_98=Not Specified",
+      "dimensions": ["amendment_rigidity", "federalism_decentralization"],
+      "notes": "AMNDAPPR_7 (subsidiary units) reflects federal veto on amendments; AMNDAPPR_8 (public referendum) adds direct democratic requirement"
+    },
+    {
+      "variable_name": "AMNDAMAJ",
+      "question_number": "v78",
+      "description": "Whether constitutional amendments require more than a simple majority by the legislature to be approved (asked only if legislature is the approving body)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["amendment_rigidity"]
+    },
+    {
+      "variable_name": "AMNDAPCT",
+      "question_number": "v79",
+      "description": "What proportion of the legislative vote is needed to approve a constitutional amendment (asked only if AMNDAMAJ=1)",
+      "coding_scheme": "1=Absolute Majority of Members; 2=3/5 Majority; 3=2/3 Majority; 4=3/4 Majority; 5=Unspecified supermajority; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["amendment_rigidity"]
+    }
+  ]
+}

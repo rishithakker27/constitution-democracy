@@ -1,0 +1,230 @@
+{
+  "part": 4,
+  "section_label": "Legislature — Structure, Chambers, Oversight, Legislation, Rules",
+  "variables": [
+    {
+      "variable_name": "LEGISL",
+      "question_number": "v190",
+      "description": "Whether the constitution provides for a central representative body (a legislature)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["legislative_autonomy", "political_competition"]
+    },
+    {
+      "variable_name": "HOUSENUM",
+      "question_number": "v191",
+      "description": "How many chambers or houses the legislature contains (asked only if LEGISL=1)",
+      "coding_scheme": "1=0 chambers; 2=1 chamber; 3=2 chambers; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "LHLEGIS",
+      "question_number": "v200",
+      "description": "Whether the first (or only) chamber of the legislature is given the power to legislate",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "LHSELECT",
+      "question_number": "v202",
+      "description": "How members of the first (or only) chamber are selected. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): LHSELECT_1=Appointed; LHSELECT_2=Elected by Elite Group; LHSELECT_3=Elected by Citizens; LHSELECT_90=Left to non-constitutional law; LHSELECT_96=Other; LHSELECT_97=Unable to Determine; LHSELECT_98=Not Specified",
+      "dimensions": ["political_competition", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "LHCOHORT",
+      "question_number": "v203",
+      "description": "Whether members of the first chamber are elected in the same cohort or staggered cohorts",
+      "coding_scheme": "1=Same Cohort; 2=Staggered Cohorts; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["political_competition", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "LHTERM",
+      "question_number": "v222",
+      "description": "Maximum term length for members of the first (or only) chamber of the legislature in years",
+      "coding_scheme": "Numeric: 1–7 years; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy", "political_competition"]
+    },
+    {
+      "variable_name": "LHQUOTA",
+      "question_number": "v224",
+      "description": "Whether the constitution stipulates a quota for representation of certain groups in the first (or only) chamber",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["equality_gender_minority_indigenous", "political_competition"]
+    },
+    {
+      "variable_name": "LHQUOTAD",
+      "question_number": "v225",
+      "description": "Which groups the constitution stipulates a quota for in the first (or only) chamber (asked only if LHQUOTA=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): LHQUOTAD_1=Women; LHQUOTAD_2=Ethnic groups (broadly defined: castes, nationalities, linguistic, racial groups); LHQUOTAD_3=Parties; LHQUOTAD_4=Religions; LHQUOTAD_5=Social class or similar; LHQUOTAD_96=Other; LHQUOTAD_97=Unable to Determine; LHQUOTAD_98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous", "political_competition"]
+    },
+    {
+      "variable_name": "UHLEGISL",
+      "question_number": "v229",
+      "description": "Whether the Second Chamber of the legislature is given the power to legislate (asked only if HOUSENUM=3)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "UHSELECT",
+      "question_number": "v231",
+      "description": "How members of the Second Chamber are selected (asked only if HOUSENUM=3). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): UHSELECT_1=Appointed; UHSELECT_2=Elected by Elite Group; UHSELECT_3=Elected by Citizens; UHSELECT_90=Left to non-constitutional law; UHSELECT_96=Other; UHSELECT_97=Unable to Determine; UHSELECT_98=Not Specified",
+      "dimensions": ["political_competition", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "UHTERM",
+      "question_number": "v251",
+      "description": "Maximum term length for members of the Second Chamber in years (0=not specified; 100=life tenure)",
+      "coding_scheme": "Open-ended numeric; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "UHQUOTA",
+      "question_number": "v253",
+      "description": "Whether the constitution stipulates a quota for representation of certain groups in the Second Chamber",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["equality_gender_minority_indigenous", "political_competition"]
+    },
+    {
+      "variable_name": "UHQUOTAD",
+      "question_number": "v254",
+      "description": "Which groups the constitution stipulates a quota for in the Second Chamber (asked only if UHQUOTA=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): UHQUOTAD_1=Women; UHQUOTAD_2=Ethnic groups; UHQUOTAD_3=Parties; UHQUOTAD_4=Religions; UHQUOTAD_5=Social class or similar; UHQUOTAD_96=Other; UHQUOTAD_97=Unable to Determine; UHQUOTAD_98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous", "political_competition"]
+    },
+    {
+      "variable_name": "LEGDISS",
+      "question_number": "v255",
+      "description": "Who, if anybody, can dismiss the legislature (asked only if LEGISL=1)",
+      "coding_scheme": "1=Head of State; 2=Head of Government; 3=Either Head of State or Head of Government; 4=Government/Cabinet; 5=Legislature itself; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable. Note: if constitution expressly prohibits dissolution, coded Other with comment.",
+      "dimensions": ["legislative_autonomy", "executive_constraints"]
+    },
+    {
+      "variable_name": "IMMUNITY",
+      "question_number": "v260",
+      "description": "Whether the constitution provides for immunity for members of the legislature under some conditions",
+      "coding_scheme": "1=Absolute Immunity; 2=Limited Immunity; 3=No Immunity; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "INTEXEC",
+      "question_number": "v261",
+      "description": "Whether the legislature has the power to interpellate the executive branch, or whether the executive is required to report its activities to the legislature",
+      "coding_scheme": "1=Legislature can call executive to report as it sees fit; 2=Executive must report at regular intervals; 3=Both; 4=Neither; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy", "executive_constraints", "institutional_accountability"]
+    },
+    {
+      "variable_name": "INVEXE",
+      "question_number": "v262",
+      "description": "Whether the legislature has the power to investigate the activities of the executive branch",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy", "executive_constraints", "institutional_accountability"]
+    },
+    {
+      "variable_name": "LEG_IN",
+      "question_number": "v263",
+      "description": "Who the constitution specifies can initiate general legislation (asked only if LEGISL=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): LEG_IN_1=Head of State; LEG_IN_2=Head of Government; LEG_IN_3=Government/Cabinet; LEG_IN_4=Political Party; LEG_IN_5=Member of First/only Chamber; LEG_IN_6=Member of Second Chamber; LEG_IN_7=Public; LEG_IN_96=Other; LEG_IN_97=Unable to Determine; LEG_IN_98=Not Specified",
+      "dimensions": ["legislative_autonomy", "executive_constraints", "political_competition"]
+    },
+    {
+      "variable_name": "LEGSUPR",
+      "question_number": "v264",
+      "description": "Whether a supermajority is needed for passing any legislation (excluding economic legislation or approval powers like impeachment/war)",
+      "coding_scheme": "1=Yes; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "LEGAPP",
+      "question_number": "v270",
+      "description": "Who has the power to approve or reject legislation once passed by the legislature (not including constitutional review)",
+      "coding_scheme": "1=Head of State; 2=Head of Government; 3=Both HoS and HoG; 4=Government/Cabinet; 5=Legislation does not require approval; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "LEGAPPDF",
+      "question_number": "v271",
+      "description": "Default mode for approval of legislation when no action is taken by the approving body",
+      "coding_scheme": "1=If no action taken, bill becomes law (executive must act); 2=If no action taken, bill is rejected; 3=If no action taken, bill returned to legislature for reconsideration; 4=Executive required to either sign/promulgate or return to legislature; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "LEGAPPPT",
+      "question_number": "v272",
+      "description": "Whether the approving/vetoing actor can veto parts of a bill or only the bill in its entirety",
+      "coding_scheme": "1=Can only veto parts (line-item veto); 2=Can only veto the bill in its entirety; 3=Can veto either specific parts or the entire bill; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "OVERRIDE",
+      "question_number": "v273",
+      "description": "Whether vetoes of legislation can be overridden",
+      "coding_scheme": "1=Yes; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy", "executive_constraints"]
+    },
+    {
+      "variable_name": "OVERWHO",
+      "question_number": "v274",
+      "description": "Who can override vetoes of legislation (asked only if OVERRIDE=1)",
+      "coding_scheme": "1=First/only chamber of Legislature only; 2=Second Chamber only; 3=Either Chamber; 4=Both Chambers must override; 5=Both chambers voting jointly; 6=The Public; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy", "executive_constraints"]
+    },
+    {
+      "variable_name": "OVERPCT",
+      "question_number": "v275",
+      "description": "Proportion of the vote needed to override a veto (asked only if OVERRIDE=1)",
+      "coding_scheme": "1=Plurality; 2=Majority; 3=3/5 Majority; 4=2/3 Majority; 5=3/4 Majority; 6=Unspecified supermajority; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy", "executive_constraints"]
+    },
+    {
+      "variable_name": "SPECLEG",
+      "question_number": "v276",
+      "description": "Whether the constitution provides for any special legislative processes. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): SPECLEG_1=Organic Law; SPECLEG_2=Budget Bills; SPECLEG_3=Tax Bills; SPECLEG_4=Finance Bills; SPECLEG_5=Spending Bills; SPECLEG_96=Other; SPECLEG_97=Unable to Determine; SPECLEG_98=Not Specified",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "ASSETS",
+      "question_number": "v299",
+      "description": "Whether the constitution requires legislators to disclose their earnings and/or assets",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["institutional_accountability", "transparency_information_access"]
+    },
+    {
+      "variable_name": "PUBMEET",
+      "question_number": "v301",
+      "description": "Whether the constitution prescribes that meetings of the legislature are generally held in public",
+      "coding_scheme": "1=Public; 2=Private; 90=Left to non-constitutional law; 96=Other (includes constitutions allowing secret sessions in special circumstances); 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["transparency_information_access", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "PUBMIN",
+      "question_number": "v302",
+      "description": "Whether a record of the deliberations of the legislature is published",
+      "coding_scheme": "1=Yes; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["transparency_information_access"]
+    },
+    {
+      "variable_name": "RECVOTE",
+      "question_number": "v303",
+      "description": "Whether votes in the legislature are a matter of public record, secret, or both depending on the topic",
+      "coding_scheme": "1=Public Record; 2=Secret; 3=Both depending on topic; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["transparency_information_access"]
+    },
+    {
+      "variable_name": "COMMIT",
+      "question_number": "v307",
+      "description": "Whether legislative committees are mentioned in the constitution",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "EXSESS",
+      "question_number": "v297",
+      "description": "Who, if anybody, can convene an extraordinary session of the legislature or extend an ongoing session. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): EXSESS_1=Head of State; EXSESS_2=Head of Government; EXSESS_3=Government/Cabinet; EXSESS_4=First/only Chamber; EXSESS_5=Second Chamber; EXSESS_6=Both Chambers required; EXSESS_96=Other; EXSESS_97=Unable to Determine; EXSESS_98=Not Specified",
+      "dimensions": ["legislative_autonomy", "executive_constraints"]
+    }
+  ]
+}

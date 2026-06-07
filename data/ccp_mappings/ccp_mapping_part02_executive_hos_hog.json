@@ -1,0 +1,206 @@
+{
+  "part": 2,
+  "section_label": "Executive — Head of State & Head of Government",
+  "note": "Covers selection, terms, dismissal, immunity, decrees, and pardons for the Head of State and Head of Government.",
+  "variables": [
+    {
+      "variable_name": "EXECINDP",
+      "question_number": "v83",
+      "description": "Whether the constitution contains an explicit declaration regarding the independence of the central executive organ(s)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["executive_constraints"],
+      "notes": "Borderline; an explicit independence claim may indicate insulation from checks rather than subjection to them"
+    },
+    {
+      "variable_name": "HOSELECT",
+      "question_number": "v89",
+      "description": "How the Head of State is selected",
+      "coding_scheme": "1=Heredity/Royal Selection; 2=Elected by Citizens; 3=Elected by Elite Group (including legislature); 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "HOSELSYS",
+      "question_number": "v90",
+      "description": "The electoral system used for the Head of State (asked only if HOSELECT=2, elected by citizens)",
+      "coding_scheme": "1=Plurality; 2=Plurality plus distribution; 3=Qualified Plurality; 4=Majority by unspecified method; 5=Majority by alternative vote; 6=Majority by two-round method with popular run-off; 7=Majority by two-round method with assembly run-off; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "HOSTERM",
+      "question_number": "v92",
+      "description": "Maximum term length of the Head of State in years (0=not specified; 100=no term limit or life tenure)",
+      "coding_scheme": "Open-ended numeric response (years); 99=Not Applicable",
+      "dimensions": ["executive_constraints"]
+    },
+    {
+      "variable_name": "HOSTERML",
+      "question_number": "v93",
+      "description": "Restrictions on the number of terms the Head of State may serve",
+      "coding_scheme": "1=Only one term total; 2=Only two terms total; 3=No successive terms but multiple non-successive permitted; 4=Only two successive terms but multiple non-successive permitted; 5=Explicitly no term limits; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints"]
+    },
+    {
+      "variable_name": "HOSREST",
+      "question_number": "v95",
+      "description": "Additional restrictions the constitution places on becoming the Head of State. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): HOSREST_1=Must be from particular party; HOSREST_2=Must be particular gender; HOSREST_3=Must be member of particular religious denomination; HOSREST_4=Must have particular ethnic identity; HOSREST_5=Must be citizen; HOSREST_6=Must be native citizen; HOSREST_7=Must have certain education; HOSREST_8=Must be non-felon; HOSREST_9=Must have been resident for specified period; HOSREST_10=Must not be married to non-citizen; HOSREST_11=Must be a national; HOSREST_90=Left to non-constitutional law; HOSREST_96=Other; HOSREST_97=Unable to Determine; HOSREST_98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous", "political_competition"],
+      "notes": "HOSREST_2 (gender), HOSREST_3 (religion), HOSREST_4 (ethnicity) are directly relevant to equality dimension"
+    },
+    {
+      "variable_name": "HOSDISS",
+      "question_number": "v96",
+      "description": "Whether there are provisions for dismissing the Head of State (active removal, not expiration of term)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["executive_constraints"]
+    },
+    {
+      "variable_name": "HOSDCOND",
+      "question_number": "v97",
+      "description": "Grounds on which the Head of State can be dismissed (asked only if HOSDISS=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): HOSDCOND_1=General dissatisfaction/loss of confidence; HOSDCOND_2=Crimes and conduct issues; HOSDCOND_3=Treason; HOSDCOND_4=Violations of the constitution; HOSDCOND_5=Incapacitation; HOSDCOND_90=Left to non-constitutional law; HOSDCOND_96=Other; HOSDCOND_97=Unable to Determine; HOSDCOND_98=Not Specified",
+      "dimensions": ["executive_constraints", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "HOSPDISS",
+      "question_number": "v98",
+      "description": "Who can propose a dismissal of the Head of State (asked only if HOSDISS=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): HOSPDISS_1=Head of Government; HOSPDISS_2=First/only chamber of Legislature; HOSPDISS_3=Second Chamber; HOSPDISS_4=Both Chambers required; HOSPDISS_5=Public (recall); HOSPDISS_6=Public Prosecutor; HOSPDISS_7=Court; HOSPDISS_8=Constitutional Council/Court; HOSPDISS_9=Government/Cabinet; HOSPDISS_90=Left to non-constitutional law; HOSPDISS_96=Other; HOSPDISS_97=Unable to Determine; HOSPDISS_98=Not Specified",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "HOSADISS",
+      "question_number": "v104",
+      "description": "Who can approve a dismissal of the Head of State (asked only if HOSDISS=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): HOSADISS_1=Head of Government; HOSADISS_2=First/only chamber of Legislature; HOSADISS_3=Second Chamber; HOSADISS_4=Both Chambers required; HOSADISS_5=Public; HOSADISS_6=Public Prosecutor; HOSADISS_7=Court; HOSADISS_8=Constitutional Council/Court; HOSADISS_9=Government/Cabinet; HOSADISS_10=No approval needed; HOSADISS_90=Left to non-constitutional law; HOSADISS_96=Other; HOSADISS_97=Unable to Determine; HOSADISS_98=Not Specified",
+      "dimensions": ["executive_constraints", "legislative_autonomy", "judicial_independence"]
+    },
+    {
+      "variable_name": "HOSIMM",
+      "question_number": "v112",
+      "description": "Whether the Head of State is provided with immunity from prosecution",
+      "coding_scheme": "1=Yes, absolute immunity; 2=Yes, limited immunity; 3=No, specifically denied immunity; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "HOSDEC",
+      "question_number": "v114",
+      "description": "Whether the Head of State has decree power",
+      "coding_scheme": "1=Yes; 2=No; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "HOSDECIM",
+      "question_number": "v115",
+      "description": "Implementation procedure for Head of State decrees (asked only if HOSDEC=1)",
+      "coding_scheme": "1=Effective immediately upon decree; 2=Effective after a period during which an approving body can repeal it; 3=Effective only after approval from approving body; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "HOSDECEX",
+      "question_number": "v116",
+      "description": "Expiration procedure for Head of State decrees (asked only if HOSDEC=1)",
+      "coding_scheme": "1=Permanent unless repealed; 2=Naturally expire unless extended; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "HOSPARD",
+      "question_number": "v119",
+      "description": "Whether the Head of State has the power to pardon",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "HOGELECT",
+      "question_number": "v122",
+      "description": "How the Head of Government is selected",
+      "coding_scheme": "1=Heredity/Royal Selection; 2=Elected by Citizens; 3=Elected by Elite Group (including legislature); 4=Appointed; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "HOGTERM",
+      "question_number": "v126",
+      "description": "Maximum term length of the Head of Government in years (0=not specified; 100=no limit or life tenure)",
+      "coding_scheme": "Open-ended numeric response (years); 99=Not Applicable",
+      "dimensions": ["executive_constraints"]
+    },
+    {
+      "variable_name": "HOGTERML",
+      "question_number": "v127",
+      "description": "Restrictions on the number of terms the Head of Government may serve",
+      "coding_scheme": "1=Only one term total; 2=Only two terms total; 3=No successive terms but multiple non-successive permitted; 4=Only two successive terms but multiple non-successive permitted; 5=No term limits; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints"]
+    },
+    {
+      "variable_name": "HOGLEGR",
+      "question_number": "v129",
+      "description": "Restrictions the constitution places on the Head of Government's role in the legislature",
+      "coding_scheme": "1=Must be a member of the legislature; 2=Cannot be a member of the legislature; 3=May or may not be a member; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy", "executive_constraints"],
+      "notes": "Separation between executive and legislative roles affects independence of both branches"
+    },
+    {
+      "variable_name": "HOGDISS",
+      "question_number": "v131",
+      "description": "Whether there are provisions for dismissing the Head of Government (includes normal dismissal and vote of confidence; excludes death or expiration of term)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["executive_constraints"]
+    },
+    {
+      "variable_name": "HOGDCOND",
+      "question_number": "v132",
+      "description": "Grounds on which the Head of Government can be dismissed (asked only if HOGDISS=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): HOGDCOND_1=General dissatisfaction/no confidence; HOGDCOND_2=Crimes and conduct issues only; HOGDCOND_3=Treason; HOGDCOND_4=Violations of the constitution; HOGDCOND_5=Incapacitation; HOGDCOND_90=Left to non-constitutional law; HOGDCOND_96=Other; HOGDCOND_97=Unable to Determine; HOGDCOND_98=Not Specified",
+      "dimensions": ["executive_constraints", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "HOGPDISS",
+      "question_number": "v133",
+      "description": "Who can propose a dismissal of the Head of Government (asked only if HOGDISS=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): HOGPDISS_1=Head of State; HOGPDISS_2=Head of Government (self); HOGPDISS_3=First/only chamber of Legislature; HOGPDISS_4=Second Chamber; HOGPDISS_5=Both Chambers required; HOGPDISS_6=Public Recall; HOGPDISS_7=Public Prosecutor; HOGPDISS_8=Court; HOGPDISS_9=Constitutional Council/Court; HOGPDISS_90=Left to non-constitutional law; HOGPDISS_96=Other; HOGPDISS_97=Unable to Determine; HOGPDISS_98=Not Specified",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "HOGADISS",
+      "question_number": "v139",
+      "description": "Who can approve a dismissal of the Head of Government (asked only if HOGDISS=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): HOGADISS_1=Head of State; HOGADISS_2=First/only chamber of Legislature; HOGADISS_3=Second Chamber; HOGADISS_4=Both Chambers required; HOGADISS_5=Public; HOGADISS_6=Public Prosecutor; HOGADISS_7=Court; HOGADISS_8=Constitutional Council/Court; HOGADISS_90=Left to non-constitutional law; HOGADISS_96=Other; HOGADISS_97=Unable to Determine; HOGADISS_98=Not Specified",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "HOGIMM",
+      "question_number": "v148",
+      "description": "Whether the Head of Government is provided with immunity from prosecution",
+      "coding_scheme": "1=Yes, absolute immunity; 2=Yes, limited immunity; 3=No, specifically denied immunity; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "HOGDEC",
+      "question_number": "v149",
+      "description": "Whether the Head of Government has decree power",
+      "coding_scheme": "1=Yes; 2=No; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "HOGDECIM",
+      "question_number": "v150",
+      "description": "Implementation procedure for Head of Government decrees (asked only if HOGDEC=1)",
+      "coding_scheme": "1=Effective immediately; 2=Effective after a period during which approving body can repeal; 3=Effective only after approval; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "HOGDECEX",
+      "question_number": "v151",
+      "description": "Expiration procedure for Head of Government decrees (asked only if HOGDEC=1)",
+      "coding_scheme": "1=Permanent unless repealed; 2=Naturally expire unless extended; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "HOGPARD",
+      "question_number": "v154",
+      "description": "Whether the Head of Government has the power to pardon",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "rule_of_law_due_process"]
+    }
+  ]
+}

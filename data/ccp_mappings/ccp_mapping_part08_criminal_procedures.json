@@ -1,0 +1,174 @@
+{
+  "part": 8,
+  "section_label": "Criminal Procedures & Due Process",
+  "variables": [
+    {
+      "variable_name": "JURY",
+      "question_number": "v509",
+      "description": "Whether the constitution requires a jury or any form of citizen participation in decision-making in criminal trials (includes people's assessors, court assessors, jurors)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "VICRIGHT",
+      "question_number": "v511",
+      "description": "Whether there is a special mention of victims' rights in the constitution",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process", "civil_liberties"]
+    },
+    {
+      "variable_name": "EVIDENCE",
+      "question_number": "v513",
+      "description": "Whether the constitution regulates the collection of evidence (includes search and seizure regulation and exclusion of involuntary confessions)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process", "civil_liberties"]
+    },
+    {
+      "variable_name": "PREREL",
+      "question_number": "v514",
+      "description": "Whether the constitution provides for the right or possibility of pre-trial release (includes bail provisions)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process", "civil_liberties"]
+    },
+    {
+      "variable_name": "HABCORP",
+      "question_number": "v515",
+      "description": "Whether the constitution provides for the right to protection from unjustified restraint (habeas corpus). Includes prohibition of arbitrary detention and requirements for formal accusation or warrant.",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process", "civil_liberties"]
+    },
+    {
+      "variable_name": "WOLAW",
+      "question_number": "v516",
+      "description": "Whether the constitution mentions nulla poena sine lege — the principle that no person should be punished without law. Distinct from ex post facto provisions; includes arrest, detention, and punishment.",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "RGHTAPP",
+      "question_number": "v517",
+      "description": "Whether defendants have an explicit right to appeal judicial decisions",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "PRISONRG",
+      "question_number": "v518",
+      "description": "Whether the constitution requires that the names of those imprisoned be entered in a public registry",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["transparency_information_access", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "CAPPUN",
+      "question_number": "v519",
+      "description": "How the constitution treats the use of capital punishment",
+      "coding_scheme": "1=Universally Prohibited; 2=Prohibited Except in the Case of War; 3=Explicitly Allowed; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["rule_of_law_due_process", "civil_liberties"]
+    },
+    {
+      "variable_name": "CORPPUN",
+      "question_number": "v520",
+      "description": "How the constitution treats the use of corporal punishment (deliberate infliction of pain as correction or punishment)",
+      "coding_scheme": "1=Universally Prohibited; 2=Prohibited Except in the Case of War; 3=Explicitly Allowed; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["rule_of_law_due_process", "civil_liberties"]
+    },
+    {
+      "variable_name": "DUEPROC",
+      "question_number": "v521",
+      "description": "Whether the constitution explicitly mentions due process (must be explicitly stated, not implied)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "EXAMWIT",
+      "question_number": "v522",
+      "description": "Whether the constitution provides for the right to examine evidence or confront all witnesses",
+      "coding_scheme": "1=Evidence only; 2=Witnesses only; 3=Both; 4=Neither; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "EXPOST",
+      "question_number": "v523",
+      "description": "Whether the constitution prohibits punishment by laws enacted ex post facto (retroactive criminal laws)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "FALSEIMP",
+      "question_number": "v524",
+      "description": "Whether the constitution provides for some right of redress in the case of false imprisonment, arrest, or judicial error",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "FAIRTRI",
+      "question_number": "v525",
+      "description": "Whether the constitution provides the right to a fair trial (includes 'honest trial' or right to 'impartial justice')",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "SPEEDTRI",
+      "question_number": "v526",
+      "description": "Whether the constitution provides for the right to a speedy trial (includes 'within reasonable time')",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "PUBTRI",
+      "question_number": "v527",
+      "description": "Whether the constitution generally requires public trials",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process", "transparency_information_access"]
+    },
+    {
+      "variable_name": "PRESINOC",
+      "question_number": "v528",
+      "description": "Whether there is a presumption of innocence in trials",
+      "coding_scheme": "1=Yes; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "TRILANG",
+      "question_number": "v529",
+      "description": "Whether the constitution specifies the trial must be conducted in a language the accused understands, or guarantees the right to an interpreter",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "JUVENILE",
+      "question_number": "v530",
+      "description": "Whether the constitution gives juveniles special rights or status in the criminal justice process (includes separate detention from adults or limits on punishments for minors)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "DOUBJEP",
+      "question_number": "v532",
+      "description": "Whether the constitution provides for the prohibition of double jeopardy (being tried for the same crime twice)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "MIRANDA",
+      "question_number": "v533",
+      "description": "Whether the constitution gives the accused a right to silence or protection from self-incrimination",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "COUNS",
+      "question_number": "v534",
+      "description": "Whether the constitution provides the right to counsel if one is indicted or arrested (includes right to defense)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "COUNSCOS",
+      "question_number": "v535",
+      "description": "Whether counsel is provided at the state's expense (asked only if COUNS=1)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["rule_of_law_due_process", "socioeconomic_rights"]
+    }
+  ]
+}

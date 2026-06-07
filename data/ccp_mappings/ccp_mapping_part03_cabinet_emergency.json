@@ -1,0 +1,94 @@
+{
+  "part": 3,
+  "section_label": "Cabinet & Emergency Powers",
+  "variables": [
+    {
+      "variable_name": "CABAPPT",
+      "question_number": "v164",
+      "description": "Who nominates or appoints the cabinet/ministers (asked only if CABINET=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CABAPPT_1=Head of State; CABAPPT_2=Head of Government; CABAPPT_3=First/only Chamber of Legislature; CABAPPT_4=Second Chamber; CABAPPT_5=Both Chambers required; CABAPPT_90=Left to non-constitutional law; CABAPPT_96=Other; CABAPPT_97=Unable to Determine; CABAPPT_98=Not Specified",
+      "dimensions": ["executive_constraints"]
+    },
+    {
+      "variable_name": "CABAPPR",
+      "question_number": "v165",
+      "description": "Who approves the cabinet/ministers (asked only if CABINET=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CABAPPR_1=Head of State; CABAPPR_2=Head of Government; CABAPPR_3=First/only Chamber of Legislature; CABAPPR_4=Second Chamber; CABAPPR_5=Both Chambers required; CABAPPR_6=Appointer directed to act on advice of majority party/legislature/executive; CABAPPR_7=Appointer directed to act on election results; CABAPPR_90=Left to non-constitutional law; CABAPPR_96=Other; CABAPPR_97=Unable to Determine; CABAPPR_98=Not Specified",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "CABCOLL",
+      "question_number": "v166",
+      "description": "Whether the cabinet/ministers are collectively or individually responsible for their actions (asked only if CABINET=1)",
+      "coding_scheme": "1=Only individually responsible; 2=Only collectively responsible; 3=Either individually or collectively; 4=Collectively responsible except Head of Government who is individually responsible; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["executive_constraints", "institutional_accountability"]
+    },
+    {
+      "variable_name": "CABDISS",
+      "question_number": "v167",
+      "description": "Who has the authority to dismiss the cabinet/ministers (asked only if CABINET=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CABDISS_1=Head of State; CABDISS_2=Head of Government; CABDISS_3=First/only Chamber of Legislature; CABDISS_4=Second Chamber; CABDISS_5=Both Chambers acting separately; CABDISS_6=Both Chambers in joint session; CABDISS_7=Public Recall; CABDISS_8=Public Prosecutor; CABDISS_90=Left to non-constitutional law; CABDISS_96=Other; CABDISS_97=Unable to Determine; CABDISS_98=Not Specified",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "CABRESTL",
+      "question_number": "v170",
+      "description": "Restrictions on cabinet members' ability to simultaneously serve in the legislature (asked only if CABINET=1)",
+      "coding_scheme": "1=Must be a member of the legislature; 2=Cannot be a member of the legislature; 3=May or may not be a member; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy", "executive_constraints"],
+      "notes": "Incompatibility rules affect separation of powers between executive and legislative branches"
+    },
+    {
+      "variable_name": "CABRESTM",
+      "question_number": "v171",
+      "description": "Additional restrictions on eligibility to serve as a cabinet member (asked only if CABINET=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CABRESTM_1=Must be from particular party; CABRESTM_2=Must be particular gender; CABRESTM_3=Must be member of particular religious denomination; CABRESTM_4=Must have particular ethnic identity; CABRESTM_5=Must be citizen; CABRESTM_6=Must be native citizen; CABRESTM_7=Must have certain education; CABRESTM_8=Must be non-felon; CABRESTM_9=Must be a national; CABRESTM_90=Left to non-constitutional law; CABRESTM_96=Other; CABRESTM_97=Unable to Determine; CABRESTM_98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous"],
+      "notes": "CABRESTM_2 (gender), CABRESTM_3 (religion), CABRESTM_4 (ethnicity) are directly relevant to equality dimension"
+    },
+    {
+      "variable_name": "EM",
+      "question_number": "v182",
+      "description": "Whether the constitution has provisions for calling a state of emergency (includes siege, martial law, and defense states)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["emergency_powers_constraints"]
+    },
+    {
+      "variable_name": "EMDECL",
+      "question_number": "v183",
+      "description": "Who can declare a state of emergency (asked only if EM=1)",
+      "coding_scheme": "1=Head of State; 2=Head of Government; 3=Either Head of State or Head of Government; 4=Government/Cabinet; 5=First/only Chamber of Legislature; 6=Second Chamber; 7=Both Chambers required; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["emergency_powers_constraints", "executive_constraints"]
+    },
+    {
+      "variable_name": "EMAPPR",
+      "question_number": "v184",
+      "description": "Who approves a state of emergency (asked only if EM=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): EMAPPR_1=Does not need approval; EMAPPR_2=Head of State; EMAPPR_3=Head of Government; EMAPPR_4=Government/Cabinet; EMAPPR_5=First/only Chamber of Legislature; EMAPPR_6=Second Chamber; EMAPPR_7=Both Chambers required; EMAPPR_8=Constitutional Council; EMAPPR_90=Left to non-constitutional law; EMAPPR_96=Other; EMAPPR_97=Unable to Determine; EMAPPR_98=Not Specified",
+      "dimensions": ["emergency_powers_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "EMCOND",
+      "question_number": "v186",
+      "description": "Circumstances under which a state of emergency can be called (asked only if EM=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): EMCOND_1=War/aggression (includes threat to sovereignty, territorial integrity, invasion); EMCOND_2=Internal security (rebellion, civil unrest, disorder); EMCOND_3=National disaster (natural catastrophe, epidemic); EMCOND_4=General danger (extraordinary/imminent danger, public security); EMCOND_5=Economic emergency; EMCOND_6=Threat to constitutional system (institutions interrupted); EMCOND_90=Left to non-constitutional law; EMCOND_96=Other; EMCOND_97=Unable to Determine; EMCOND_98=Not Specified",
+      "dimensions": ["emergency_powers_constraints"]
+    },
+    {
+      "variable_name": "EMRIGHTS",
+      "question_number": "v187",
+      "description": "Whether the constitution provides for suspension or restriction of rights during states of emergency (asked only if EM=1)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["emergency_powers_constraints", "civil_liberties"],
+      "notes": "Coded No means rights cannot be suspended, a strong non-derogability protection"
+    },
+    {
+      "variable_name": "EMOTHER",
+      "question_number": "v189",
+      "description": "Other government operations affected by a state of emergency beyond rights suspension (asked only if EM=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): EMOTHER_1=Legislature cannot be dissolved/term extended (includes automatic summoning); EMOTHER_2=Constitution cannot be amended during emergency; EMOTHER_3=All necessary measures can be taken; EMOTHER_4=Head of State can issue emergency decrees; EMOTHER_5=All operations as needed (open-ended executive authority); EMOTHER_90=Left to non-constitutional law; EMOTHER_96=Other; EMOTHER_97=Unable to Determine; EMOTHER_98=Not Specified",
+      "dimensions": ["emergency_powers_constraints", "legislative_autonomy", "amendment_rigidity"],
+      "notes": "EMOTHER_1 is a key legislative protection; EMOTHER_2 is a key amendment protection; EMOTHER_4 and EMOTHER_5 indicate expanded executive powers during emergency"
+    }
+  ]
+}

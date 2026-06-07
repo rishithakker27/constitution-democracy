@@ -1,0 +1,48 @@
+{
+  "chart": {
+    "title": "Democratic Culture Index",
+    "subtitle": "Data by the Economist Intelligence Unit. Expert estimates of the extent to which citizens prefer democracy over other political systems. The index ranges from 0 to 10 (strongest preference for democracy).",
+    "citation": "Economist Intelligence Unit (2006-2024)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/democratic-culture-index-eiu?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Argentina",
+      "Botswana",
+      "China",
+      "Australia"
+    ]
+  },
+  "columns": {
+    "Democratic culture": {
+      "titleShort": "Democratic Culture Index",
+      "titleLong": "Democratic Culture Index",
+      "descriptionShort": "Extent to which citizens prefer democracy over other political systems. It ranges from 0 to 10 (strongest preference for democracy).",
+      "descriptionProcessing": "We source the data from Gapminder for the years 2006 to 2020, and directly from the Economist Intelligence Unit for more recent years.\n\nFor the world as a whole and for each region (as [defined by us](https://ourworldindata.org/grapher/continents-according-to-our-world-in-data)), we calculate both simple country averages and [population-weighted](https://ourworldindata.org/explorers/democracy?country=OWID_WRL~OWID_AFR~OWID_ASI~OWID_EUR~OWID_NAM~OWID_OCE~OWID_SAM&Dataset=Economist+Intelligence+Unit&Metric=Electoral+democracy&Sub-metric=%C2%AD%C2%AD%C2%AD%C2%AD%C2%AD%C2%AD%C2%ADMain+index+weighted+by+population) averages. A population-weighted average assigns more weight to countries with larger populations, so that the results better reflect the experiences of the average person.",
+      "unit": "",
+      "timespan": "2006-2024",
+      "type": "Numeric",
+      "owidVariableId": 1014804,
+      "shortName": "dem_culture_eiu",
+      "lastUpdated": "2025-03-05",
+      "nextUpdate": "2026-07-02",
+      "citationShort": "Economist Intelligence Unit (2006-2024) – processed by Our World in Data",
+      "citationLong": "Economist Intelligence Unit (2006-2024) – processed by Our World in Data. “Democratic Culture Index” [dataset]. Economist Intelligence Unit, “Democracy Index 2021: The China challenge”; Economist Intelligence Unit, “Democracy Index 2022: Frontline democracy and the battle for Ukraine”; Economist Intelligence Unit, “Democracy Index 2023: Age of Conflict”; Economist Intelligence Unit, “Democracy Index 2024: What's wrong with representative democracy?”; Gapminder, “Democracy Index v4”; Various sources, “Population” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1014804.metadata.json"
+    },
+    "World region according to OWID": {
+      "titleShort": "World region according to OWID",
+      "titleLong": "World region according to OWID",
+      "descriptionShort": "Regions defined by Our World in Data, which are used in OWID charts and maps.",
+      "unit": "",
+      "timespan": "2023-2023",
+      "type": "Continent",
+      "owidVariableId": 900801,
+      "shortName": "owid_region",
+      "lastUpdated": "2023-01-01",
+      "citationShort": "Our World in Data – processed by Our World in Data",
+      "citationLong": "Our World in Data – processed by Our World in Data. “World region according to OWID” [dataset]. Our World in Data, “Regions” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/900801.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-06-02",
+  "activeFilters": {}
+}

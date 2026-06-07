@@ -1,0 +1,122 @@
+.age__heading { margin-bottom: 0.5rem; }
+
+.age__sub {
+  color: var(--muted);
+  font-size: 0.95rem;
+  max-width: 680px;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Stats ── */
+.age__stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.age__stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.age__stat-val {
+  font-family: var(--serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #38bdf8;
+  line-height: 1;
+}
+
+.age__stat-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.age__stat-desc {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-top: 0.2rem;
+}
+
+/* ── Charts ── */
+.age__charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 760px) {
+  .age__charts { grid-template-columns: 1fr; }
+}
+
+.age__chart-panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.age__chart-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #38bdf8;
+}
+
+.age__img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: #fff;
+  display: block;
+}
+
+.age__img-caption {
+  font-size: 0.75rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+/* ── Interpretation ── */
+.age__interpretation {
+  display: flex;
+  gap: 1.25rem;
+  background: rgba(56, 189, 248, 0.06);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  align-items: flex-start;
+}
+
+.age__interp-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.age__interp-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #38bdf8;
+  margin-bottom: 0.4rem;
+}
+
+.age__interp-body {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.7;
+}

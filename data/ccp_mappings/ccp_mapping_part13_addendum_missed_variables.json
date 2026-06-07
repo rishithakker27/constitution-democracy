@@ -1,0 +1,411 @@
+{
+  "part": 13,
+  "section_label": "Addendum — Variables Missed in Parts 1–12",
+  "note": "57 variables identified as missed after cross-checking the full codebook against parts 1–12.",
+  "variables": [
+    {
+      "variable_name": "ACCESS",
+      "question_number": "v391",
+      "description": "Whether the constitution provides for accession or adoption of territory outside of the country into the constitutional regime",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["federalism_decentralization"]
+    },
+    {
+      "variable_name": "ADNOM",
+      "question_number": "v342",
+      "description": "Who is involved in the nomination of judges to administrative courts (asked only if JUDCRTS_1=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ADNOM_1=Head of State; ADNOM_2=Head of Government; ADNOM_3=Government/Cabinet; ADNOM_4=First/only Chamber; ADNOM_5=Second Chamber; ADNOM_6=Judicial Council/Commission; ADNOM_7=Judiciary; ADNOM_90=Left to non-constitutional law; ADNOM_96=Other; ADNOM_97=Unable to Determine; ADNOM_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "ADAP",
+      "question_number": "v343",
+      "description": "Who is involved in the approval of judges to administrative courts (asked only if JUDCRTS_1=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ADAP_1=Head of State; ADAP_2=Head of Government; ADAP_3=Government/Cabinet; ADAP_4=First/only Chamber; ADAP_5=Second Chamber; ADAP_6=Judicial Council/Commission; ADAP_7=Judiciary; ADAP_90=Left to non-constitutional law; ADAP_96=Other; ADAP_97=Unable to Determine; ADAP_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "ADTERM",
+      "question_number": "v345",
+      "description": "Maximum term length for judges on administrative courts (0=not specified; 100=life tenure)",
+      "coding_scheme": "Open-ended numeric (years); 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "ADTERMN",
+      "question_number": "v346",
+      "description": "Restrictions on the number of terms administrative court judges may serve",
+      "coding_scheme": "1=Only one term total; 2=Only two terms total; 3=No successive terms but non-successive permitted; 4=Only two successive terms but non-successive permitted; 5=No term limits; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "ATGEN",
+      "question_number": "v174",
+      "description": "Whether the constitution provides for an attorney general or public prosecutor responsible for representing the government in criminal or civil cases",
+      "coding_scheme": "1=Yes, for criminal cases; 2=Yes, for civil cases; 3=Yes, same for criminal and civil; 4=Yes, different for civil and criminal; 5=Yes, but does not differentiate; 6=No; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["institutional_accountability", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "AGNOM",
+      "question_number": "v175",
+      "description": "Who is involved in the nomination of the attorney general (asked only if ATGEN is not 6). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): AGNOM_1=Head of State; AGNOM_2=Head of Government; AGNOM_3=Government/Cabinet; AGNOM_4=First/only Chamber; AGNOM_5=Second Chamber; AGNOM_6=Judicial Council/Commission; AGNOM_7=Judiciary; AGNOM_90=Left to non-constitutional law; AGNOM_96=Other; AGNOM_97=Unable to Determine; AGNOM_98=Not Specified",
+      "dimensions": ["institutional_accountability"]
+    },
+    {
+      "variable_name": "AGAP",
+      "question_number": "v176",
+      "description": "Who is involved in the approval of the attorney general (asked only if ATGEN is not 6). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): AGAP_1=Head of State; AGAP_2=Head of Government; AGAP_3=Government/Cabinet; AGAP_4=First/only Chamber; AGAP_5=Second Chamber; AGAP_6=Judicial Council/Commission; AGAP_7=Judiciary; AGAP_90=Left to non-constitutional law; AGAP_96=Other; AGAP_97=Unable to Determine; AGAP_98=Not Specified",
+      "dimensions": ["institutional_accountability"]
+    },
+    {
+      "variable_name": "HOCOP",
+      "question_number": "v315",
+      "description": "Whether the constitution provides for judicial opinions of the Highest Ordinary Court (statements of reasons for judicial decisions)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "HOCOPW",
+      "question_number": "v316",
+      "description": "Details on opinion provisions for the Highest Ordinary Court (asked only if HOCOP=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): HOCOPW_1=Reasons required in court decisions; HOCOPW_2=Separate or concurring opinions allowed; HOCOPW_3=Separate or concurring opinions explicitly prohibited; HOCOPW_4=Dissenting opinions allowed; HOCOPW_5=Dissenting opinions explicitly prohibited; HOCOPW_96=Other; HOCOPW_97=Unable to Determine; HOCOPW_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "SUPRES",
+      "question_number": "v332",
+      "description": "Additional eligibility restrictions on serving as a member of the highest ordinary court. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): SUPRES_1=Must be from particular party; SUPRES_2=Must be particular gender; SUPRES_3=Must be member of particular religious denomination; SUPRES_4=Must have particular linguistic/national/racial identity; SUPRES_5=Must be citizen; SUPRES_6=Must be native citizen; SUPRES_7=Must have certain education; SUPRES_8=Must be non-felon; SUPRES_9=Must be a lawyer; SUPRES_10=Must be a national; SUPRES_90=Left to non-constitutional law; SUPRES_96=Other; SUPRES_97=Unable to Determine; SUPRES_98=Not Specified",
+      "dimensions": ["judicial_independence"],
+      "notes": "SUPRES_1, _2, _3, _4 restrict eligibility by party, gender, religion, or ethnicity — also relevant to equality_gender_minority_indigenous"
+    },
+    {
+      "variable_name": "CHFRES",
+      "question_number": "v324",
+      "description": "Additional eligibility restrictions on serving as Chief Justice of the Highest Ordinary Court. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CHFRES_1=Must be from particular party; CHFRES_2=Must be particular gender; CHFRES_3=Must be member of particular religious denomination; CHFRES_4=Must have particular linguistic/national/racial identity; CHFRES_5=Must be citizen; CHFRES_6=Must be native citizen; CHFRES_7=Must have certain education; CHFRES_8=Must be non-felon; CHFRES_9=Must be a lawyer; CHFRES_10=Must be a national; CHFRES_90=Left to non-constitutional law; CHFRES_96=Other; CHFRES_97=Unable to Determine; CHFRES_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "ORDAP",
+      "question_number": "v335",
+      "description": "Who is involved in the approval of nominations to ordinary courts (asked only if LEVJUD=2 or 3). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ORDAP_1=Head of State; ORDAP_2=Head of Government; ORDAP_3=Government/Cabinet; ORDAP_4=First/only Chamber; ORDAP_5=Second Chamber; ORDAP_6=Judicial Council/Commission; ORDAP_7=Judiciary; ORDAP_90=Left to non-constitutional law; ORDAP_96=Other; ORDAP_97=Unable to Determine; ORDAP_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "ORDRES",
+      "question_number": "v340",
+      "description": "Additional eligibility restrictions on serving as a member of ordinary courts. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ORDRES_1=Must be from particular party; ORDRES_2=Must be particular gender; ORDRES_3=Must be member of particular religious denomination; ORDRES_4=Must have particular linguistic/national/racial identity; ORDRES_5=Must be citizen; ORDRES_6=Must be native citizen; ORDRES_7=Must have certain education; ORDRES_8=Must be non-felon; ORDRES_9=Must be a lawyer; ORDRES_10=Must be a national; ORDRES_90=Left to non-constitutional law; ORDRES_96=Other; ORDRES_97=Unable to Determine; ORDRES_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CONRES",
+      "question_number": "v358",
+      "description": "Additional eligibility restrictions on serving as a member of the constitutional court. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CONRES_1=Must be from particular party; CONRES_2=Must be particular gender; CONRES_3=Must be member of particular religious denomination; CONRES_4=Must have particular linguistic/national/racial identity; CONRES_5=Must be citizen; CONRES_6=Must be native citizen; CONRES_7=Must have certain education; CONRES_8=Must be non-felon; CONRES_9=Must be a lawyer; CONRES_10=Must be a national; CONRES_90=Left to non-constitutional law; CONRES_96=Other; CONRES_97=Unable to Determine; CONRES_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CONCOP",
+      "question_number": "v360",
+      "description": "Whether the constitution mentions judicial opinions of the Constitutional Court",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "CONCOPW",
+      "question_number": "v361",
+      "description": "Details on opinion provisions for the Constitutional Court (asked only if CONCOP=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): CONCOPW_1=Reasons required in court decisions; CONCOPW_2=Separate or concurring opinions allowed; CONCOPW_3=Separate or concurring opinions explicitly prohibited; CONCOPW_4=Dissenting opinions allowed; CONCOPW_5=Dissenting opinions explicitly prohibited; CONCOPW_90=Left to non-constitutional law; CONCOPW_96=Other; CONCOPW_97=Unable to Determine; CONCOPW_98=Not Specified",
+      "dimensions": ["judicial_independence"]
+    },
+    {
+      "variable_name": "UNCONPER",
+      "question_number": "v363",
+      "description": "Proportion of the court's vote required to find legislation unconstitutional",
+      "coding_scheme": "1=Plurality; 2=Majority; 3=3/5 Majority; 4=2/3 Majority; 5=3/4 Majority; 6=Unspecified supermajority; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["judicial_independence", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "ECNOM",
+      "question_number": "v432",
+      "description": "Who is involved in the nomination of judges to the electoral court (asked only if OVERSGHT=2 or 3). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ECNOM_1=Head of State; ECNOM_2=Head of Government; ECNOM_3=Government/Cabinet; ECNOM_4=First/only Chamber; ECNOM_5=Second Chamber; ECNOM_6=Judicial Council/Commission; ECNOM_7=Judiciary; ECNOM_90=Left to non-constitutional law; ECNOM_96=Other; ECNOM_97=Unable to Determine; ECNOM_98=Not Specified",
+      "dimensions": ["judicial_independence", "political_competition"]
+    },
+    {
+      "variable_name": "ECAP",
+      "question_number": "v433",
+      "description": "Who is involved in the approval of judges nominated to the electoral court (asked only if OVERSGHT=2 or 3). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): ECAP_1=Head of State; ECAP_2=Head of Government; ECAP_3=Government/Cabinet; ECAP_4=First/only Chamber; ECAP_5=Second Chamber; ECAP_6=Judicial Council/Commission; ECAP_7=Judiciary; ECAP_90=Left to non-constitutional law; ECAP_96=Other; ECAP_97=Unable to Determine; ECAP_98=Not Specified",
+      "dimensions": ["judicial_independence", "political_competition"]
+    },
+    {
+      "variable_name": "ECTERM",
+      "question_number": "v435",
+      "description": "Maximum term length for judges on the electoral court (0=not specified; 100=life tenure)",
+      "coding_scheme": "Open-ended numeric (years); 99=Not Applicable",
+      "dimensions": ["judicial_independence", "political_competition"]
+    },
+    {
+      "variable_name": "ECTERML",
+      "question_number": "v436",
+      "description": "Restrictions on the number of terms electoral court judges may serve",
+      "coding_scheme": "1=Only one term total; 2=Only two terms total; 3=No successive terms but non-successive permitted; 4=Only two successive terms but non-successive permitted; 5=No term limits; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["judicial_independence", "political_competition"]
+    },
+    {
+      "variable_name": "REMLEG",
+      "question_number": "v257",
+      "description": "Whether there are provisions for removing individual legislators",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 99=Not Applicable",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "REMPRO",
+      "question_number": "v258",
+      "description": "Who is involved in the process for removing individual legislators (asked only if REMLEG=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): REMPRO_1=Public; REMPRO_2=Executive; REMPRO_3=Courts; REMPRO_4=First/only Chamber; REMPRO_5=Second Chamber; REMPRO_6=Both Chambers required; REMPRO_7=Constitutional court; REMPRO_90=Left to non-constitutional law; REMPRO_96=Other; REMPRO_97=Unable to Determine; REMPRO_98=Not Specified",
+      "dimensions": ["legislative_autonomy"]
+    },
+    {
+      "variable_name": "TREAT",
+      "question_number": "v490",
+      "description": "Whether the constitution mentions international treaties (includes references to 'agreements')",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "TREATINI",
+      "question_number": "v491",
+      "description": "Who has the power to initiate treaties (asked only if TREAT=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): TREATINI_1=Head of State; TREATINI_2=Head of Government; TREATINI_3=Government/Cabinet; TREATINI_4=First/only Chamber; TREATINI_5=Second Chamber; TREATINI_6=Both Chambers required; TREATINI_90=Left to non-constitutional law; TREATINI_96=Other; TREATINI_97=Unable to Determine; TREATINI_98=Not Specified",
+      "dimensions": ["executive_constraints", "legislative_autonomy"]
+    },
+    {
+      "variable_name": "HOGREST",
+      "question_number": "v130",
+      "description": "Additional restrictions the constitution places on becoming the Head of Government. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): HOGREST_1=Must be from particular party; HOGREST_2=Must be particular gender; HOGREST_3=Must be member of particular religious denomination; HOGREST_4=Must have particular ethnic identity; HOGREST_5=Must be citizen; HOGREST_6=Must be native citizen; HOGREST_7=Must have certain education; HOGREST_8=Must be non-felon; HOGREST_9=Must have been resident for specified period; HOGREST_10=Must not be married to non-citizen; HOGREST_11=Must be a national; HOGREST_90=Left to non-constitutional law; HOGREST_96=Other; HOGREST_97=Unable to Determine; HOGREST_98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous", "political_competition"],
+      "notes": "HOGREST_2 (gender), HOGREST_3 (religion), HOGREST_4 (ethnicity) are directly relevant to equality dimension"
+    },
+    {
+      "variable_name": "LHREST",
+      "question_number": "v221",
+      "description": "Additional eligibility restrictions on serving as a member of the first (or only) chamber of the legislature. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): LHREST_1=Must be from particular party; LHREST_2=Must be particular gender; LHREST_3=Must be member of particular religious denomination; LHREST_4=Must have particular linguistic/national/racial identity; LHREST_5=Must be citizen; LHREST_6=Must be native citizen; LHREST_7=Must have certain education; LHREST_8=Must be non-felon; LHREST_9=Must be a national; LHREST_90=Left to non-constitutional law; LHREST_96=Other; LHREST_97=Unable to Determine; LHREST_98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous", "political_competition"]
+    },
+    {
+      "variable_name": "UHREST",
+      "question_number": "v250",
+      "description": "Additional eligibility restrictions on serving as a member of the Second Chamber of the legislature. Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): UHREST_1=Must be from particular party; UHREST_2=Must be particular gender; UHREST_3=Must be member of particular religious denomination; UHREST_4=Must have particular linguistic/national/racial identity; UHREST_5=Must be citizen; UHREST_6=Must be native citizen; UHREST_7=Must have certain education; UHREST_8=Must be non-felon; UHREST_9=Must be a national; UHREST_90=Left to non-constitutional law; UHREST_96=Other; UHREST_97=Unable to Determine; UHREST_98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous", "political_competition"]
+    },
+    {
+      "variable_name": "INITIATP",
+      "question_number": "v422",
+      "description": "Prerequisites for a legislative initiative to be considered (asked only if INITIAT=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): INITIATP_1=Certain number of signatures; INITIATP_2=Sponsorship of legislature; INITIATP_3=Political party support; INITIATP_90=Left to non-constitutional law; INITIATP_96=Other; INITIATP_97=Unable to Determine; INITIATP_98=Not Specified",
+      "dimensions": ["political_competition"]
+    },
+    {
+      "variable_name": "CUSTLAW",
+      "question_number": "v484",
+      "description": "Whether the constitution refers to customary international law or the 'law of nations'",
+      "coding_scheme": "1=Yes; 2=No; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "CUSTLAW2",
+      "question_number": "v485",
+      "description": "Status of customary international law in the constitution (asked only if CUSTLAW=1)",
+      "coding_scheme": "1=Directly binding; 2=Directly binding and superior to ordinary law; 3=Requires incorporation; 96=Other; 97=Unable to Determine; 98=Not Specified; 99=Not Applicable",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "DEBTORS",
+      "question_number": "v536",
+      "description": "Whether the constitution forbids the detention of debtors (general prohibition, may have exceptions for fraud)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "GRJURY",
+      "question_number": "v510",
+      "description": "Whether there is citizen involvement in the indicting process (e.g. grand jury) — the formal process for bringing charges against a suspect",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "EXCRIM",
+      "question_number": "v512",
+      "description": "Whether the constitution provides for the extradition of suspected or convicted criminals to other countries",
+      "coding_scheme": "1=Specifically allows; 2=Specifically prohibits; 3=Conditional upon status of person, type of crime or other circumstances; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["civil_liberties", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "EXPCOND",
+      "question_number": "v571",
+      "description": "Conditions or purposes for which the state can expropriate private property (asked only if EXPROP=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): EXPCOND_1=Infrastructure/public works; EXPCOND_2=Redistribution to other citizens; EXPCOND_3=National Defense; EXPCOND_4=Land/natural resource preservation; EXPCOND_5=Exploitation of natural resources; EXPCOND_6=Land Reform; EXPCOND_7=General Public Purpose; EXPCOND_90=Left to non-constitutional law; EXPCOND_96=Other; EXPCOND_97=Unable to Determine; EXPCOND_98=Not Specified",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "EXPLIM",
+      "question_number": "v572",
+      "description": "Limits or conditions placed on the ability of the government to expropriate private property (asked only if EXPROP=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): EXPLIM_1=Certain types of property only; EXPLIM_2=Payment must be made within specified time limits; EXPLIM_3=Allowed without compensation in times of war/emergency/urgent public need; EXPLIM_4=Only allowed through legal process or court decision; EXPLIM_90=Left to non-constitutional law; EXPLIM_96=Other; EXPLIM_97=Unable to Determine; EXPLIM_98=Not Specified",
+      "dimensions": ["civil_liberties", "rule_of_law_due_process"]
+    },
+    {
+      "variable_name": "TRANSFER",
+      "question_number": "v579",
+      "description": "Whether the constitution mentions the right to transfer property freely",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "TESTATE",
+      "question_number": "v580",
+      "description": "Whether the constitution provides for the right of testate — the right to transfer property freely after death (distinct from right to inherit)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "INHERIT",
+      "question_number": "v581",
+      "description": "Whether the constitution provides for inheritance rights — the right to receive property",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "BUSINES",
+      "question_number": "v583",
+      "description": "Whether the constitution provides a right to conduct or establish a business",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "CONRIGHT",
+      "question_number": "v584",
+      "description": "Whether the constitution mentions consumer rights or consumer protection",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights"]
+    },
+    {
+      "variable_name": "SCIFREE",
+      "question_number": "v589",
+      "description": "Whether the constitution provides for a right to enjoy the benefits of scientific progress (must be explicitly stated, not implied)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "socioeconomic_rights"]
+    },
+    {
+      "variable_name": "MARRIAGE",
+      "question_number": "v594",
+      "description": "Whether the constitution provides for the right to marry",
+      "coding_scheme": "1=Yes, general provision; 2=Yes, marriage allowed between a man and woman; 3=No; 90=Left to non-constitutional law; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "FNDFAM",
+      "question_number": "v596",
+      "description": "Whether the constitution provides the right to found a family",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "SELFDET",
+      "question_number": "v601",
+      "description": "Whether the constitution provides for a people's right of self-determination (a group right to choose their own form and structure without outside intervention)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["equality_gender_minority_indigenous"],
+      "notes": "Borderline; refers to collective/group self-determination, not individual. National self-determination statements in preambles coded Other."
+    },
+    {
+      "variable_name": "LIBEL",
+      "question_number": "v561",
+      "description": "Whether the constitution provides for the right of protection of one's reputation from libelous actions",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "CITREN",
+      "question_number": "v547",
+      "description": "Whether citizens have the right to renounce their citizenship",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["civil_liberties"]
+    },
+    {
+      "variable_name": "PRTYDUTY",
+      "question_number": "v507",
+      "description": "Whether the constitution refers to a duty to join a political party",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "political_competition"],
+      "notes": "A duty to join a party is a constraint on political freedom and associational rights"
+    },
+    {
+      "variable_name": "TRADEUN",
+      "question_number": "v508",
+      "description": "Whether the constitution refers to a duty to join trade unions",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "socioeconomic_rights"]
+    },
+    {
+      "variable_name": "RESRCE",
+      "question_number": "v629",
+      "description": "Whether the constitution refers to ownership or possession of natural resources (such as minerals, oil, etc.)",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["socioeconomic_rights", "federalism_decentralization"]
+    },
+    {
+      "variable_name": "RESRCES",
+      "question_number": "v630",
+      "description": "Which specific natural resources the constitution refers to in terms of ownership or possession (asked only if RESRCE=1). Multi-response.",
+      "coding_scheme": "Sub-variables (each 0=not selected, 1=selected, 99=not applicable): RESRCES_1=Energy resources; RESRCES_2=Mineral resources; RESRCES_3=Farmland; RESRCES_4=Waterways; RESRCES_5=Forests; RESRCES_6=Fauna; RESRCES_7=Flora; RESRCES_8=Air/airways; RESRCES_9=General reference to natural resources; RESRCES_10=Undeveloped land; RESRCES_90=Left to non-constitutional law; RESRCES_96=Other; RESRCES_97=Unable to Determine; RESRCES_98=Not Specified",
+      "dimensions": ["socioeconomic_rights", "federalism_decentralization"]
+    },
+    {
+      "variable_name": "COLONY",
+      "question_number": "v41",
+      "description": "How the constitution treats the status of colonies, protectorates, and territories",
+      "coding_scheme": "1=Occupied territories should be abandoned; 2=Occupied territories should be maintained; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous"],
+      "notes": "Borderline; relevant when colonial populations are denied rights granted to metropolitan citizens"
+    },
+    {
+      "variable_name": "COLRULE",
+      "question_number": "v43",
+      "description": "What political status the constitution assigns to the residents of colonies, protectorates, or territories",
+      "coding_scheme": "1=Colonies and colonists treated as full citizens; 2=Colonies and inhabitants not given citizenship status but still ruled by central government; 3=Colonies ruled by emissaries of the central government; 4=Colonies ruled more or less autonomously by inhabitants; 96=Other; 97=Unable to Determine; 98=Not Specified",
+      "dimensions": ["equality_gender_minority_indigenous"]
+    },
+    {
+      "variable_name": "RADIO",
+      "question_number": "v635",
+      "description": "Whether the constitution refers to radio",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "transparency_information_access"]
+    },
+    {
+      "variable_name": "TV",
+      "question_number": "v636",
+      "description": "Whether the constitution refers to television",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "transparency_information_access"]
+    },
+    {
+      "variable_name": "TELECOM",
+      "question_number": "v634",
+      "description": "Whether the constitution mentions telecommunications",
+      "coding_scheme": "1=Yes; 2=No; 96=Other; 97=Unable to Determine",
+      "dimensions": ["civil_liberties", "transparency_information_access"]
+    }
+  ]
+}
