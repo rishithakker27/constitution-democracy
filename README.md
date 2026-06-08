@@ -4,7 +4,7 @@
 
 A large-*n* empirical test of the Madisonian claim that structural constitutional provisions protect democracy. Using a gradient-boosted model trained on 17,390 country-year observations spanning 1789–2023, we find that the provisions that best predict democracy are **not** the classical separation-of-powers safeguards — but political competition, institutional accountability, and civil liberties.
 
-**[Paper (PDF)](QSS45_FinalEssay.pdf) · [Interactive Website](https://portfolio-eight-lilac-55.vercel.app) · [Full Dimension Table](constitutional_dimensions.md)**
+**[Paper (PDF)](Rishi_QSS45_Final_Essay.pdf) · [Interactive Website](https://portfolio-eight-lilac-55.vercel.app) · [Full Dimension Table](constitutional_dimensions.md)**
 
 ---
 
@@ -50,13 +50,13 @@ A large-*n* empirical test of the Madisonian claim that structural constitutiona
 ### `03_alternatetargets/`
 Runs the identical CatBoost pipeline against all five V-Dem democracy concepts:
 
-| Target | Fold-avg R² |
+| Target | Pooled OOF R² |
 |---|---|
-| Electoral Democracy (`v2x_polyarchy`) | 0.101 |
-| Egalitarian Democracy (`v2x_egaldem`) | 0.096 |
-| Deliberative Democracy (`v2x_delibdem`) | 0.083 |
-| Participatory Democracy (`v2x_partipdem`) | 0.063 |
-| Liberal Democracy (`v2x_libdem`) | 0.052 |
+| Electoral Democracy (`v2x_polyarchy`) | 0.116 |
+| Egalitarian Democracy (`v2x_egaldem`) | 0.101 |
+| Deliberative Democracy (`v2x_delibdem`) | 0.088 |
+| Liberal Democracy (`v2x_libdem`) | 0.088 |
+| Participatory Democracy (`v2x_partipdem`) | 0.072 |
 
 ---
 
