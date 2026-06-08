@@ -30,10 +30,10 @@ export default function Nav() {
           ))}
         </ul>
         <div className="nav__actions">
-          <a href="#" className="nav__btn nav__btn--ghost" aria-label="Paper (coming soon)">
+          <a href="https://drive.google.com/drive/folders/1D9bihk23AZ78DuYXxyMTHpkbGG5kZGC6?usp=sharing" className="nav__btn nav__btn--ghost" target="_blank" rel="noopener noreferrer">
             Paper ↗
           </a>
-          <a href="#" className="nav__btn nav__btn--solid" aria-label="GitHub (coming soon)">
+          <a href="https://github.com/rishithakker27/constitution-democracy" className="nav__btn nav__btn--solid" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </div>

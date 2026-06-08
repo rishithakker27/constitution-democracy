@@ -15,11 +15,11 @@ export default function Footer() {
         <div className="footer__links">
           <div className="footer__links-col">
             <div className="footer__links-head">Resources</div>
-            <a href="#" className="footer__link">
-              Paper <span className="footer__soon">coming soon</span>
+            <a href="https://drive.google.com/drive/folders/1D9bihk23AZ78DuYXxyMTHpkbGG5kZGC6?usp=sharing" className="footer__link" target="_blank" rel="noopener noreferrer">
+              Paper ↗
             </a>
-            <a href="#" className="footer__link">
-              GitHub <span className="footer__soon">coming soon</span>
+            <a href="https://github.com/rishithakker27/constitution-democracy" className="footer__link" target="_blank" rel="noopener noreferrer">
+              GitHub ↗
             </a>
           </div>
           <div className="footer__links-col">

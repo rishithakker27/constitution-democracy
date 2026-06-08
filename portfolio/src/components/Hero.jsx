@@ -19,10 +19,10 @@ export default function Hero() {
           <a href="#demo" className="hero__cta hero__cta--primary">
             Explore Live Demo
           </a>
-          <a href="#" className="hero__cta hero__cta--ghost" aria-label="Paper coming soon">
+          <a href="https://drive.google.com/drive/folders/1D9bihk23AZ78DuYXxyMTHpkbGG5kZGC6?usp=sharing" className="hero__cta hero__cta--ghost" target="_blank" rel="noopener noreferrer">
             Read Paper ↗
           </a>
-          <a href="#" className="hero__cta hero__cta--ghost" aria-label="GitHub coming soon">
+          <a href="https://github.com/rishithakker27/constitution-democracy" className="hero__cta hero__cta--ghost" target="_blank" rel="noopener noreferrer">
             GitHub ↗
           </a>
         </div>
