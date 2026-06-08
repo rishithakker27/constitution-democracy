@@ -1,8 +1,10 @@
 # Do Constitutions Shape Democracy?
 ### A Machine Learning Analysis of Constitutional Design and Democratic Performance
-**QSS 45 Final Project — Rishith Hakker, Dartmouth College**
+**QSS 45 Final Project — Rishi Thakker, Dartmouth College**
 
 A large-*n* empirical test of the Madisonian claim that structural constitutional provisions protect democracy. Using a gradient-boosted model trained on 17,390 country-year observations spanning 1789–2023, we find that the provisions that best predict democracy are **not** the classical separation-of-powers safeguards — but political competition, institutional accountability, and civil liberties.
+
+**[Paper (PDF)](QSS45_FinalEssay.pdf) · [Interactive Website](https://portfolio-eight-lilac-55.vercel.app) · [Full Dimension Table](constitutional_dimensions.md)**
 
 ---
 
@@ -18,15 +20,15 @@ A large-*n* empirical test of the Madisonian claim that structural constitutiona
 
 | Finding | Result |
 |---|---|
-| OOF R² (constitutional text → democracy) | **0.116** (fold-avg: 0.10 ± 0.09) |
+| OOF R² (constitutional text → democracy) | **0.10 ± 0.09** (country-blocked 5-fold CV) |
 | Top predictor | **Political Competition** (10.7%) |
-| Classical Madisonian rank | Executive Constraints 9th, Judicial Independence 11th, Legislative Autonomy 14th |
+| Classical Madisonian rank | Executive Constraints 9th, Judicial Independence 11th, Legislative Autonomy 13th |
 | Constitutional gap → culture lift | OOF R² rises from 0.07 → 0.40 when EIU culture added |
-| Age effect | 60+ yr constitutions avg gap = +0.36; 0–5 yr = −0.12 |
-| Worst underperformers (2016–23) | Nicaragua (+0.44), Cuba (+0.41), Eritrea, Morocco, Saudi Arabia |
-| Best overperformers | Denmark (−0.62), New Zealand, Canada, Belgium, France |
+| Age effect | Older constitutions consistently outperform their text; gap inverts ~30 years |
+| Worst underperformers (2023) | Nicaragua (+0.44), Cuba (+0.41), Eritrea, Belarus, Afghanistan |
+| Best overperformers | Denmark, New Zealand, Canada, Belgium, France |
 
-> **The large in-sample R² (0.89) vs OOF R² (0.12) gap is not simply overfitting** — it reflects fundamental country heterogeneity. Constitutional provisions can be standardised and compared; the political experience of each state cannot.
+> **The large in-sample R² (0.89) vs OOF R² (0.10) gap is not simply overfitting** — it reflects fundamental country heterogeneity. Constitutional provisions can be standardised and compared; the political experience of each state cannot.
 
 ---
 
@@ -74,8 +76,11 @@ Runs the identical CatBoost pipeline against all five V-Dem democracy concepts:
 ├── 09_anomaly_detection.ipynb
 ├── 10_dimension_trends.ipynb
 │
-├── pnas_template.tex                # PNAS-format paper
-├── references.bib                   # BibTeX references
+├── QSS45_FinalEssay.pdf             # Final paper (PNAS format)
+├── constitutional_dimensions.md     # Full 14-dimension table with example variables
+│
+├── AI_chat_transcripts/             # Claude Code & Cowork session transcripts
+│   └── ...                          # 23 coding-relevant sessions
 │
 ├── typology/
 │   └── ccpc_typology_v4.json        # LLM-generated weights & value maps (839 variables)
@@ -84,7 +89,8 @@ Runs the identical CatBoost pipeline against all five V-Dem democracy concepts:
 │   ├── ccpcnc/                      # ⚠️ Not included — download separately (1.1 GB)
 │   ├── vdem/                        # ⚠️ Not included — download separately (206 MB)
 │   ├── eiu/                         # EIU Democratic Culture Index (included)
-│   └── ccp_mappings/                # 14 hand-curated JSON mappings (included)
+│   ├── ccp_mappings/                # 14 hand-curated JSON mappings (included)
+│   └── data_inputs/                 # Cowork session: CCPCNC variable → dimension mapping
 │
 ├── outputs/
 │   ├── ccpc_axis_scores_llm.csv     # Notebook 02: 14 dimension scores × country-year
@@ -103,32 +109,32 @@ Runs the identical CatBoost pipeline against all five V-Dem democracy concepts:
 │   ├── 08_culture_constitution_model/
 │   └── 10_dimension_trends/
 │
-└── portfolio/                       # React/Vite interactive web portfolio
-    └── src/
+└── portfolio/                       # React/Vite interactive website
+    └── src/                         # https://portfolio-eight-lilac-55.vercel.app
 ```
 
 ---
 
 ## 14 Constitutional Dimensions
 
-Ranked by CatBoost feature importance (Polyarchy target):
+Ranked by CatBoost feature importance (Polyarchy target). Each dimension aggregates a subset of the 839 CCPCNC variables using LLM-assigned weights and value maps.
 
-| Rank | Dimension | Importance |
-|---|---|---|
-| 1 | Political Competition | 10.7% |
-| 2 | Institutional Accountability | 9.2% |
-| 3 | Civil Liberties | 8.7% |
-| 4 | Emergency Powers Constraints | 8.7% |
-| 5 | Civilian Control of Security | 8.6% |
-| 6 | Transparency / Information Access | 8.3% |
-| 7 | Rule of Law / Due Process | 7.7% |
-| 8 | Federalism / Decentralization | 7.4% |
-| 9 | Executive Constraints | 6.8% |
-| 10 | Amendment Rigidity | 5.3% |
-| 11 | Judicial Independence | 5.1% |
-| 12 | Socioeconomic Rights | 5.0% |
-| 13 | Legislative Autonomy | 4.5% |
-| 14 | Equality (Gender / Minority / Indigenous) | 3.8% |
+| Rank | Dimension | Importance | Description | Example CCPCNC Variables |
+|---|---|---|---|---|
+| 1 | Political Competition | 10.7% | Whether the constitution establishes competitive multi-party elections, universal suffrage, and rights to form and join political parties | Multi-party system required, universal suffrage, right to form parties, campaign rights |
+| 2 | Institutional Accountability | 9.2% | Horizontal accountability mechanisms: independent audit institutions, ombudsman, and legislative oversight of executive action | Independent audit body, ombudsman, legislative oversight powers, anti-corruption commission |
+| 3 | Civil Liberties | 8.7% | Constitutional protections for individual freedoms of expression, assembly, religion, and movement | Freedom of speech, freedom of assembly, freedom of religion, freedom of movement |
+| 4 | Emergency Powers Constraints | 8.7% | Limits on when and how states of emergency can be declared, extended, and used to suspend rights | Legislative approval required, duration limits, non-derogable rights listed |
+| 5 | Civilian Control of Security | 8.6% | Constitutional provisions placing military and police forces under civilian authority | Civilian commander-in-chief, legislative approval of military deployment, police oversight |
+| 6 | Transparency / Info Access | 8.3% | Right to access government information and protections for press freedom and open government | Right to information, freedom of press, open government provisions |
+| 7 | Rule of Law / Due Process | 7.7% | Fair trial rights, habeas corpus, and due process protections against arbitrary state action | Right to counsel, presumption of innocence, prohibition of torture, habeas corpus |
+| 8 | Federalism / Decentralization | 7.4% | Distribution of powers between central and sub-national governments | Regional/state governments established, devolution of powers, fiscal federalism |
+| 9 | Executive Constraints | 6.8% | Formal limits on executive authority including term limits and legislative checks | Term limits, legislative override of veto, approval requirements for executive acts |
+| 10 | Amendment Rigidity | 5.3% | Procedural barriers to constitutional modification | Supermajority requirements, referendum required, unamendable core provisions |
+| 11 | Judicial Independence | 5.1% | Protections for judicial autonomy through tenure, appointment, and removal provisions | Security of tenure, independent appointment process, jurisdictional protections |
+| 12 | Socioeconomic Rights | 5.0% | Positive constitutional rights to economic and social goods | Right to education, right to health, right to housing, labour rights |
+| 13 | Legislative Autonomy | 4.5% | Parliamentary independence from executive control and capacity for self-governance | Legislative immunity, committee powers, independent budget authority |
+| 14 | Equality | 3.8% | Non-discrimination provisions covering gender, ethnic minorities, and indigenous groups | Gender equality clause, ethnic minority protections, indigenous peoples' rights |
 
 ---
 
